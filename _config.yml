@@ -1,7 +1,15 @@
 title: Abhinav Gupta # The title of the blog
 author: Abhinav Gupta # Your name 
 email: iitrabhi@gmail.com # your email shown in the footer
-url: http://iitrabhi.github.io # this is your site's root address.
+
+url: https://iitrabhi.github.io # this is your site's root address.
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl:""
+
+
 description: > # this means to ignore newlines until "show_excerpts:" 
   Researcher, Indian Institute of Technology Roorkee
 favicon: "./favicon.ico" # set the favicon of the site 
@@ -47,8 +55,10 @@ remote_theme: huangyz0918/moving
 plugins:
   - jekyll-feed
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl:
+
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+# Text under the icons in footer
+footer-text:
