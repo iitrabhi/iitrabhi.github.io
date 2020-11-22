@@ -43,8 +43,8 @@ moving:
     #   instance: 
 
 # Build settings
-remote_theme: huangyz0918/moving #moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
-# theme: moving
+#remote_theme: iitrabhi/moving #moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+theme: moving
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
