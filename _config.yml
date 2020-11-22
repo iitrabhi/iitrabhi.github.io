@@ -1,7 +1,7 @@
 title: Abhinav Gupta # The title of the blog
 author: Abhinav Gupta # Your name 
 email: iitrabhi@gmail.com # your email shown in the footer
-url: http://huangyz.name/moving/ # this is your site's root address.
+url: http://iitrabhi.github.io # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:" 
   Research scientist, Indian Institute of Technology Roorkee
 favicon: "./favicon.ico" # set the favicon of the site 
@@ -43,7 +43,7 @@ moving:
     #   instance: 
 
 # Build settings
-theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+theme: huangyz0918/moving #moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
 
 plugins:
   - jekyll-feed
