@@ -5,12 +5,7 @@ description: Hard work always pays off.
 url: "http://blog.huangyz.name/" 
 
 # Build settings
-<<<<<<< HEAD
 remote_theme: huangyz0918/moving
-=======
-remote_theme: huangyz0918/moving #moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
-#theme: moving
->>>>>>> be445d9b5577b7defdef7e03cded61df02fe1005
 plugins:
   - jekyll-feed
 
