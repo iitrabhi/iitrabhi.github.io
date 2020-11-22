@@ -4,5 +4,15 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings":
+	{
+		"anaconda_linter_mark_style": "none",
+		"rulers":
+		[
+			80
+		],
+		"word_wrap": true,
+		"wrap_width": 80
+	}
 }
