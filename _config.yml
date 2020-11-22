@@ -47,7 +47,7 @@ moving:
     #   instance: 
 
 # Build settings
-remote_theme: huangyz0918/moving
+remote_theme: iitrabhi/moving
 plugins:
   - jekyll-feed
 
