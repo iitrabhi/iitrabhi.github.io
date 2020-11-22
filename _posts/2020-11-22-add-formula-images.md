@@ -7,7 +7,7 @@ On a daily basis there are only three things that I have to put in my notes. My 
 
 $$R_{i, p}(\xi)=\frac{N_{i, p}(\xi) w_{i}}{W(\xi)}, \quad \text { with } \quad W(\xi)=\sum_{k=1}^{n} N_{k, p}(\xi) w_{k}$$
 
-The next big thing is adding images to latex. Now this is not supported by defualt in markdown since it is a text document, but by using [Typora](https://typora.io) we can directly paste our images to the markdown file. It will automatically add the image to the directory and paste a relative link to that file. 
+The next big thing is adding images to markdown. Now this is not supported by defualt in markdown since it is a text document, but by using [Typora](https://typora.io) we can directly paste our images to the markdown file. It will automatically add the image to the directory and paste a relative link to that file. 
 
 For this method to work on typora you have to go to preferences :arrow_right: images and then change the copy action to `copy image to custom folder`
 
