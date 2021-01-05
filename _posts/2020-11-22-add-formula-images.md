@@ -9,7 +9,7 @@ $$R_{i, p}(\xi)=\frac{N_{i, p}(\xi) w_{i}}{W(\xi)}, \quad \text { with } \quad W
 
 The next big thing is adding images to markdown. Now this is not supported by defualt in markdown since it is a text document, but by using [Typora](https://typora.io) we can directly paste our images to the markdown file. It will automatically add the image to the directory and paste a relative link to that file. 
 
-For this method to work on typora you have to go to preferences :arrow_right: images and then change the copy action to `copy image to custom folder`
+For this method to work on typora you have to go to preferences → images and then change the copy action to `copy image to custom folder`
 
 ![image-20201122123717816](/assets/images/image-20201122123717816.png)
 
