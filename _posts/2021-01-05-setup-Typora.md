@@ -2,6 +2,7 @@
 layout: post
 title: "How to setup Typora for daily journaling"
 categories: misc
+typora-root-url: ../../website
 ---
 
 Typora is my favourite markdown editor. It is opensource, clean and minimal. If you know and understand a little bit about programming in CSS that you can also modify its look to your liking. In this post I am going to show you the exact settings that helped me get as close as possible to the actual look and feel of the Moving theme on the website.
@@ -24,10 +25,8 @@ Typora is my favourite markdown editor. It is opensource, clean and minimal. If 
 
   ![image-20210105104422446](/assets/images/image-20210105104422446.png)
 
-- The last thing that you need to do now before publishing the post is to remove the double dots from the path of your image file.
+- The last thing that you need to do now is to goto Format → Image → Check Use Image Root Path.
 
-  ![image-20210105104529715](/assets/images/image-20210105104529715.png)
+- Finally whenever you wish to add a new post, just open the root folder of your website from File → Open. Root folder is the folder containing the index.markdown file.
 
-  ![image-20210105104558912](/assets/images/image-20210105104558912.png)
-
-- This step is necessary to show images on the website. It will however unfortunately remove the preview of the image from Typora.
+![image-20210105110746516](/assets/images/image-20210105110746516.png)
