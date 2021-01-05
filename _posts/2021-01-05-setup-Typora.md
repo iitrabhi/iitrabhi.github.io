@@ -4,15 +4,15 @@ title: "How to setup Typora for daily journaling"
 categories: misc
 ---
 
-Typora is my favourite markdown editor. It is opensource, clean and minimal. If you know and understand a little bit about programming in CSS that you can also modify its look to your liking. In this post I am going to show you the exact settings that helped me get as close as possible to the actual look and feel of the Moving theme on the website. 
+Typora is my favourite markdown editor. It is opensource, clean and minimal. If you know and understand a little bit about programming in CSS that you can also modify its look to your liking. In this post I am going to show you the exact settings that helped me get as close as possible to the actual look and feel of the Moving theme on the website.
 
- ## Installation
+## Installation
 
-- Go to the website and download and install the package: https://typora.io/
+- Go to the website and download and install the package: [Typora](https://typora.io/)
 
-- To match the look of the theme you have to install the Bitter font: https://fonts.google.com/specimen/Bitter
+- To match the look of the theme you have to install the Bitter font: [Bitter](https://fonts.google.com/specimen/Bitter)
 
-- After the installation of the font is complete you have to download and install the following file to your themes folder. Follow the instructions in the README file.https://github.com/iitrabhi/typora-gitbook-theme
+- After the installation of the font is complete you have to download and install the following file to your themes folder. Follow the instructions in the README file. [Gitbook](https://github.com/iitrabhi/typora-gitbook-theme)
 
   Goto Preferences → Appearance → Open theme folder and then paste the theme files here.
 
