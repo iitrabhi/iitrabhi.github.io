@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FEniCS is incredible"
-categories: misc
+categories: fenics
 typora-root-url: ../../website
 ---
 > FEniCS is incredible, but only if you have some basic understanding of the finite element method and linear algebra.
