@@ -15,7 +15,7 @@ TFS =  TensorFunctionSpace(mesh, "CG", 1)
 As the name implies:
 
 -  `FunctionSpace` is to define scalar functions over the mesh and have one value per vertex.
-- `VectorFunctionSpace` is used to define vectors over the mesh  and have $d$ values over the vertex where $d$ is the dimension of the problem. Thus in one dimension it will return a scalar, but it is necessary to define the quantities such as gradients on `VectorFunctionSpace` which are vectors in 2D and 3D.
+- `VectorFunctionSpace` is used to define vectors over the mesh  and have $$d$$ values over the vertex where $$d$$ is the dimension of the problem. Thus in one dimension it will return a scalar, but it is necessary to define the quantities such as gradients on `VectorFunctionSpace` which are vectors in 2D and 3D.
 - `TensorFunctionSpace` is used to define tensor functions over the mesh.
 
 In this post I am going to talk about `FunctionSpace` and `VectorFunctionSpace` that I mostly use to define scalar or vector fields over the mesh. Suppose, I have the following mesh which is discretized with traingular elements haveing two degrees of freedom at each node.
@@ -41,7 +41,7 @@ We can then manually define the vector field based on custom data. Under the hoo
 
 $$[x_0,y_0,x_1,y_1,x_2,y_2 ... , x_n, y_n]$$
 
-where $n$ is the degree of freedom number. In the above mesh we have 2 degrees of freedom per vertex. Thus, we can modify the vectors
+where $$n$$ is the degree of freedom number. In the above mesh we have 2 degrees of freedom per vertex. Thus, we can modify the vectors
 
 ```python
 unew.vector().vec().array = np.array([0,0,0,0,1,0,2,0])
