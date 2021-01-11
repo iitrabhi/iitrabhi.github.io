@@ -25,6 +25,10 @@ Typora is my favourite markdown editor. It is opensource, clean and minimal. If 
 
   ![image-20210105104422446](/assets/images/image-20210105104422446.png)
 
+- Next, goto Prefrences → Markdown and check the following options
+
+  ![image-20210111091930052](/assets/images/image-20210111091930052.png) 
+
 - The last thing that you need to do now is to goto Format → Image → Check Use Image Root Path.
 
 - Finally whenever you wish to add a new post, just open the root folder of your website from File → Open. Root folder is the folder containing the index.markdown file.
