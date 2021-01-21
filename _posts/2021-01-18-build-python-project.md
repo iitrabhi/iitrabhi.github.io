@@ -11,18 +11,20 @@ Instead, I should have, from day one, tried to make a single repository and shou
 
 This requires following a directory structure that I have seen many times on GitHub. For the sake of this project I will base my directory structure on popular libraries that are based on FEniCS. 
 
+```bash
+.
+├── _data
+├── _demo
+├── _doc
+├── _docker
+├── _flats
+├── _phase
+├── _scripts
+├── _test
+└── setup.py
 ```
- .
- +-- _data
- +-- _demo
- +-- _doc
- +-- _docker
- +-- _flats
- +-- _phase
- +-- _scripts
- +-- _test
- +-- setup.py
-```
+
+
 
 An overview of what each of these does:
 
