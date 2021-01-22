@@ -9,7 +9,7 @@ FEniCS supports parallel computation out of the box, but that requires certain c
 
 ## 1. Get the MPI communicator
 
-FEniCS utilizes MPI for parallelization. The command ` MPI`  is built into dolfin. When we import  dolfin we import MPI with it. To understand MPI in detail [read this post](https://computationalmechanics.in/parallelizing-for-loop-in-python-with-mpi/). We start by getting the MPI communicator and the rank of the current processor on which the code is placed.
+FEniCS utilizes MPI for parallelization. The command `MPI`  is built into dolfin. When we import  dolfin we import MPI with it. To understand MPI in detail [read this post](https://computationalmechanics.in/parallelizing-for-loop-in-python-with-mpi/). We start by getting the MPI communicator and the rank of the current processor on which the code is placed.
 
 ```python
 comm = MPI.comm_world
@@ -67,3 +67,4 @@ Also, whenever we are retrieving any kind of `max`, `min`, `sum` values from the
 MPI.max(comm, max(array))
 ```
 
+`max(array)` will give the maximum value of the array from a single processor, then `MPI.max()` will give us the maximum of all the processors.
