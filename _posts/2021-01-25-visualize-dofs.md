@@ -30,10 +30,27 @@ V = VectorFunctionSpace(mesh, 'Lagrange', degree=1)
 
 num_dof = mesh.num_vertices()*V.dofmap().num_entity_dofs(0)
 dof_map = Function(V,name="dof")
-dof_map.vector()[:] = [int(i)+1 for i in np.linspace(0,num_dof-1,num_dof)]
+dof_map.vector()[:] = [int(i) + 1 for i in np.linspace(0,num_dof-1,num_dof)]
 
 with XDMFFile("dof.xdmf") as xdmf:
     xdmf.write(dof_map)
 ```
 
 The thing to remember here is that, when we call the `vector()` method on any function, the return vector is ordered as per the `degrees of freedom`. Thus, we can just put in the row number of the vector as degree of freedom number and visualize it in paraview. The `Id` in paraview is the vertex number assigned by FEniCS.![image-20210125141950089](/assets/images/image-20210125141950089.png)
+
+> Note that in this post I have added +1 to the degrees of freedom. This is done just to compare the output with that of MATLAB. If you wish to use this with FEniCS than delete the +1.
+
+```python
+from dolfin import *
+
+mesh = BoxMesh(Point(0.,0.,0.),Point(2,1,1), 2, 2, 2)
+V = VectorFunctionSpace(mesh, 'Lagrange', degree=1)
+
+num_dof = mesh.num_vertices()*V.dofmap().num_entity_dofs(0)
+dof_map = Function(V,name="dof")
+dof_map.vector()[:] = [int(i) for i in np.linspace(0,num_dof-1,num_dof)]
+
+with XDMFFile("dof.xdmf") as xdmf:
+    xdmf.write(dof_map)
+```
+
