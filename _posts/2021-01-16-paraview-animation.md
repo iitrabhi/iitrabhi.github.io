@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to export animation from paraview."
-tag: -  tools
+tag: 
+	-  tools
 typora-root-url: ../../website
 ---
 Here are my steps to create a video file of the animation from Paraview.

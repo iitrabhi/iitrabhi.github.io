@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to setup the Moving theme for your Jekyll blog."
-tag: -  misc
+tag: 
+	- misc
 ---
 
 Github pages is a very simple way to convert your markdown files into static website. The workflow to publish your pages to the web is similar to the way we push our code to Github. That's why, once setup, we can work locally on our laptop in markdown and then push the code to Github, all the formatting will be taken care by the theme. Getting started with Github pages is quite simple, we have to just follow the simple steps written here:
