@@ -2,7 +2,7 @@
 layout: post
 title: "How to modularize fenics code."
 tag: 
-	-  fenics
+  - fenics
 typora-root-url: ../../website
 ---
 To date, most of the codes that I have designed using FEniCS were based on flat style. Those were all contained in a single file. FEniCS documentation includes an excellent post on how to [improve the poison's solver](https://fenicsproject.org/pub/tutorial/html/._ftut1016.html#ch:poisson0:impl2). I would recommend anyone reading this post first to go and understand that post.

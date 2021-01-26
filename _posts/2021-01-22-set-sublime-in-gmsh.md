@@ -2,7 +2,7 @@
 layout: post
 title: "How to set sublime as text editor in gmsh."
 tag: 
-	-  misc
+  - misc
 typora-root-url: ../../website
 ---
 
