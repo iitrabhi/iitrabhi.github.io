@@ -16,6 +16,12 @@ Paste the following in Text Editor command
 C:\Program Files\Sublime Text 3\subl.exe %s 
 ```
 
+on a Mac type the following command
+
+```
+/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl %s
+```
+
 Goto sublime and open package manager and install `gmsh-Tools`
 
 ![image-20210309103738751](/assets/images/image-20210309103738751.png)
