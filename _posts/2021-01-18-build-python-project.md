@@ -107,7 +107,5 @@ This will install the package in editable mode so that we can debug it while dev
 from package import *	
 ```
 
-## __init__.py file
-
 
 
