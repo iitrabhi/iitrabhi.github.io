@@ -24,6 +24,8 @@ Also, it should be noted that the problem should be well defined. The loading on
 
 My system was not converging with the standard choice of CG + ILU so based on [this post](https://scicomp.stackexchange.com/questions/2369/what-is-a-robust-iterative-solver-for-large-3-d-linear-elastic-problems?noredirect=1&lq=1) I changed it to CG + AMG and it converged in 20 iteration. 
 
+> a direct solver is equivalent to an iterative method that stops after one preconditioner application. [from here](https://pages.tacc.utexas.edu/~eijkhout/pcse/html/petsc-solver.html#:~:text=32.2%20Direct%20solvers&text=PETSc%20has%20some%20support%20for,stops%20after%20one%20preconditioner%20application.)
+
 ---
 
 ## Summary
@@ -46,4 +48,5 @@ My system was not converging with the standard choice of CG + ILU so based on [t
 - [MATLAB direct vs iterative](https://in.mathworks.com/help/matlab/math/iterative-methods-for-linear-systems.html#:~:text=MATLAB%20implements%20direct%20methods%20through,a%20finite%20number%20of%20steps.)
 - [Nico's query on a similar problem to mine](https://scicomp.stackexchange.com/questions/5600/best-choice-of-solver-for-a-large-sparse-symmetric-but-not-positive-definite-s)
 - [Which solver to choose](https://scicomp.stackexchange.com/questions/81/what-guidelines-should-i-follow-when-choosing-a-sparse-linear-system-solver)
+- [Matlab vs python sparse solvers ](https://stackoverflow.com/questions/64401503/is-there-a-way-to-further-improve-sparse-solution-times-using-python)
 
