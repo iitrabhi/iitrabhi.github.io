@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to have a clean latex folder"
+title: "How to have a clean and minimal sublime setup + Dark Mode."
 tag: 
   - tools
 typora-root-url: ../../website
@@ -105,4 +105,42 @@ typora-root-url: ../../website
   ```
 
 - Now finally go to `Preferences→Package settings→Latex tools→Check system` to check whether everything is fine or not.
+
+# Dark Mode
+
+In Sumatra PDF go to `Settings→Advanced Options`. The settings will open in a new text document. Change the `MainWindowBackground = #252a33` and replace the code in `FixedPageUI` with the following
+
+```
+FixedPageUI [
+	# Light Mode
+	# TextColor = #000000
+	# BackgroundColor = #ffffff
+
+	# Dark Mode
+	TextColor = #ffffff
+	BackgroundColor = #343d46
+
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+]
+```
+
+This will activate dark mode in Sumatra. To revert back to light mode just un-comment the lines under `Light Mode` and comment the lines under `Dark Mode`.
+
+```
+FixedPageUI [
+	# Light Mode
+	TextColor = #000000
+	BackgroundColor = #ffffff
+
+	# Dark Mode
+	# TextColor = #ffffff
+	# BackgroundColor = #343d46
+
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+]
+```
 
