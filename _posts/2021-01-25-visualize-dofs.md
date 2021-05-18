@@ -55,3 +55,24 @@ with XDMFFile("dof.xdmf") as xdmf:
     xdmf.write(dof_map)
 ```
 
+# Update
+
+For higher order elements, use the following
+
+```python
+V = VectorFunctionSpace(mesh, 'Lagrange', degree=2)
+# Extract dofs for 2nd degree elements
+vertex_number_from_mf = 20 # We will get this from mesh function
+dofmap = V.dofmap()
+dofs = dofmap.dofs(mesh, 0)
+dofs=np.array(dofs)
+dofs=dofs.reshape(mesh.num_vertices(),3)
+dofs[vertex_number_from_mf]
+
+dof_map = Function(V,name="dof")
+num_dof=dof_map.vector()[:].size
+dof_map.vector()[:] = [int(i) for i in np.linspace(0,num_dof-1,num_dof)]
+with XDMFFile("dof.xdmf") as xdmf:
+    xdmf.write(dof_map)
+```
+
