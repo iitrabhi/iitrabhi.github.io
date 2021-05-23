@@ -52,7 +52,7 @@ typora-root-url: ../../website
   }
   ```
 
-- Save the file. This will automaticaly install all the packages necessary for the setup.  Wait for 5-10 mins for the installation to complete.
+- Save the file. This will automatically install all the packages necessary for the setup.  Wait for 5-10 mins for the installation to complete.
 
 - Next open `Preferences  → Settings`  and paste the following there.
 
@@ -95,12 +95,14 @@ typora-root-url: ../../website
   }
   ```
 
-- Goto `Preferences→` and paste the following 
+- Go to `Preferences→Key Bindings` and paste the following 
 
   ```json
   [
       { "keys": ["f1"], "command": "toggle_side_bar" },
       { "keys": ["f2"], "command": "distraction_free_window" },
+      { "keys": ["f3"], "command": "fold" },
+      { "keys": ["f4"], "command": "unfold" },
   ]
   ```
 
