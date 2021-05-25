@@ -8,13 +8,14 @@ typora-root-url: ../../website
 
 # Download
 
-- Download Sublime text here: https://www.sublimetext.com/
-- Download Miktex here: https://miktex.org/download
-- Download Sumatra PDF here: https://www.sumatrapdfreader.org/download-free-pdf-viewer
+- [Download Sublime text here.]( https://www.sublimetext.com/)
+- [Download Miktex here.](https://miktex.org/download)
+- [Download Sumatra PDF here.](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
+- [Download ImageMigick here.](https://imagemagick.org/script/download.php#windows)
 
 # Install
 
-- Install Sumatra first and then Miktex. Finally install Sublime.
+- Install Sumatra first and then Miktex and then ImageMagick. Finally install Sublime.
 
 - Open the Command Palette: Press `Ctrl+Shift+P`
 
