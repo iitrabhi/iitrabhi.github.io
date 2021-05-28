@@ -6,12 +6,15 @@ tag:
 typora-root-url: ../../website
 ---
 
+![sublime_latex_setup](/assets/images/sublime_latex_setup.jpg)
+
 # Download
 
 - [Download Sublime text here.]( https://www.sublimetext.com/)
 - [Download Miktex here.](https://miktex.org/download)
 - [Download Sumatra PDF here.](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
 - [Download ImageMigick here.](https://imagemagick.org/script/download.php#windows)
+- [Download source tex file here.](https://github.com/iitrabhi/paper-template)
 
 # Install
 
@@ -147,3 +150,7 @@ FixedPageUI [
 ]
 ```
 
+# Learn Latex
+
+- [Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+- [Latex Tutorial](https://latex-tutorial.com/quick-start/)
