@@ -43,6 +43,6 @@ I am writing this post as I am creating [this repository](https://github.com/iit
 
 ## References
 
-- [Better Bibtex](https://retorque.re/zotero-better-bibtex/)
-- [Bibtex Tidy](https://flamingtempura.github.io/bibtex-tidy/)
+- [Inspiration](https://github.com/mscroggs/bempp-acoustic-tutorials)
+- [nbviewer](https://nbviewer.jupyter.org/github/waltherg/notebooks/blob/master/2013-12-03-Crank_Nicolson.ipynb)
 
