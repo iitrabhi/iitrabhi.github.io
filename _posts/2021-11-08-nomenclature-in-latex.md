@@ -2,7 +2,7 @@
 layout: post
 title: "How to add nomenclature to latex document."
 tag: 
-  - tools
+  - latex
 typora-root-url: ../../website
 ---
 
