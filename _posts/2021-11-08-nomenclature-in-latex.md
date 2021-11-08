@@ -14,6 +14,8 @@ Even after installing the `nomencl.sty` , I am not getting nomenclature in my pd
 makeindex paper.nlo -s nomencl.ist -o paper.nls
 ```
 
+![image-20211108111443455](/assets/images/image-20211108111443455.png)
+
 Once the `.nls` is build we can run `pdflatex` normally to get nomenclature. So the proper order of commands to run is:
 
 - `pdflatex paper.tex`
