@@ -19,7 +19,6 @@ from petsc4py import PETSc
 print(PETSc.ScalarType)
 
 output >> <class 'numpy.float64'>
-<class 'numpy.complex128'>
 ```
 
 Now as per [Drew Parsons](https://bitbucket.org/petsc/petsc4py/issues/115/is-concurrent-installation-of-real-and), *the structure of the PETSc installation makes it possible to install different versions and different configurations side by side. You can choose which one you want to work with at run time (or build time) using PETSC_DIR, choosing between real and complex number support, for instance.*
@@ -81,8 +80,8 @@ output >> <class 'numpy.complex128'>
 
 ## References
 
-- https://bitbucket.org/petsc/petsc4py/issues/115/is-concurrent-installation-of-real-and
-- https://bitbucket.org/petsc/petsc4py/issues/83/how-to-create-complex-matrix-by-using
-- https://gitlab.com/petsc/petsc
+- [https://bitbucket.org/petsc/petsc4py/issues/115/is-concurrent-installation-of-real-and](https://bitbucket.org/petsc/petsc4py/issues/115/is-concurrent-installation-of-real-and)
+- [https://bitbucket.org/petsc/petsc4py/issues/83/how-to-create-complex-matrix-by-using](https://bitbucket.org/petsc/petsc4py/issues/83/how-to-create-complex-matrix-by-using)
+- [https://gitlab.com/petsc/petsc](https://gitlab.com/petsc/petsc)
 - [Major understanding of installation](https://github.com/FEniCS/dolfinx/blob/main/docker)
 
