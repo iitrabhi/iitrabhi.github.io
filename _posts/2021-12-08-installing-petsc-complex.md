@@ -65,6 +65,14 @@ Now by changing the environment variable we can activate the specific version of
 export PETSC_ARCH=linux-gnu-complex-32
 ```
 
+This could also be done inside code
+
+```bash
+import petsc4py
+#"linux-gnu-real-32:linux-gnu-complex-32:linux-gnu-real-64:linux-gnu-complex-64"
+petsc4py.init(arch="linux-gnu-complex-64")
+```
+
 After this by running `Scalartype` we will get complex support
 
 ```bash
