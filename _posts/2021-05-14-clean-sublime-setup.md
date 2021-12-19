@@ -6,7 +6,7 @@ tag:
 typora-root-url: ../../website
 ---
 
-<iframe width="960" height="540" src="https://www.youtube.com/embed/SZEXdXL_P4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="740" height="416" src="https://www.youtube.com/embed/SZEXdXL_P4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Download
 
