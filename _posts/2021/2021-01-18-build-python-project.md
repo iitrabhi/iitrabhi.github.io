@@ -3,7 +3,7 @@ layout: post
 title: "How to start a new python project that you wish to support for long."
 tag: 
   - misc
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 Most of the times I have to modify my initial code base so as to use it in future work. This kind of approach is not good as it requires significant amount change in the initial code base. Also, any kind of improvements added to the modified code are not reflected in the base code. All in all this approach of always changing the source code is highly inefficient.

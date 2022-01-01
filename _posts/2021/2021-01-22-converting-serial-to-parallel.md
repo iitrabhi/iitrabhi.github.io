@@ -3,7 +3,7 @@ layout: post
 title: "How to convert serial FEniCS code to parallel."
 tag: 
   - fenics
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 FEniCS supports parallel computation out of the box, but that requires certain considerations from the side of the programmer. To convert a FEniCS code into parallel, we have to add the following to the code

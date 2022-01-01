@@ -3,7 +3,7 @@ layout: post
 title: "Load the project to PyPi"
 tag: 
   - code
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 I have developed so many tools in the lab (in python) for easing my workflow. Now I wish to convert those to opensource packages so that I can easily install them in the future from PyPi and maybe they will become useful for some other people. 

@@ -1,0 +1,204 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/abhi/Codes/website",
+		"/Users/abhi/Codes/website/_includes",
+		"/Users/abhi/Codes/website/_layouts",
+		"/Users/abhi/Codes/website/_posts",
+		"/Users/abhi/Codes/website/_posts/2022"
+	],
+	"file_history":
+	[
+		"/Users/abhi/Codes/website/_posts/2021/2021-03-18-load-to-pypi.md",
+		"/Users/abhi/Codes/website/_posts/2022/2022-01-01-happy-new-year.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-10-circumradius-fenics.md",
+		"/Users/abhi/Codes/website/_posts/2020/2020-11-22-add-formula-images.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-05-11-clean-latex.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-02-14-first-javascript-project.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-06-30-correct-way-to-add-bib.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-18-build-python-project.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-02-9-project-based-learning.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-04-01-load-to-dockerhub.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-16-paraview-animation.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-31-python-vs-cpp-boundary-definition-fenics.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-25-visualize-dofs.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-02-10-dark-mode-sumatra.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-11-08-nomenclature-in-latex.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-06-fenics-is-awesome.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-22-set-sublime-in-gmsh.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-05-14-clean-sublime-setup.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-07-4-making-tutorial-on-jupyter.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-11-finding-fenics-commands.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-05-07-custom-enumerate-header.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-05-setup-Typora.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-03-12-matlab-direct.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-12-function-average-over-cell.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-12-08-installing-petsc-complex.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-15-modularizing-fenics.md",
+		"/Users/abhi/Codes/website/_posts/2021/2021-01-22-converting-serial-to-parallel.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+			"/Users/abhi/Codes/website/_posts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"typora-root-url: ../../website"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"typora-root-url: ../../../website"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "website.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 507.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

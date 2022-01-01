@@ -3,7 +3,7 @@ layout: post
 title: "Load the working copy of your docker image to docker hub for reuse"
 tag: 
   - code
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 I have been working with a team on few projects based on FEniCS. Time and again we have to build our images on different systems and that requires for all the lab members to have an updated version of the Dockerfile with them. I have placed the docker file on github [here](https://github.com/iitrabhi/fenics-docker). This procedure was still creating a lot of problems and thus I have now decided to load the images to dockerhub so that my team mates can pull them easily in just one line. The documentation provides us with all the steps that are necessary to load an image to dockerhub. This was everyone from the team will have the same version of all the software packages installed on their systems. The steps are as follows:

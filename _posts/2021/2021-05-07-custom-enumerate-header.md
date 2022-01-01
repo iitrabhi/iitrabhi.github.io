@@ -3,7 +3,7 @@ layout: post
 title: "Setting custom header for list of items | Step 1:"
 tag: 
   - latex
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 Use the following code to get custom headers

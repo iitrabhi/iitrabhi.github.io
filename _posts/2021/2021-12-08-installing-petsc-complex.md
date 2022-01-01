@@ -3,7 +3,7 @@ layout: post
 title: "How to build petsc with complex support."
 tag: 
   - fenics
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 ## The problem 

@@ -3,7 +3,7 @@ layout: post
 title: "How to setup Typora for daily journaling"
 tag: 
   - misc
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 Typora is my favourite markdown editor. It is opensource, clean and minimal. If you know and understand a little bit about programming in CSS that you can also modify its look to your liking. In this post I am going to show you the exact settings that helped me get as close as possible to the actual look and feel of the Moving theme on the website.

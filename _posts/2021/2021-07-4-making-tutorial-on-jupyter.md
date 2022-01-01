@@ -3,7 +3,7 @@ layout: post
 title: "How to make tutorials for your class."
 tag: 
   - tools
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 ## The problem 

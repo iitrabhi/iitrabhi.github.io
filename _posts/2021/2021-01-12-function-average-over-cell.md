@@ -3,7 +3,7 @@ layout: post
 title: "How to get average of a function over each cell."
 tag: 
   - fenics
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 In FEniCS there are three different kinds of function space which we can use. 
 

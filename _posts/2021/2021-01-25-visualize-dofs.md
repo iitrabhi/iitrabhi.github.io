@@ -3,7 +3,7 @@ layout: post
 title: "How to visualize degrees of freedom in FEniCS."
 tag: 
   - fenics
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 When we create or import a mesh in FEniCS, it automatically creates the degree of freedom table for us. Now that table is based on multiple considerations, which I do not understand, but the thing to know is that, degrees of freedom are not directly derived from the vertex numbers. Thus, there is no logical relation between vertex numbers and dof numbers. But, fortunately, FEniCS provides us with the vertex to degree of freedom table, i.e. for a particular vertex number we can find out the degree of freedom numbers.

@@ -3,7 +3,7 @@ layout: post
 title: "How to set up your first JavaScript project."
 tag: 
   - code
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
  

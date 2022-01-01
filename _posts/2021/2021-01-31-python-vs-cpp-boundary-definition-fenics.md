@@ -3,7 +3,7 @@ layout: post
 title: "Difference between python and C++ definition of boundaries in FEniCS."
 tag: 
   - fenics
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 In FEniCS there are two ways of defining the sub-domains or different zones in a mesh. One is the python way and other is the C++ way. In this post I will find the speed difference between the two. I will follow along [this article](https://fenicsproject.org/pub/tutorial/sphinx1/._ftut1005.html) from the official FEniCS website. 

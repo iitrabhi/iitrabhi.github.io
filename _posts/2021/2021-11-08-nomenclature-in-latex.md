@@ -3,7 +3,7 @@ layout: post
 title: "How to add nomenclature to latex document."
 tag: 
   - latex
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 ## The problem 

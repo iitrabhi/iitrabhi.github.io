@@ -3,7 +3,7 @@ layout: post
 title: "Some surprising findings on direct vs iterative in MATLAB."
 tag: 
   - code
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
  I am trying to solve a million DoF system with PETSc as well as MATLAB. In both cases the system has been assembled and I have the K matrix and the F vector.

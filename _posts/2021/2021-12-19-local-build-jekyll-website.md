@@ -3,7 +3,7 @@ layout: post
 title: "How to develop jekyll website locally."
 tag: 
   - misc
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 ## The problem 

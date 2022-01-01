@@ -3,7 +3,7 @@ layout: post
 title: "How to manage a project with Notion."
 tag: 
   - management
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 Working on multiple projects is a part of Ph.D. life, and soon we can get overwhelmed by the amount of work that we have to manage. In the past, I had tried to manage my work with multiple tools, but now I manage everything in NOTION. For those of you who have not heard about NOTION, it is an awesome productivity tool that helps you manage different aspects of your digital life. The best part is that it is free to use for students and is immensly customizable. In this post I just want to jot down my process of managing a project in NOTION for future reference, and, maybe someday it might help other fellow researchers also.

@@ -3,7 +3,7 @@ layout: post
 title: "How to properly add bib to your latex project."
 tag: 
   - tools
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 # The problem 

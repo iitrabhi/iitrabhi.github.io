@@ -3,7 +3,7 @@ layout: post
 title: "How to set dark mode on Sumatra PDF for latex."
 tag: 
   - tools
-typora-root-url: ../../website
+typora-root-url: ../../../website
 ---
 
 To achieve dark mode on Sumatra PDF goto Settings → Advanced options
