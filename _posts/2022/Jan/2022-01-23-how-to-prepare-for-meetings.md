@@ -39,6 +39,10 @@ It is imperative to have a proper format and have some ground rules to conduct m
 
   ![image-20220124163715212](/assets/images/image-20220124163715212.png)
 
+## Final thoughts
+
+Meetings are effective only if they are prepared well and also have a clear outcome. In the next post I will discuss about how to conduct a meeting and derive actionable items from the minutes of meeting.
+
 ## References
 
 - [The effective executive](https://www.amazon.in/dp/B000FC11JW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
