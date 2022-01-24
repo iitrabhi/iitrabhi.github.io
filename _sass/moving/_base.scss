@@ -188,6 +188,7 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9);
+  color: $notion-red;
   border: 1px solid darken($grey-color-light, 3%);
   border-radius: 3px;
   background-color: lighten($grey-color-light, 3%);
