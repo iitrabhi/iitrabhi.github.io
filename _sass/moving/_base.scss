@@ -164,11 +164,14 @@ a {
   * Blockquotes
   */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: $text-color;
+  background-color: $grey-color-light;
+  border-left: 4px solid $grey-color-dark;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1);
-  letter-spacing: -1px;
+  @include relative-font-size(1.3);
+  line-height: 30px;
+  padding:24px;
+  // letter-spacing: -1px;
 
 @media (max-width: 600px) {
   @include relative-font-size(0.8);

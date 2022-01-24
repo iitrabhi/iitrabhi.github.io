@@ -15,8 +15,9 @@ I also love the open-source community and use FEniCS as my primary package for p
 | 19/05/2017     | Got accepted to PhD program at IIT Roorkee.                  |
 | 23/08/2017     | Joined IIT Roorkee. Finally starting a journey that I had dreamt of for so long. |
 | 10/12/2017     | Completed the mandatory course work at IIT Roorkee.          |
-| 20/12/2017     | Completed GIAN course on "Isogeometric analysis" at IIT-BHU by Prof. Mukesh Kumar |
-| 20/01/2018     | Completed GIAN course on "Topology optimization" at IISC-Bangalore |
+| 20/12/2017     | Completed GIAN course on "**Isogeometric analysis**" at IIT-BHU by Prof. Mukesh Kumar |
+| 20/01/2018     | Completed GIAN course on "**Topology optimization**" at IISC-Bangalore |
+| 25/10/2018    | Completed 5 days course on "**HPC and Deep Learning**" at EICT Academy, ECE Department, IIT Roorkee |
 | **13/02/2019** | **PHD Candidacy 😄**                                          |
 | 22/03/2019     | Gave a presentation on "Isogeometric Shape Optimization" at IISC-Bangalore |
 | **07/05/2019** | **Got accepted to Google summer of code 2019 🥳** |
@@ -28,4 +29,5 @@ I also love the open-source community and use FEniCS as my primary package for p
 |11/05/2020| Working topology optimization code in FEniCS achieved in 99 lines. Started development on 08/05/2020|
 |**19/07/2020** | **Achieved a personal goal of developing the shortest topology optimization code with FEniCS. So happy about it 🥳😁.** |
 | 15/12/2020|Published the [55-line code article](https://arxiv.org/abs/2012.08208) in arXiV. |
+|23/08/2021|Completed training course “Introduction to using Firedrake on ARCHER2". ARCHER2 is the UK National Supercomputing Service|
 |11/10/2021|Article on [metamaterials](https://www.sciencedirect.com/science/article/pii/S0168874X21001311) accepted in Finite Elements in Analysis and Design|
