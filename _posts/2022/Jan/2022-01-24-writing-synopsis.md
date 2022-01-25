@@ -11,7 +11,7 @@ I am nearing the end of my Ph.D. I have completed all the deliverables presented
 
 > A synopsis report intends to enable the student review committee(SRC) to judge whether a prima facie case exists for accepting the proposed Ph.D. thesis for the award of the Ph.D. degree. 
 
-Before submitting the synopsis report, I have to make a Pre-Synopsis Seminar, in which I have to highlight the significant milestones achieved during the tenure of Ph.D. Once this process is completed successfully, the SRC is dissolved, and I will have four months to submit my final Ph.D. thesis for review. Here are a few guidelines and the resulting structure of the report that I have found on the internet. 
+Before submitting the synopsis report, I have to make a Pre-Synopsis Seminar, in which I have to highlight the significant milestones achieved during the tenure of Ph.D. Once this process is completed successfully, the SRC is dissolved, and I will have [four months](https://www.iitr.ac.in/academics/uploads/PhD%20Ordinances%20and%20Regulations%20(NEW).pdf) to submit my final Ph.D. thesis for review. Here are a few guidelines and the resulting structure of the report that I have found on the internet. 
 
 - **Abstract**: The synopsis report is intended for the SRC. Thus, its abstract should also be written so that it briefly summarizes the report to help SRC evaluate the work.
 
@@ -44,3 +44,4 @@ You can get my latex template for the preparation of the synopsis [here](https:/
 
 - [Synopsis Latex template](https://github.com/iitrabhi/synopsis-template)
 - [Synopsis Guidelines](https://www.iitb.ac.in/newacadhome/GuidelinesPhDSynopsispreparation07Jan2016.pdf)
+- [PhD ordinance IIT Roorkee](https://www.iitr.ac.in/academics/uploads/PhD%20Ordinances%20and%20Regulations%20(NEW).pdf)
