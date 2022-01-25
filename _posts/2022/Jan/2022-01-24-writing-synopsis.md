@@ -9,7 +9,7 @@ typora-root-url: ../../../../website
 
 I am nearing the end of my Ph.D. I have completed all the deliverables presented in my research proposal. The next step in this journey is to make a Synopsis report and submit that to the department to consider accepting my Ph.D. work.
 
-> A synopsis report intends to enable the student review committee to judge whether a prima facie case exists for accepting the proposed Ph.D. thesis for the award of the Ph.D. degree. 
+> A synopsis report intends to enable the student review committee(SRC) to judge whether a prima facie case exists for accepting the proposed Ph.D. thesis for the award of the Ph.D. degree. 
 
 Before submitting the synopsis report, I have to make a Pre-Synopsis Seminar, in which I have to highlight the significant milestones achieved during the tenure of Ph.D. Once this process is completed successfully, the SRC is dissolved, and I will have four months to submit my final Ph.D. thesis for review. Here are a few guidelines and the resulting structure of the report that I have found on the internet. 
 
