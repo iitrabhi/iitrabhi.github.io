@@ -27,11 +27,11 @@ Before submitting the synopsis report, I have to make a Pre-Synopsis Seminar, in
 
 - **Proposed Contents of the Thesis**: This section briefly outlines the final thesis. It acts as a blueprint for writing the thesis. In this section, you should give a chapter-wise discussion of the content that you wish to present in that chapter.
 
-- - Chapter 1: What will be its title? What will you discuss in this chapter? 
+	- Chapter 1: What will be its title? What will you discuss in this chapter? 
 
 - **List of Publications**: These are the outcomes of your work. Refer to all the work you have published during the tenure of your Ph.D.
 
-- - Papers in Refereed Journals
+	- Papers in Refereed Journals
   - National and International Conference Proceedings
 
 - **Bibliography**
