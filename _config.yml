@@ -1,4 +1,4 @@
-title: Abhinav Gupta # The title of the blog
+title: Hi, I'm Abhinav Gupta # The title of the blog
 author: Abhinav Gupta # Your name 
 email: iitrabhi@gmail.com # your email shown in the footer
 
@@ -7,7 +7,7 @@ url: "https://abhigupta.io" # this is your site's root address.
 
 
 description: > # this means to ignore newlines until "show_excerpts:" 
-  Researcher, Indian Institute of Technology Roorkee
+  I'm a Ph.D. candidate at the Computational Mechanics Lab, Indian Institute of Technology Roorkee. I have built this website to share my learnings with my lab mates and showcase my projects. 
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -60,3 +60,7 @@ google_analytics: G-9W3VPP9B40
 
 # Text under the icons in footer
 footer-text:
+
+# JavaScript
+head_scripts:
+  - /assets/js/test.js

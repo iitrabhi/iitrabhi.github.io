@@ -6,18 +6,24 @@ layout: default
   <head>
       <title>{{ site.title }}</title>
   </head>
-  <div class="home-title">
-    <p class="home-heading">{{ site.title }}</p>
-  </div>
 
   <nav>
+    <div style="width:100%;text-align: right;">
     <ul>
       <li><a class="link" href="{{ site.url }}/tags">Tags</a></li>
       <li><a class="link" href="{{ site.url }}/projects">Projects</a></li>
       <li><a class="link" href="{{ site.url }}/about">About</a></li>
       <li><a class="link" href="https://computationalmechanics.in/author/iitrabhi/">Lab</a></li>
     </ul>
+    </div>
   </nav>
+
+  <div class="home-title">
+    <p class="home-heading">{{ site.title }}</p>
+    <p class="home-sub-heading">{{ site.description }}</p>
+  </div>
+
+
 
 
   {%- if site.posts.size > 0 -%}
