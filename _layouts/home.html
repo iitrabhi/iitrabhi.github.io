@@ -1,62 +1,68 @@
 ---
 layout: default
 ---
-
 <div class="home">
-  <head>
-      <title>{{ site.title }}</title>
-  </head>
 
-  <nav>
-    <div style="width:100%;text-align: right;">
-    <ul>
-      <li><a class="link" href="{{ site.url }}/tags">Tags</a></li>
-      <li><a class="link" href="{{ site.url }}/projects">Projects</a></li>
-      <li><a class="link" href="{{ site.url }}/about">About</a></li>
-      <li><a class="link" href="https://computationalmechanics.in/author/iitrabhi/">Lab</a></li>
-    </ul>
+    <head>
+        <title>{{ site.title }}</title>
+    </head>
+    <nav>
+        <div style="width:100%;text-align: right;">
+            <ul>
+                <li><a class="link" href="{{ site.url }}/tags">Tags</a></li>
+                <li><a class="link" href="{{ site.url }}/projects">Projects</a></li>
+                <li><a class="link" href="{{ site.url }}/about">About</a></li>
+                <li><a class="link" href="https://computationalmechanics.in/author/iitrabhi/">Lab</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="home-title">
+        <p class="home-heading">{{ site.title }}</p>
+        <p class="home-sub-heading">{{ site.description }}</p>
     </div>
-  </nav>
 
-  <div class="home-title">
-    <p class="home-heading">{{ site.title }}</p>
-    <p class="home-sub-heading">{{ site.description }}</p>
-  </div>
+    <hr>
+    <div class="row">
+        <div class="column" style="margin-right: 10px;">
+            <h2 style="font-weight: bold;">What I’m about</h2>
+            <p>I learned about the importance of finite element analysis in different engineering fields while working as a scientific officer at Nuclear Power Corporation of India Limited. Right now, I’m a research scholar at the Indian Institute of Technology Roorkee, where I work on exploring the applications of finite element methods to solve real-world engineering problems by utilising the power of HPC.</p>
+        </div>
+        
+        <div class="column" style="margin-left: 10px;">
+            <h2 style="font-weight: bold;">My Passion</h2>
+            <p>I learned about the importance of finite element analysis in different engineering fields while working as a scientific officer at Nuclear Power Corporation of India Limited. Right now, I’m a research scholar at the Indian Institute of Technology Roorkee, where I work on exploring the applications of finite element methods to solve real-world engineering problems by utilising the power of HPC.</p>
+        </div>
+    </div>
+    <hr>
 
-
-
-
-  {%- if site.posts.size > 0 -%}
-  <ul class="post-list">
-      {% for post in site.posts  %}
-      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-      {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-  
-      {% if forloop.first %}
-      <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
-      <ul>
-      {% endif %}
-  
-      <li>
-          {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">
-            {{ post.date | date: date_format }}
-          </span>
-          <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-      </li>
-  
-      {% if forloop.last %}
-      </ul>
-      {% else %}
-          {% if this_year != next_year %}
-          </ul>
-          <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
-          <ul>
-          {% endif %}
-      {% endif %}
-  {% endfor %}
-  </ul>
-  {%- endif -%}
+    {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+        {% for post in site.posts %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+        {% if forloop.first %}
+        <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
+        <ul>
+            {% endif %}
+            <li>
+                {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">
+                    {{ post.date | date: date_format }}
+                </span>
+                <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </li>
+            {% if forloop.last %}
+        </ul>
+        {% else %}
+        {% if this_year != next_year %}
+    </ul>
+    <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+    <ul>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {%- endif -%}
 </div>

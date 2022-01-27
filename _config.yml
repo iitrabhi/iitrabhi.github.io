@@ -7,7 +7,7 @@ url: "https://abhigupta.io" # this is your site's root address.
 
 
 description: > # this means to ignore newlines until "show_excerpts:" 
-  I'm a Ph.D. candidate at the Computational Mechanics Lab, Indian Institute of Technology Roorkee. I have built this website to share my learnings with my lab mates and showcase my projects. 
+  Researcher. Android Developer. Creative Coder
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
