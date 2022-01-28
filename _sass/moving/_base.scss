@@ -174,8 +174,8 @@ a {
   */
 blockquote {
     color: $text-color;
-    background-color: $grey-color-light;
-    border-left: 4px solid $grey-color-dark;
+    background-color: lighten($background-color, 9%);
+    border-left: 4px solid #ffffff;
     padding-left: $spacing-unit / 2;
     @include relative-font-size(1.1);
     line-height: 30px;
@@ -281,7 +281,7 @@ table {
 
     tr {
         &:nth-child(even) {
-            background-color: lighten($grey-color-light, 6%);
+            background-color: lighten($background-color, 6%);
         }
     }
 
@@ -291,7 +291,7 @@ table {
     }
 
     th {
-        background-color: lighten($grey-color-light, 3%);
+        background-color: lighten($background-color, 3%);
         border: 1px solid darken($grey-color-light, 4%);
         border-bottom-color: darken($grey-color-light, 12%);
     }
