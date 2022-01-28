@@ -327,6 +327,10 @@ nav {
     font-size: 21.6px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .row {
     display: flex;
 }
