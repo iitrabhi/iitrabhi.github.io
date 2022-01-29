@@ -369,6 +369,7 @@
 
 .footer-links{
   display: flex;
+  display: -webkit-flexbox;
   padding-top: 25px;
   padding-bottom: 25px;
   width: 100%;
