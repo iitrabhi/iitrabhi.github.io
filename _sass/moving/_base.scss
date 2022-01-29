@@ -346,3 +346,13 @@ nav {
     flex-direction: column;
   }
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: $background-color;
+  background: $text-color;
+}
+
+::selection {
+  color: $background-color;
+  background: $text-color;
+}
