@@ -416,6 +416,20 @@
   animation: wave-animation 0.3s infinite;
 }
 
+.hand-hello:hover{
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    
+    -webkit-animation-name:wave-animation;
+    -webkit-animation-timing-function:ease-in;
+
+    -webkit-animation-duration:0.8s;
+    -webkit-animation-play-state:active;
+    -webkit-animation-iteration-count:infinite;
+}
 
 @keyframes wave-animation {
   0%,
