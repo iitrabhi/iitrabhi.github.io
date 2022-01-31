@@ -52,6 +52,7 @@ moving:
 remote_theme: iitrabhi/moving
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 
 
