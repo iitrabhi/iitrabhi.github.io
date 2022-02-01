@@ -3,7 +3,7 @@ layout: post
 title: "Every researcher must learn about sparse matrices."
 description: "You can not even imagine solving medium to large-scale systems without sparse matrices."
 tag: 
-  - phd
+  - code
 typora-root-url: ../../../../website
 ---
 
@@ -42,15 +42,15 @@ Lets try to understand this:
 
 - Considering a tridiagonal system where we have non zero entities only on the main diagonal and adjacent to it here is a comparison of RAM requirement for dense v/s sparse system.
 
-  | dof         | Num items | dense  | Sparse   |
+  | dof         | Num items | RAM for Dense | RAM for Sparse |
   | ----------- | --------- | ------ | -------- |
   | 1000        | 1 Million | 8 MB | 0.048 MB |
   | 10,000	    | 1e8		    | 800 MB | 0.48 MB |
   | 1 Lakh   		| 1e10      | 80 GB 🧐 | 4.8 MB |
   | 1 Million   | 1e12      | 8 TB 😨 | 48 MB |
   | 10 Million  | 1e14      | 800 TB 😱 | 480 MB |
-  | 100 Million | 1e16      | 800000 TB 🤯 | 4.8 GB |
-  | 1 Billion   | 1e18      | 80000000 TB ☠️ | 48 GB |
+  | 100 Million | 1e16      | 0.8 Million TB 🤯 | 4.8 GB |
+  | 1 Billion   | 1e18      | 80 Million TB ☠️ | 48 GB |
 
 - The above table is formed by considering that every cell of the matrix will hold a double value (8 bytes) and the indices are stored as integers (4 bytes) for the sparse matrix.
 
