@@ -40,7 +40,9 @@ Lets try to understand this:
 
 - 1TB = 1e12 Bytes = 1000 GB
 
-- Considering a tridiagonal system where we have non zero entities only on the main diagonal and adjacent to it here is a comparison of RAM requirement for dense v/s sparse system.
+- Considering a `tridiagonal system` where we have non zero entities only on the main diagonal and adjacent to it here is a comparison of RAM requirement for dense v/s sparse system.
+  RAM for dense storage: $$\frac{dof^2*8}{10^9}$$GB
+  RAM for sparse storage: $$\frac{3*(dof*8+dof*4+dof*4)}{10^9}$$GB
 
   | dof         | Num items | RAM for Dense | RAM for Sparse |
   | ----------- | --------- | ------ | -------- |
