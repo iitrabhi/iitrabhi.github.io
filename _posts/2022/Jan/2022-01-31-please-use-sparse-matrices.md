@@ -32,7 +32,7 @@ Lets try to understand this:
 | boolean    | 1 bit       | Stores true or false values                                  |
 | char       | 2 bytes     | Stores a single character/letter or ASCII values             |
 
-- In general we work with `double` data type to store data and with `int` to store indexes.
+- In general we work with `double` (8 bytes) data type to store data and with `int`  (4 bytes) to store indexes.
 
 - 1MB = 1e6 Bytes
 
@@ -42,9 +42,9 @@ Lets try to understand this:
 
 - Considering a `tridiagonal system` where we have non zero entities only on the main diagonal and adjacent to it here is a comparison of RAM requirement for dense v/s sparse system.
 
-  RAM for dense storage: $$\frac{dof^2*8}{10^9}$$GB
+  RAM for dense storage: $$\frac{dof^2 \times 8}{10^9}$$GB
 
-  RAM for sparse storage: $$\frac{3*(dof*8+dof*4+dof*4)}{10^9}$$GB
+  RAM for sparse storage: $$\frac{3 \times (dof \times 8+dof \times 4+dof \times 4)}{10^9}$$GB
 
   | dof         | Num items | RAM for Dense | RAM for Sparse |
   | ----------- | --------- | ------ | -------- |
@@ -56,7 +56,7 @@ Lets try to understand this:
   | 100 Million | 1e16      | 0.8 Million TB 🤯 | 4.8 GB |
   | 1 Billion   | 1e18      | 80 Million TB ☠️ | 48 GB |
 
-- The above table is formed by considering that every cell of the matrix will hold a double value (8 bytes) and the indices are stored as integers (4 bytes) for the sparse matrix.
+- The above table is formed by considering that every cell of the matrix will hold a double value (8 bytes) and the indices are stored as integers (4 bytes) for the sparse matrix. A sparse matrix is stored as a 3 column matrix with first column being `data` the second being `row number` and the third being `column number`.
 
 - Thus you can see that by using a dense matrix you will exhaust you laptop memory even with a 1Lakh dof system.
 
