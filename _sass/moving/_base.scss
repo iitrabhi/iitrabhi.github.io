@@ -175,7 +175,10 @@ a {
 blockquote {
     color: $text-color;
     background-color: lighten($background-color, 9%);
-    border-left: 4px solid #ffffff;
+
+    border-radius: 0.3em;
+
+    border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
     @include relative-font-size(1.1);
     line-height: 30px;
