@@ -1,0 +1,74 @@
+/*https://codepen.io/techiediaries/pen/MWgVKZW*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.grid>article {
+    display: block;
+    border: 0.15rem solid #ffffff;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 0.3em;
+    background-color: lighten($background-color, 9%);
+    min-height: 300px;
+    z-index: 0;
+
+    position: relative;
+
+    &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        background-color: darken($background-color, 2%);
+    }
+
+   
+}
+
+.grid .text {
+    padding: 20px;
+    margin: 0px;
+    position: relative;
+    min-height: 300px;
+
+}
+
+.grid .text p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    color: $text-color;
+}
+
+.grid .text code {
+    font-size: 10px;
+}
+
+.grid .text hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 0;
+    height: 2px;
+    /* Set the hr color */
+    color: darken($grey-color-light, 30%);
+    /* old IE */
+    background-color: darken($grey-color-light, 30%);
+}
+
+.grid .text h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $text-color;
+}
+
+.card-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}

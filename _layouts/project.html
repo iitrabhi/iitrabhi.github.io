@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="about-page">
+
+    <head>
+        <title>{{ site.author }}</title>
+    </head>
+    {%- include main-menu.html -%}
+    <div class="post-back">
+        <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
+    </div>
+    <div class="about-header">
+        {%- if site.moving.avatar_url -%}
+        <img class="about-avatar" src="{{ site.moving.avatar_url }}" />
+        {%- endif -%} {%- if site.author -%}
+        <div class="about-info">
+            <div class="about-your-name">
+                {{ site.author | escape }}
+            </div>
+            {%- endif -%} {%- if site.moving.about_you -%}
+            <p class="about-description">
+                {{ site.moving.about_you | escape }}
+            </p>
+            {%- endif -%} {%- include social.html -%}
+        </div>
+    </div>
+    <div class="about-content e-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+
+
+<div class="container">
+  <main class="grid">
+    {% for project in site.projects reversed%}
+    <article>
+      <a  href="{{ project.url | relative_url }}">
+      <div class="text">
+        <h2>{{ project.title | escape }}
+        </h2>
+        <div class="card-description">
+          {% for lang in project.langs %}
+          <code>{{ lang | escape }}</code>
+          {% endfor %}
+          <hr>
+          <p>{{ project.description | escape }}
+          </p>
+        </div>
+        
+      </div>
+      </a>
+    </article>
+    {% endfor %}
+  </main>
+</div>
+
+</div>

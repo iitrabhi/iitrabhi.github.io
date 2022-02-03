@@ -65,3 +65,8 @@ footer-text:
 # JavaScript
 head_scripts:
   - /assets/js/test.js
+
+# https://jekyllrb.com/docs/collections/
+collections:
+  projects:
+    output: true
