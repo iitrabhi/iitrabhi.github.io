@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DolfinX"
-description: "I was luck enough to participate and complete GSoC 2019."
+description: "I was lucky enough to participate and complete GSoC 2019."
 langs: [python, c++]
 typora-root-url: ../../../../website
 ---
