@@ -6,7 +6,7 @@
     align-items: stretch;
 }
 
-@media (min-width: 600px) {
+@media screen (min-width: 600px) {
   .grid{
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
