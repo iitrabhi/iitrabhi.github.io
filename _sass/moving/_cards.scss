@@ -6,6 +6,12 @@
     align-items: stretch;
 }
 
+@media (min-width: 600px) {
+  .grid{
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
+
 .grid>article {
     display: block;
     border: 0.15rem solid #ffffff;
