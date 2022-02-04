@@ -286,6 +286,8 @@
 .social-media-list {
     margin-top: -1rem;
     display: flex;
+    flex-wrap: wrap;
+
     @include relative-font-size(1);
 
     li {
