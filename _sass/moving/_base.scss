@@ -186,7 +186,7 @@ blockquote {
     // letter-spacing: -1px;
 
     @media (max-width: 600px) {
-        @include relative-font-size(0.8);
+        @include relative-font-size(1.1);
     }
 
     > :last-child {
