@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to manage a project with Notion."
+description: "It is imperative to have a central database and organizational system for productive teamwork."
 tag: 
   - management
 typora-root-url: ../../../website
@@ -22,8 +23,8 @@ The project is divided  into 4 distinct parts.
 
 - **Introduction.** The intenition of this part is to always remind me about the goals of the project and to have a short overview.
 - **Notes.** This one is the most important part of the project. I should not go into the notes section, but rather make notes in their respective **Actions**.
-- **Tasks.** Tasks are the major goals that we have to achieve to complete the project. These should be planned at the starting of the project. These are not actionable items, but rather milestones that we must achive. They should usually take more than a week worth of time to get completed. e.g. *'Complete the literature review.'*
-- **Actions.** These are the daily actions that we should perform to achieve our goal. They should be written as if you are giving command to your future self to work on.  These should take less than a day to complete. e.g. *'Open the repository in Sublime and add the test module to test mesh_function.'* They should also have a particular day assigned to them so that you can view them in the calendar view.
+- **Tasks.** Tasks are the major goals that we have to achieve to complete the project. These should be planned at the starting of the project. These are not actionable items, but rather milestones that we must achive. They should usually take more than a week worth of time to get completed. e.g. `Complete the literature review.`
+- **Actions.** These are the daily actions that we should perform to achieve our goal. They should be written as if you are giving command to your future self to work on.  These should take less than a day to complete. e.g. `Open the repository in Sublime and add the test module to test mesh_function.` They should also have a particular day assigned to them so that you can view them in the calendar view.
 
 ![image-20210209133959689](/assets/images/image-20210209133959689.png)
 
