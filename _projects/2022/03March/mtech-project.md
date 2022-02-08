@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Fees Management System"
+title: "Pen printer with Arduino"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: 2012
+year: "September 2006"
 typora-root-url: ../../../../website
 ---
 

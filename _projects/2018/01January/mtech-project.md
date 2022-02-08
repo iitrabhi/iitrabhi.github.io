@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fees Management System"
+title: "stayayurvedic apps"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
 year: 2012

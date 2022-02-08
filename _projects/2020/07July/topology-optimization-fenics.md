@@ -3,6 +3,8 @@ layout: post
 title: "55 Line topology optimization code"
 description: "Most compact and readable code for topology optimization."
 langs: [python, c++]
+year: "September 2006"
+
 typora-root-url: ../../../../website
 ---
 

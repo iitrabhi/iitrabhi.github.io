@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Automated liquifaction analysis"
+title: "Random vibration analysis"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
 year: "September 2006"

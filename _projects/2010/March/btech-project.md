@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Fees Management System"
+title: "RCC design of multistorey building"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: 2010
+year: "March 2010"
 typora-root-url: ../../../../website
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Fees Management System"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: 2006
+year: "March 2006"
 typora-root-url: ../../../../website
 ---
 
