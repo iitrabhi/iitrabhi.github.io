@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Random vibration analysis"
-description: "This was my first coding project. It included relational databases."
+description: "Creating codes to carry out random vibration analysis in FEniCS."
 langs: [FoxPro]
 year: "March 2021"
 typora-root-url: ../../../../website
