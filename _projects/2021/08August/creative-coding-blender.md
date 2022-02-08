@@ -2,7 +2,7 @@
 layout: post
 title: "Creative coding in blender"
 description: "Using python to make animations in Blender for SoME challenge."
-langs: [FoxPro]
+langs: [python]
 year: "August 2021"
 typora-root-url: ../../../../website
 ---
