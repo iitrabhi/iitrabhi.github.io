@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Adaptive phase field fracture"
+title: "Computational mechanics website"
 description: "My first PR that got merged into a popular opensource code."
 langs: [python]
-year: "September 2006"
+year: "March 2019"
 
 typora-root-url: ../../../../website
 ---

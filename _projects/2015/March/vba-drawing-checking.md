@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "stayayurvedic website"
+title: "Automated RCC design drawing checking system."
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "March 2015"
 typora-root-url: ../../../../website
 ---
 

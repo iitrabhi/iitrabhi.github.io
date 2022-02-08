@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Automated RCC design drawing checking system."
+title: "My personal website - abhigupta.io"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "December 2021"
 typora-root-url: ../../../../website
 ---
 

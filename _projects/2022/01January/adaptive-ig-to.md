@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "eigenplus apps"
+title: "Adaptive isogeometric topology optimization"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "January 2022"
 typora-root-url: ../../../../website
 ---
 

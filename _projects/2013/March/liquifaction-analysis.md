@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Adaptive isogeometric topology optimization"
+title: "Automated liquifaction analysis"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "March 2013"
 typora-root-url: ../../../../website
 ---
 

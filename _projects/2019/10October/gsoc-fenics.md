@@ -3,7 +3,7 @@ layout: post
 title: "Google summer of code 2019: DolfinX"
 description: "I was lucky enough to participate and complete GSoC 2019."
 langs: [python, c++]
-year: "September 2006"
+year: "October 2019"
 typora-root-url: ../../../../website
 ---
 

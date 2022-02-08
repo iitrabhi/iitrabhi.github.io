@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "stayayurvedic apps"
+title: "stayayurvedic website"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: 2012
+year: "Novemeber 20017"
 typora-root-url: ../../../../website
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Pen printer with Arduino"
+title: "Creative coding in blender"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "August 2021"
 typora-root-url: ../../../../website
 ---
 

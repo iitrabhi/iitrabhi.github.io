@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "GUI based application for understanding isogeometric analysis"
+title: "eigenplus website"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "January 2016"
 typora-root-url: ../../../../website
 ---
 

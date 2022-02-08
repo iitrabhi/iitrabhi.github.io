@@ -3,7 +3,7 @@ layout: post
 title: "Adaptive phase field topology optimization"
 description: "Most compact and readable code for topology optimization."
 langs: [python, c++]
-year: "September 2006"
+year: "Novemeber 2020"
 
 typora-root-url: ../../../../website
 ---

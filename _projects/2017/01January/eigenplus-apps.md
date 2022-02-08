@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Automated liquifaction analysis"
+title: "eigenplus apps"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "January 2017"
 typora-root-url: ../../../../website
 ---
 

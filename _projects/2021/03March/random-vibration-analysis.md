@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Creative coding in blender"
+title: "Random vibration analysis"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "March 2021"
 typora-root-url: ../../../../website
 ---
 

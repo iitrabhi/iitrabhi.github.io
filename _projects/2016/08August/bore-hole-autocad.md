@@ -3,7 +3,7 @@ layout: post
 title: "Integrated workflow for bore hole placement in Autocad"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "August 2016"
 typora-root-url: ../../../../website
 ---
 

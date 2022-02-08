@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Random vibration analysis"
+title: "Pen printer with Arduino"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
-year: "September 2006"
+year: "March 2022"
 typora-root-url: ../../../../website
 ---
 
