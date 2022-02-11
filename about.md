@@ -14,6 +14,7 @@ I also love the open-source community and use FEniCS as my primary package for p
 | -------------- | ------------------------------------------------------------ |
 |   11/10/2021  |   Article on [metamaterials](https://www.sciencedirect.com/science/article/pii/S0168874X21001311) accepted in Finite Elements in Analysis and Design  |
 |   23/08/2021  |   Completed training course `Introduction to using Firedrake on ARCHER2`. ARCHER2 is the UK National Supercomputing Service   |
+| 23/03/2021| Gave talk at the FEniCS 2021 conference `Run-time from 300 years to 300 min: Lessons learned in large-scale modeling in FEniCS` |
 |   15/12/2020  |   Published the [55-line code article](https://arxiv.org/abs/2012.08208) in arXiV.    |
 |   **19/07/2020**  |   **Achieved a personal goal of developing the shortest topology optimization code with FEniCS. So happy about it 🥳😁.**   |
 |   11/05/2020  |   Working topology optimization code in FEniCS achieved in 99 lines. Started development on 08/05/2020    |
