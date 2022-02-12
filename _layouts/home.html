@@ -12,21 +12,28 @@ layout: default
         <p style="color: #ffffff; font-size: 24px;line-height: 1.0;margin-top: -16px">{{ site.description }}</p>
     </div>
 
-    <hr>
+    <hr style="margin-bottom: 0px;">
     <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_flex -->
     <div class="row">
         <div class="column">
-            <h2 style="font-weight: bold;margin-top: 0px;">What I’m about</h2>
-            <p>I learned about the importance of finite element analysis in different engineering fields while working as a scientific officer at Nuclear Power Corporation of India Limited. Right now, I’m a research scholar at the Indian Institute of Technology Roorkee, where I work on exploring the applications of finite element methods to solve real-world engineering problems by utilising the power of HPC.</p>
+            <h2 style="font-weight: bold;margin-top: 0px;"><a href="https://abhigupta.io/about">What I’m about</a></h2>
+            <p>I have five years of industrial experience analyzing and designing power plants at the <em>"Nuclear Power Corporation of India Limited"</em>. Right now, I’m a research scholar at the <em>"Indian Institute of Technology Roorkee"</em>, where I work on exploring the applications of finite element methods to solve real-world engineering problems by utilizing the power of HPC.</p>
         </div>
         
         <div class="column">
-            <h2 style="font-weight: bold;margin-top: 0px;">My Passion</h2>
-            <p>I ♥️ to code. I took coding as an elective subject during high school and loved it. My first project was a fees management system that I had developed in FoxPro - a relational database management system. Since then, I have tried to find creative solutions to my everyday problems using coding. I have developed a few Android applications and have made a few websites. <a href="https://abhigupta.io/projects">You can find my work here.</a></p>
+            <h2 style="font-weight: bold;margin-top: 0px;"><a href="https://abhigupta.io/projects">My Passion</a></h2>
+            <p>I ♥️ to code. I took coding as an elective subject during high school and loved it. My first project was a fees management system that I had developed in FoxPro - a relational database management system. Since then, I have tried to find creative solutions to my everyday problems using coding. I have developed a few Android applications and have made a few websites.</p>
         </div>
     </div>
-    <hr>
-
+    <hr style="margin-top: 0px;">
+  
+    <div>
+    <blockquote>
+    It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong.
+    </blockquote>
+    <div style="text-align:right;">
+    <cite><a>Richard P. Feynman</a></cite>
+    </div>
     {%- if site.posts.size > 0 -%}
     <ul class="post-list">
         {% for post in site.posts %}
