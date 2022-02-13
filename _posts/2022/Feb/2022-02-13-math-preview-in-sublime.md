@@ -22,6 +22,9 @@ When working on a LaTeX project in sublime, if I have defined custom commands wi
   {"auto_set_preview_math_template_preamble": false}
   ```
 
+- GoTo `prefrences` → `Browse Packages` → `LaTeXYZ`→`support`→`Default.sublime-keymap`
+- Comment out the full file. This step is necessary because otherwise `LaTeXYZ` would interfere with normal working of `LaTeXtools`.
+
 ## Reference
 
 [Question on Stack overflow](https://stackoverflow.com/questions/42284544/st3-latex-loading-locally-defined-commands-for-in-line-live-preview-of-math)
