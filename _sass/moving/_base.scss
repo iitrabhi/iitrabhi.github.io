@@ -111,6 +111,9 @@ img {
     background-color: lighten($grey-color-light, 3%);
     max-width: 100%;
     vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /**
@@ -118,10 +121,16 @@ img {
   */
 figure>img {
     display: block;
+    align-self:center;
 }
 
 figcaption {
     font-size: $small-font-size;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: lighten($grey-color, 20%);
+    text-align: center;
 }
 
 /**
