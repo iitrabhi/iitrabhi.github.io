@@ -2,6 +2,12 @@
 layout: post
 title: Tags
 ---
+<section>        
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags  %}
+        <a href="#{{ tag[0] | slugify }}"><code>#{{ tag[0] }}</code></a>
+    {% endfor %}
+</section>
 
 <section class="tag-list">
     {% assign sorted_tags = site.tags | sort %}
