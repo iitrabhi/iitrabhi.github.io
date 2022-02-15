@@ -19,7 +19,7 @@ When working on a LaTeX project in sublime, if I have defined custom commands wi
 - GoTo user prefrences of LaTeXYZ and set the following command to true.
 
   ```json
-  {"auto_set_preview_math_template_preamble": false}
+  {"auto_set_preview_math_template_preamble": true}
   ```
 
 - GoTo `prefrences` → `Browse Packages` → `LaTeXYZ`→`support`→`Default.sublime-keymap`
