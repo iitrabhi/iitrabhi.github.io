@@ -35,7 +35,7 @@ Designing and debugging a FEniCS code in a jupyter notebook is effortless. I lov
 
 ## The execution
 
-From the official documentation it seems quite easy. Parallelization is as simple as setting the number of processors on which to parallelize. But, from experience I know that it is never this straightforward for custom applications. Anyhow, as a starting point if I am not trying to get anything back from the parallel computation it should just work. Here is my first try with the poisson equation.
+From the official documentation, it seems pretty straightforward. Parallelization is as simple as setting the number of processors to parallelize. But, from experience, I know that it is never this simple for custom applications. Anyhow, as a starting point, if I am not trying to get anything back from the parallel run, it should just work. Here is my first try with the Poisson equation.
 
 ```python
 import ipyparallel as ipp
@@ -85,9 +85,8 @@ print("Elements with each processor: ",r)
 ``` 
 Elements with each processor:  [119007, 119491, 122701, 117966, 120324, 120511]
 ```
-As we can see from the output each processor has a different portion of the mesh and thus different numbers of elements. 
-
-Right now I am unable to see significant computational gains with parallelization. But, anyhow this experiment is half successful.
+As we can see from the output, each processor has a different portion of the mesh and thus a different number of elements. 
+Right now, I am unable to see significant computational gains with parallelization. But, anyhow, this experiment is half successful.
 
 ## Reference
 
