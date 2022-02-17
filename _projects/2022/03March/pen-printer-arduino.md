@@ -4,7 +4,7 @@ title: "Pen printer with Arduino"
 description: "Transitioning from the virtual realm to reallity with arduino."
 langs: [python, C++]
 year: "March 2022"
-date: 2022-03-01
+date: 2022-02-01
 typora-root-url: ../../../../website
 ---
 
