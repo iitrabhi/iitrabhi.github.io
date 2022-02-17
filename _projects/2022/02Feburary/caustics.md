@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Caustics in FEniCS"
+title: "Caustics in FEniCS [WIP]"
 description: "Recreating the winning entry of 3B1B SoME challenge."
 langs: [python]
 year: "Feburary 2022"

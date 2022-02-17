@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pen printer with Arduino"
+title: "Pen printer with Arduino [WIP]"
 description: "Transitioning from the virtual realm to reallity with arduino."
 langs: [python, C++]
 year: "March 2022"
