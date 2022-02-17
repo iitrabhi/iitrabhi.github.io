@@ -4,6 +4,7 @@ title: "Fees Management System"
 description: "This was my first coding project. It included relational databases."
 langs: [FoxPro]
 year: "March 2006"
+date: 2006-03-01
 typora-root-url: ../../../../website
 ---
 
