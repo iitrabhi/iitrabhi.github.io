@@ -12,4 +12,8 @@ I participated in the [SoME one challenge 2020](https://www.youtube.com/watch?v=
 
 Immediately after reading the blog post, I wanted to recreate the analysis portion in FEniCS and use the CNC machine in our lab to create the object. Moreover, after going through the [issues](https://github.com/MattFerraro/causticsEngineering/issues/10), I learned that we could model caustics in Blender. And thus, we can test out different results of my analysis run without even creating the thing in the real world.
 
-The first step was to just run the code and test the generated model in Blender.
+The first step was to just run the code and test the generated model in Blender. Here is the 3D model setup. It's crude right now but I did get the results.
+
+![image-20220217234453361](/C:/Users/iitra/AppData/Roaming/Typora/typora-user-images/image-20220217234453361.png)
+
+The image generated from this experiment is not that much good, but it's a good first try. So, it's a win for me. The next step is to get a clean image in Blender.
