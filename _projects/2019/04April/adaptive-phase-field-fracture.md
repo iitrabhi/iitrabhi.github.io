@@ -27,3 +27,11 @@ In this work, we propose an auto-adaptive displacement stepping algorithm to aut
 <figcaption>Comparison of standard alternate minimization algorithm (AM) and auto-adaptive sub-stepping algorithm (AS) for the mode-1 problem: (a) reaction force versus displacement graph, (b) CPU time versus displacement graph. The proposed sub-stepping algorithm is able to accurately capture the response of the system with 90% reduction in CPU time to reach peak load and 62% reduction in CPU time for complete analysis.</figcaption>
 
 ![image-20220217204922697](/assets/images/image-20220217204922697.png)
+
+![image-20220217210324812](/assets/images/image-20220217210324812.png)
+
+![image-20220217210423964](/assets/images/image-20220217210423964.png)
+
+## Conclusion
+
+In this work, we proposed an auto-adaptive displacement stepping algorithm with a sub-stepping algorithm to achieve adaptivity in the displacement step for solving the coupled system of non-linear equations arising from the phase field formulation of brittle fracture. We achieved a reduction of 78–90% in the CPU time required to reach the peak reaction force. Also, there is a reduction of 56–78% in the CPU time corresponding to the final solution.
