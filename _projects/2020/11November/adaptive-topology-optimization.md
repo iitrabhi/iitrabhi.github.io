@@ -10,8 +10,6 @@ typora-root-url: ../../../../website
 
 
 
-
-
 ![mesh](/assets/images/mesh.jpg)
 
 ![output](/assets/images/output.jpg)
