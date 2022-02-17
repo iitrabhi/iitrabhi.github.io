@@ -14,6 +14,6 @@ Immediately after reading the blog post, I wanted to recreate the analysis porti
 
 The first step was to just run the code and test the generated model in Blender. Here is the 3D model setup. It's crude right now but I did get the results.
 
-![image-20220217234453361](/C:/Users/iitra/AppData/Roaming/Typora/typora-user-images/image-20220217234453361.png)
+![image-20220217234453361](/assets/images/image-20220217234453361.png)
 
 The image generated from this experiment is not that much good, but it's a good first try. So, it's a win for me. The next step is to get a clean image in Blender.
