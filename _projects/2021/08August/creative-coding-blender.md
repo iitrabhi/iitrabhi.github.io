@@ -4,6 +4,7 @@ title: "Creative coding in blender"
 description: "Using python to make animations in Blender for SoME challenge."
 langs: [python]
 year: "August 2021"
+date: 2021-08-01
 typora-root-url: ../../../../website
 ---
 

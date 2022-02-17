@@ -4,6 +4,7 @@ title: "Automated RCC design drawing checking system."
 description: "Automating the RCC drawing checking procedure in VBA."
 langs: [VBA]
 year: "March 2015"
+date: 2015-03-01
 typora-root-url: ../../../../website
 ---
 

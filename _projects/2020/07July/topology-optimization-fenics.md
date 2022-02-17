@@ -4,7 +4,7 @@ title: "55 Line topology optimization code"
 description: "Most compact and readable code for topology optimization."
 langs: [python, c++]
 year: "July 2020"
-
+date: 2020-07-01
 typora-root-url: ../../../../website
 ---
 

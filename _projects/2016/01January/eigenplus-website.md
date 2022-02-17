@@ -4,6 +4,7 @@ title: "eigenplus website"
 description: "Creating a platform to share knowledge of civil engineering."
 langs: [wordpress]
 year: "January 2016"
+date: 2016-01-01
 typora-root-url: ../../../../website
 ---
 
