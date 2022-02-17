@@ -27,7 +27,7 @@
         transition: all 0.2s ease-out;
         box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
         top: -4px;
-        background-color: darken($background-color, 2%);
+        background-color: $code-background;
     }
 
    
