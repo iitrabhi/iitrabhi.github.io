@@ -16,4 +16,6 @@ The first step was to just run the code and test the generated model in Blender.
 
 ![image-20220217234453361](/assets/images/image-20220217234453361.png)
 
-The image generated from this experiment is not that much good, but it's a good first try. So, it's a win for me. The next step is to get a clean image in Blender.
+The image generated from this experiment is not that good, but it's a good first try. So, it's a win for me. The next step is to get a clean image in Blender.
+
+![image-20220218000257522](/assets/images/image-20220218000257522.png)
