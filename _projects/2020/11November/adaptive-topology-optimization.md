@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adaptive phase field topology optimization"
+title: "Adaptive phase field topology optimization [WIP]"
 description: "Computational codes to carry out adaptive TO in FEniCS"
 langs: [python, c++]
 year: "Novemeber 2020"
