@@ -53,6 +53,7 @@ remote_theme: iitrabhi/moving
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 
 
@@ -70,3 +71,7 @@ head_scripts:
 collections:
   projects:
     output: true
+
+# Compress CSS files
+sass:
+    style: compressed
