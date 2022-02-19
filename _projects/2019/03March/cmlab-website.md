@@ -12,4 +12,4 @@ As the team at the lab was growing, there was a need for sharing the lab's resou
 
 ![image-20220217202225880](/assets/images/image-20220217202225880.png)
 
-Since launch of the website, 10 new people joined our lab and had a good on-boarding experience. Most of them completed the full on-boarding process in less than a week. That included completion of all the courses on the [resources page](https://computationalmechanics.in/resources/) along with installation of all the softwares required for research.
+Since launch of the website, 10 new people joined our lab and had a good on-boarding experience. Most of them completed the full on-boarding process in less than a month. That included completion of all the courses on the [resources page](https://computationalmechanics.in/resources/) along with installation of all the softwares required for research.
