@@ -6,7 +6,9 @@ tag:
 typora-root-url: ../../../website
 ---
 
-I am using sublime as the latex editor of choice and I really like it. The only problem that I had with sublime was that it was creating all the output files and auxilary files in the root directory. This was creating a mess. I like to keep things clean and minimal. Today I found a solution. We just need to set the `aux_directory` and the `output_directory` in the sublime-project file. Sublime will then create all the respective folders and files. If you need to clean your directory you only need to delete the `cache` folder.
+I am using sublime as the latex editor of choice, and I like it. The only problem with sublime is that it creates all the output files and auxiliary files in the root directory. These additional files make a mess. I desire to keep things clean and minimal. 
+
+Today I found a solution for my problem. We need to set the `aux_directory` and the `output_directory` in the `.sublime-project` file. Sublime will then create all the additional folders and files in that directory. If you need to clean your LaTeX project, you only need to delete the cache folder.
 
 ```json
 {
@@ -38,3 +40,4 @@ I am using sublime as the latex editor of choice and I really like it. The only 
 }
 ```
 
+This procedure only works with TexLive in windows. On MAC, it works with MacTex. Unfortunately, it does not work with MikeTex.
