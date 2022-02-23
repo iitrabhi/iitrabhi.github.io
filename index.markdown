@@ -3,5 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-image: /assets/images/abhi-3.jpg
+image: /assets/images/abhnav-gupta.jpg
 ---
