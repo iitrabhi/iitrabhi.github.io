@@ -15,5 +15,5 @@ One of the synopsis report sections is titled - "[Proposed Contents of the Thesi
 - **Chapter name:** First, you broadly decide on the name of the chapters that you wish to include in the thesis.
 - **Chapter contents:** Next, you state the intention of the chapter. This step will help you and your supervisor have clarity and agreement over the thesis contents and avoid rework due to miscommunication. Once finalized, this will become the guiding light for writing your thesis.
 
-
+![image-20220223110227804](/assets/images/image-20220223110227804.png)
 
