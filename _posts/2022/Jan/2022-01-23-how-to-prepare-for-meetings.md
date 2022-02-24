@@ -19,7 +19,7 @@ It is imperative to have a proper format and have some ground rules to conduct m
 
   > To abuse other people’s time by failing to prepare shorter, better meetings amounts to stealing a portion of their lives. 
   
-  <cite> Drucker, Peter F., The Effective Executive</cite>
+  <cite> [Drucker, Peter F., The Effective Executive](https://www.amazon.in/dp/B000FC11JW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)</cite>
 
 - **Participation of participants**: Meetings should be limited to those who are actively involved in the agenda of the meeting. Also, everyone attending the meeting should actively participate in the creation and finalization of the agenda of the meeting. The agenda should detail the key points to be discussed during the meetings and the supplimentary material required for the discussion. The supplimentary material should be attached in such a sense that it helps other attendess understand the issue.
 
