@@ -17,3 +17,5 @@ The change the value of variable `MainWindowBackground` to `#2d2d2d`
 This will give you a nice and consisted background color. To change the page color to a comfortable color you can change `BackgroundColor` in `FixedPageUI` to `#dfdfdf`
 
 ![image-20210210152246682](/assets/images/image-20210210152246682.png) 
+
+For a complete latex workflow you can check [this post](https://abhigupta.io/2021/05/14/clean-sublime-setup.html).
