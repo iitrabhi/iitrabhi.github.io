@@ -8,7 +8,7 @@ date: 2019-04-01
 typora-root-url: ../../../../website
 ---
 
-Phase-field fracture(PFF) analysis was not part of my Ph.D. proposal. Still, since there existed a lot of literature on the phase-field method in the domain of fracture, I started learning it to use it further in topology optimization. I got a lot of help from my friend [Dr. Tushar K Mandal](tusharmandal.com), who was actively working in the phase-field method at the time. Also, since I was working in FEniCS and there existed an open-source code of PFF in FEniCS by [Dr. Hirshikesh](https://scholar.google.co.in/citations?user=2-tIkOcAAAAJ&hl=en) and [Dr. Emilio Martínez Pañeda](https://scholar.google.co.in/citations?user=DDVhQIcAAAAJ&hl=en), I opted to start learning the about phase-field with PFF. One of my colleagues, [Meenu Krishnan](https://www.researchgate.net/profile/Meenu-Krishnan), also joined me in this effort. All of this led to the development of a generalized and modularized code of PFF in FEniCS with support for parallelization. The code can handle all the three most popular PFF models and supports checkpointing and restart analysis. This code is one of the significant achievements of my Ph.D.
+Phase-field fracture(PFF) analysis was not part of my Ph.D. proposal. Still, since there existed a lot of literature on the phase-field method in the domain of fracture, I started learning it to use it further in topology optimization. I got a lot of help from my friend [Dr. Tushar K Mandal](tusharmandal.com), who was actively working in the phase-field method at the time. Also, since I was working in FEniCS and there existed an open-source code of PFF in FEniCS by [Dr. Hirshikesh](https://scholar.google.co.in/citations?user=2-tIkOcAAAAJ&hl=en) and [Dr. Emilio Martínez Pañeda](https://scholar.google.co.in/citations?user=DDVhQIcAAAAJ&hl=en), I opted to start learning about phase-field with PFF. One of my colleagues, [Meenu Krishnan](https://www.researchgate.net/profile/Meenu-Krishnan), also joined me in this effort. All of this led to the development of a generalized and modularized code of PFF in FEniCS with support for parallelization. The code can handle all the three most popular PFF models and supports checkpointing and restart analysis. This code is one of the significant achievements of my Ph.D.
 
 ![Ph.D.@2x](/assets/images/Ph.D.@2x.png)
 
@@ -43,3 +43,7 @@ In this work, we propose an auto-adaptive displacement stepping algorithm to aut
 ## Conclusion
 
 In this work, we proposed an auto-adaptive displacement stepping algorithm with a sub-stepping algorithm to achieve adaptivity in the displacement step for solving the coupled system of non-linear equations arising from the phase field formulation of brittle fracture. We achieved a reduction of 78–90% in the CPU time required to reach the peak reaction force. Also, there is a reduction of 56–78% in the CPU time corresponding to the final solution.
+
+# Outcome 2
+
+[A length scale insensitive phase field model for brittle fracture of hyperelastic solids](https://www.sciencedirect.com/science/article/pii/S0013794420307797)
