@@ -14,13 +14,13 @@ I like to develop using a jupyter notebook for FEniCS. Right now my development 
 1. I do not like the theme of Jupyter Lab. I love working in the sublime text and am accustomed to the `Mariana` color scheme. 
 2. We can not directly open `*.ipnby` files from the file browser. Sometimes I wish to just browse different notebooks in a folder without launching the container. This is right now not possible with my current workflow.
 
-![image-20220226170047101](/_posts/2022/assets/images/image-20220226170047101.png)
+![image-20220226170047101](/assets/images/image-20220226170047101.png)
 
 ## The solution
 
 I found out that VSCode supports the opening of `*.ipnby` files directly from the file browser. Once I searched for different color schemes available in VSCode, I was happy to find [Mariana Pro](https://marketplace.visualstudio.com/items?itemName=rickynormandeau.mariana-pro) theme for VSCode. This in itself was a great find and I love the outcome. Here is the same file in VSCode with Mariana theme.
 
-![image-20220226170639588](/_posts/2022/assets/images/image-20220226170639588.png)
+![image-20220226170639588](/assets/images/image-20220226170639588.png)
 
 So far so good. I can now directly open my notebooks with a double click to view their contents. But, what if I am able to attach the remote server to it and run the code 🤩.
 
@@ -38,15 +38,15 @@ Yes, we can attach the notebook to the remote server and, the process is quite s
 
 - Now open VSCode and, on the bottom right of the application window click on the `Jupyter server` button
 
-  ![image-20220226171418154](/_posts/2022/assets/images/image-20220226171418154.png)
+  ![image-20220226171418154](/assets/images/image-20220226171418154.png)
 
 - This will open a command pallet. Click on the `Existing` option and then paste the remote address. 
 
-  ![image-20220226171540958](/_posts/2022/assets/images/image-20220226171540958.png)
+  ![image-20220226171540958](/assets/images/image-20220226171540958.png)
 
 - Now click on the `Select Kernel` option on the top right and select the first python from it.
 
-  ![image-20220226171748655](/_posts/2022/assets/images/image-20220226171748655.png)
+  ![image-20220226171748655](/assets/images/image-20220226171748655.png)
 
 - That is it. Now you can run your code by using the remote server's python.
 
