@@ -52,5 +52,5 @@ Yes, we can attach the notebook to the remote server and, the process is quite s
 
 Even though I am able to use the remote server, I am facing a small issue. In Jupyter Lab, when we open a notebook, it makes the directory of the notebook as current and will execute the code from that location. But, in the case of VSCode, it keeps the project directory as the root directory. This is problematic as to perform read and write operations from the current directory we need the latter.
 
-Here is the issue on GitHub: https://github.com/microsoft/vscode-jupyter/issues/8771
+Here is the [issue on GitHub](https://github.com/microsoft/vscode-jupyter/issues/8771)
 
