@@ -375,3 +375,18 @@ nav {
 }
 
 
+::-webkit-scrollbar {
+    height: 0px;              /* height of horizontal scrollbar */
+    width: 10px;               /* width of vertical scrollbar */}
+    
+::-webkit-scrollbar-track {
+ background: transparent; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: lighten($background-color, 100%); 
+  &:hover {
+    background: lighten($background-color, 10%);
+  }
+}
