@@ -19,3 +19,9 @@ The first step was to just run the code and test the generated model in Blender.
 The image generated from this experiment is a good first try. The next step is to get a clean image in Blender with the parameters presented in the blog post.
 
 ![image-20220218000257522](/assets/images/image-20220218000257522.png)
+
+`[Update 25/2/22]` The initial machining failed to produce any image with caustics. After reading the original blog post, I figured out one key difference, the toolpath for roughing and finishing operations must be parallel. Also, we had scaled the model to fit the dimensions. The next try will be with actual dimensions.
+
+`[Update 2/3/22]` With some tweaks, I got the following image from the blender simulation. This simulation is with the 100mm $$\times$$ 100mm size and 5mm thickness of the acrylic sheet. The total cut depth is 3mm. Will try to machine it tomorrow and update the results.
+
+![image-20220302214214166](/assets/images/image-20220302214214166.png)

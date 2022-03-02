@@ -64,3 +64,6 @@ docker run -p 8888:8888 -v path_to_notebook:/root/ -w /root/ iitrabhi/fenics_not
 
 Here is the [issue on GitHub](https://github.com/microsoft/vscode-jupyter/issues/8771)
 
+## Reference
+
+- [16 Reasons to Use VS Code for Developing Jupyter Notebooks](https://pbpython.com/vscode-notebooks.html)
