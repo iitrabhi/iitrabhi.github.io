@@ -10,7 +10,7 @@ typora-root-url: ../../../../website
 
 Iso-geometric analysis (IGA) is a relatively new method that is a logical extension and generalisation of the classical finite element method (FEM). The idea of IGA was to merge the gap between computer aided design (CAD) and computer aided engineering (CAE) into one model by using a unified geometric representation.. When the researchers started exploring the concept, the primary intention was to perform finite element simulation in the 3D modeling package. But, when I began exploring software packages that allowed IGA, I was disappointed to find out that the only package that supported IGA was not active anymore. Thus, I started development of my own package.
 
-To facilitate rapid prototyping and testing of new IGA based elements a GUI based framework to carry out IGA has been developed. This work is still under progress. The aim with this project is to create a scalable object oriented implementation of IGA. The figure below presents working of the in-house developed GUI based framework to carry out IGA for a plate bending problem.
+![iga-gui](/assets/images/iga-gui.png)To facilitate rapid prototyping and testing of new IGA based elements a GUI based framework to carry out IGA has been developed. This work is still under progress. The aim with this project is to create a scalable object oriented implementation of IGA. The figure below presents working of the in-house developed GUI based framework to carry out IGA for a plate bending problem.
 
 ![IITR-IGA1](/assets/images/IITR-IGA1.png)
 
