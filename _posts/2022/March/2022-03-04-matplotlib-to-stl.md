@@ -52,4 +52,4 @@ surf2stl.write('3d-sinusoidal.stl', X, Y, Z)
 
 ## Note
 
-If the data does not obey mesh-grid structure then we need to perform triangulation on the point cloud and generate a triangulated surface. Post triangulation either we can use [pygmsh](https://github.com/nschloe/pygmsh) or [pyvista](https://docs.pyvista.org/) to write the mesh in XDMF or VTU
+If the data does not obey mesh-grid structure then we need to perform triangulation on the point cloud and generate a triangulated surface. Post triangulation either we can use [pygmsh](https://github.com/nschloe/pygmsh) or [pyvista](https://docs.pyvista.org/) to write the mesh in XDMF or VTU.
