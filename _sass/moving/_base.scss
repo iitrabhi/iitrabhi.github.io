@@ -233,6 +233,7 @@ pre {
     overflow-x: auto;
 
     >code {
+        @include relative-font-size(0.9);
         display: block;
         border: 0px solid darken($grey-color-light, 3%);
         padding-right: 0;
