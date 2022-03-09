@@ -121,7 +121,7 @@ img {
   */
 figure>img {
     display: block;
-    align-self:center;
+    align-self: center;
 }
 
 figcaption {
@@ -203,9 +203,9 @@ blockquote {
     }
 }
 
-cite{
-     text-align: right; 
-     display: block;
+cite {
+    text-align: right;
+    display: block;
 }
 
 /**
@@ -214,18 +214,19 @@ cite{
   * ` -> code
   */
 
-pre, code{
+pre,
+code {
     border: 3px solid #ffffff;
     border-radius: 3px;
 }
 
 code {
-     @include relative-font-size(0.9);
+    @include relative-font-size(0.9);
     color: $notion-red;
     border: 1px solid darken($grey-color-light, 3%);
     border-radius: 3px;
     background-color: lighten($grey-color-light, 3%);
-     padding: 1px 1px;
+    padding: 1px 1px;
 }
 
 pre {
@@ -239,10 +240,8 @@ pre {
         padding-right: 0;
         padding-left: 0;
         margin: 10px;
-                color: #fff;
-
-        // margin-right: 10px;
-        background-color: rgba(76, 175, 80, 0.0) ;
+        color: #fff;
+        background-color: rgba(76, 175, 80, 0.0);
     }
 }
 
@@ -356,7 +355,7 @@ nav {
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .row {
@@ -370,34 +369,39 @@ nav {
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .row {
-    flex-direction: column;
-  }
+    .row {
+        flex-direction: column;
+    }
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: $background-color;
-  background: $text-color;
+::-moz-selection {
+    /* Code for Firefox */
+    color: $background-color;
+    background: $text-color;
 }
 
 ::selection {
-  color: $background-color;
-  background: $text-color;
+    color: $background-color;
+    background: $text-color;
 }
 
 
 ::-webkit-scrollbar {
-    height: 0px;              /* height of horizontal scrollbar */
-    width: 10px;               /* width of vertical scrollbar */}
-    
-::-webkit-scrollbar-track {
- background: transparent; 
+    height: 0px;
+    /* height of horizontal scrollbar */
+    width: 10px;
+    /* width of vertical scrollbar */
 }
- 
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: lighten($background-color, 100%); 
-  &:hover {
-    background: lighten($background-color, 10%);
-  }
+    border-radius: 10px;
+    background: lighten($background-color, 100%);
+
+    &:hover {
+        background: lighten($background-color, 10%);
+    }
 }
