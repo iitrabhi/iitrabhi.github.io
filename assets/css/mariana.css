@@ -1,0 +1,194 @@
+/*!
+ * Agate by Taufik Nurrohman <https://github.com/tovic>
+ * ----------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #ffa
+ * #fc9b9b
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ *
+ */
+.highlight table td { padding: 0px; }
+.highlight table pre { margin: 0;}
+
+.highlight {
+  color: #faf6e4;
+  background-color: #1A1D24;
+}
+.highlight .gl {
+  color: #dee5e7;
+  background-color: #4e5d62;
+}
+.highlight .gp {
+  color: #a8e1fe;
+  font-weight: bold;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #6c8b9f;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .err {
+  color: #fefeec;
+  background-color: #fff;
+}
+.highlight .gr {
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .k, .highlight .kd, .highlight .kv {
+  color: #c6b4f0;
+  font-weight: bold;
+}
+.highlight .o, .highlight .ow {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .p, .highlight .pi {
+  color: #62c8f3;
+}
+.highlight .gd {
+  color: #fff;
+}
+.highlight .gi {
+  color: #62c8f3;
+}
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gt {
+  color: #dee5e7;
+  background-color: #4e5d62;
+}
+.highlight .kc {
+  color: #f696db;
+  font-weight: bold;
+}
+.highlight .kn {
+  color: #fc9b9b;
+  font-weight: bold;
+}
+.highlight .kp {
+  color: #fc9b9b;
+  font-weight: bold;
+}
+.highlight .kr {
+  color: #fc9b9b;
+  font-weight: bold;
+}
+.highlight .gh {
+  color: #fc9b9b;
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #fc9b9b;
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .no {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .nc {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .nd {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .bp {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .ne {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .nl {
+  color: #fc9b9b;
+  font-weight: bold;
+}
+.highlight .nt {
+  color: #fc9b9b;
+  font-weight: bold;
+}
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #f696db;
+  font-weight: bold;
+}
+.highlight .ld {
+  color: #f696db;
+  font-weight: bold;
+}
+.highlight .ss {
+  color: #f696db;
+  font-weight: bold;
+}
+.highlight .s, .highlight .sb, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
+  color: #fff0a6;
+  font-weight: bold;
+}
+.highlight .sa {
+  color: #c6b4f0;
+  font-weight: bold;
+}
+.highlight .se {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .sc {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .si {
+  color: #62c8f3;
+  font-weight: bold;
+}
+.highlight .nb {
+  font-weight: bold;
+}
+.highlight .ni {
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .w {
+  color: #BBBBBB;
+}
+.highlight .go {
+  color: #BBBBBB;
+}
+.highlight .nf, .highlight .fm {
+  color: #a8e1fe;
+}
+.highlight .py {
+  color: #a8e1fe;
+}
+.highlight .na {
+  color: #a8e1fe;
+}
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
+  color: #a8e1fe;
+  font-weight: bold;
+}

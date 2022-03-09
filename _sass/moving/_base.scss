@@ -210,28 +210,38 @@ cite{
 
 /**
   * Code formatting
+  * ``` -> pre
+  * ` -> code
   */
-pre,
+
+pre, code{
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+}
+
 code {
-    @include relative-font-size(0.9);
+     @include relative-font-size(0.9);
     color: $notion-red;
     border: 1px solid darken($grey-color-light, 3%);
     border-radius: 3px;
     background-color: lighten($grey-color-light, 3%);
-}
-
-code {
-    padding: 1px 1px;
+     padding: 1px 1px;
 }
 
 pre {
-    padding: 2px 2px;
+    // padding: 2px 2px;
     overflow-x: auto;
 
     >code {
-        border: 0;
+        display: block;
+        border: 0px solid darken($grey-color-light, 3%);
         padding-right: 0;
         padding-left: 0;
+        margin: 10px;
+                color: #fff;
+
+        // margin-right: 10px;
+        background-color: rgba(76, 175, 80, 0.0) ;
     }
 }
 
