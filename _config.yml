@@ -49,7 +49,7 @@ moving:
     #   instance: 
 
 # Build settings
-remote_theme: iitrabhi/moving
+# remote_theme: iitrabhi/moving
 plugins:
   - jekyll-feed
   - jekyll-sitemap
