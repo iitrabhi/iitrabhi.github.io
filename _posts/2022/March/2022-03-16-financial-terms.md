@@ -37,4 +37,4 @@ From an [income tax perspective](https://cleartax.in/s/income-tax), FY is the ye
 
 - [An excellent post to start with](https://cleartax.in/s/what-is-financial-year-assessment-year)
 - [Understanding Due Date](https://cleartax.in/s/due-date-tax-filing#:~:text=What%20is%20the%20last%20date,respectively%2C%20due%20to%20the%20pandemic.)
-- https://cleartax.in/s/income-tax
+- [Basics of income tax](https://cleartax.in/s/income-tax)
