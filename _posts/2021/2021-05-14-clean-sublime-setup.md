@@ -50,7 +50,7 @@ typora-root-url: ../../../website
   		"LaTeX-cwl",
   		"LaTeXTab",
   		"LaTeXTools",
-      "LaTeXYZ",
+  		"LaTeXYZ",
   		"Non Text Files",
   		"Package Control",
   		"Python 3",
