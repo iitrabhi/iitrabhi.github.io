@@ -27,7 +27,9 @@ From an [income tax perspective](https://cleartax.in/s/income-tax), FY is the ye
 ## Who needs to file ITR
 
 - If the total income for the FY is more than 2.5 Lakhs, then it is mandatory to file ITR.
-- Students who get stipends **also need to file ITR**, and it might be a good idea to build your ITR profile if you wish to take loans in the future or need to apply for VISA. The logic in both cases is quite simple; the bank needs to know that you have a good financial sense. Proper filing of ITR will generate trust with the bank. If you do not follow GOI's proper financial rules, they will not trust you. Again in the second case, if you wish to go abroad, the VISA issuing authority needs to know that you are a responsible citizen of your country and would follow the rules of their country. 
+- Students who get stipends **also need to file ITR**, and it might be a good idea to build your ITR profile if you wish to take loans in the future or need to apply for VISA. 
+- The logic in both cases is quite simple; the bank needs to know that you have a good financial sense. Proper filing of ITR will generate trust with the bank. If you do not follow GOI's proper financial rules, they will not trust you. 
+- In the second case, if you wish to go abroad, the VISA issuing authority needs to know that you are a responsible citizen of your country and would follow the rules of their country. 
 
 ---
 
