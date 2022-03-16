@@ -7,7 +7,7 @@ tag:
 typora-root-url: ../../../../website
 ---
 
-- I would love to learn about India's financial system so that I can better control my personal and professional finance. I am a complete novice in the financial planning department. This post is me trying to learn about financial terms actively. 
+I would love to learn about India's financial system so that I can better control my personal and professional finance. I am a complete novice in the financial planning department. This post is me trying to learn about financial terms actively. 
 
 - **Financial Year:** A Financial Year (FY) is the period between `1st April and 31st March` – the accounting year in which you earn an income.
 
@@ -24,13 +24,14 @@ From an [income tax perspective](https://cleartax.in/s/income-tax), FY is the ye
 
 ---
 
-### Who needs to file ITR
+## Who needs to file ITR
 
 - If the total income for the FY is more than 2.5 Lakhs, then it is mandatory to file ITR.
-
 - Students who get stipends **also need to file ITR**, and it might be a good idea to build your ITR profile if you wish to take loans in the future or need to apply for VISA. The logic in both cases is quite simple; the bank needs to know that you have a good financial sense. Proper filing of ITR will generate trust with the bank. If you do not follow GOI's proper financial rules, they will not trust you. Again in the second case, if you wish to go abroad, the VISA issuing authority needs to know that you are a responsible citizen of your country and would follow the rules of their country. 
 
-# References
+---
+
+## References
 
 - [An excellent post to start with](https://cleartax.in/s/what-is-financial-year-assessment-year)
 - [Understanding Due Date](https://cleartax.in/s/due-date-tax-filing#:~:text=What%20is%20the%20last%20date,respectively%2C%20due%20to%20the%20pandemic.)
