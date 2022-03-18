@@ -108,7 +108,7 @@ img {
     margin-bottom: 15px;
     margin-top: 15px;
     padding: 2px 2px;
-    border-radius: 0.3em;
+    border-radius: 6px;
     background-color: lighten($grey-color-light, 3%);
     max-width: 100%;
     vertical-align: middle;
@@ -211,43 +211,6 @@ blockquote {
 cite {
     text-align: right;
     display: block;
-}
-
-/**
-  * Code formatting
-  * ``` -> pre
-  * ` -> code
-  */
-
-pre,
-code {
-    border: 3px solid #ffffff;
-    border-radius: 3px;
-}
-
-code {
-    @include relative-font-size(0.9);
-    color: $notion-red;
-    border: 1px solid darken($grey-color-light, 3%);
-    border-radius: 3px;
-    background-color: lighten($grey-color-light, 3%);
-    padding: 1px 1px;
-}
-
-pre {
-    // padding: 2px 2px;
-    overflow-x: auto;
-
-    >code {
-        @include relative-font-size(0.9);
-        display: block;
-        border: 0px solid darken($grey-color-light, 3%);
-        padding-right: 0;
-        padding-left: 0;
-        margin: 10px;
-        color: #fff;
-        background-color: rgba(76, 175, 80, 0.0);
-    }
 }
 
 /**
