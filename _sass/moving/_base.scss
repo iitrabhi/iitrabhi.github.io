@@ -1,3 +1,13 @@
+.primary_container{
+    width: calc(#{$content-width} - (#{4*$spacing-unit})) ;
+    margin-right: auto;
+    margin-left: auto;
+}
+.align_right{
+    display: flex;
+    justify-content: right;
+}
+
 /**
  * Reset some basic elements
  */
@@ -39,7 +49,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     padding: 0 0%;
-
+    overflow: overlay;
     @media screen and (min-width: $on-medium) {
         padding: 0 0%;
         font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
@@ -379,6 +389,7 @@ nav {
 
 ::-webkit-scrollbar-track {
     background: transparent;
+
 }
 
 ::-webkit-scrollbar-thumb {
