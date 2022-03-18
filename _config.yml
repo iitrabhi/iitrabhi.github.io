@@ -65,7 +65,7 @@ footer-text:
 
 # JavaScript
 head_scripts:
-  - /assets/js/test.js
+  - /assets/js/two.min.js
 
 # https://jekyllrb.com/docs/collections/
 collections:
