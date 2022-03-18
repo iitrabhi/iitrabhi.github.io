@@ -71,6 +71,8 @@ head_scripts:
 collections:
   projects:
     output: true
+  newsletters:
+    output: true
 
 # Compress CSS files
 sass:
