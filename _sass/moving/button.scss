@@ -1,0 +1,51 @@
+.button {
+    background-color: $background-color;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: $small-font-size;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: $brand-color;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 6px;
+
+}
+
+.button:hover {
+  background-color: $brand-color;
+  color: $background-color;
+        text-decoration: none;
+
+}
+
+.button-prev {
+    float: left;
+}
+
+.button-next {
+    float: right;
+}
+
+
+.PageNavigation {
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+// .PageNavigation a {
+//     display: block;
+//     width: 50%;
+//     float: left;
+//     margin: 1em 0;
+// }
+
+// .PageNavigation .next {
+//     text-align: right;
+// }
