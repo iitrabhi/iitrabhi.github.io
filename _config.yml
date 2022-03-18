@@ -64,8 +64,8 @@ google_analytics: G-9W3VPP9B40
 footer-text:
 
 # JavaScript
-head_scripts:
-  - /assets/js/two.min.js
+# head_scripts:
+#   - /assets/js/two.min.js
 
 # https://jekyllrb.com/docs/collections/
 collections:
