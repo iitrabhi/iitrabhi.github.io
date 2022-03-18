@@ -154,12 +154,12 @@ li {
   * Headings
   */
 h1 {
-  font-size: 2.25rem;
-  font-weight: 500;
-  line-height: 1.5;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.4rem;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
 }
 
 h2,
@@ -335,10 +335,26 @@ nav {
     padding: 30px;
 }
 
+.flexbox-col {
+    flex-direction: column;
+    flex: 50%;
+    padding: 30px;
+}
+
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
+    }
+
+    .flexbox {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .flexbox-col {
+        display: flex;
+        text-align: center;
     }
 }
 
