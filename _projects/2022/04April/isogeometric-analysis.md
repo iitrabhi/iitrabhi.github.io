@@ -8,3 +8,4 @@ date: 2022-03-01
 typora-root-url: ../../../../website
 ---
 
+## Started on this page: [Isogeometric Analysis](https://abhigupta.io/isogeometric-analysis/)
