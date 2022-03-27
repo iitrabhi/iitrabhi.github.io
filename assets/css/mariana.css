@@ -17,6 +17,7 @@
  * #3a9ddb
  * #b0d99d
  * #00cdaf
+ * #89deff
  */
 
 
@@ -24,6 +25,10 @@
     font-family: monaco, Consolas, Lucida Console, monospace;
     -webkit-font-smoothing: antialiased;
 } */
+
+code {
+    tab-size: 4;
+}
 
 .highlight table td {
     padding: 0px;
@@ -180,7 +185,7 @@
 }
 
 .highlight .nl {
-    color: #fc9b9b;
+    color: #89deff;
     font-weight: bold;
 }
 
