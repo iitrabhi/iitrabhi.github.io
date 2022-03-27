@@ -1,11 +1,16 @@
-.primary_container{
-    width: calc(#{$content-width} - (#{4*$spacing-unit})) ;
+.primary_container {
+    width: calc(#{$content-width} - (#{4*$spacing-unit}));
     margin-right: auto;
     margin-left: auto;
 }
-.align_right{
+
+.align_right {
     display: flex;
-    justify-content: right;
+    display: -webkit-flexbox;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
 }
 
 /**
@@ -50,6 +55,7 @@ body {
     flex-direction: column;
     padding: 0 0%;
     overflow: overlay;
+
     @media screen and (min-width: $on-medium) {
         padding: 0 0%;
         font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
