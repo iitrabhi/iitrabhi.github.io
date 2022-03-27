@@ -1,3 +1,10 @@
+.primary_container .home-icon {
+    display: none;
+}
+
+// Mobile first
+// .navbar home-icon{
+// }
 .navbar {
     width: auto;
 }
@@ -31,7 +38,7 @@
     display: -webkit-flexbox;
     background-color: #000000;
     justify-content: center;
-    z-index:10;
+    z-index: 10;
 }
 
 .navbar a.nav_desktop {
@@ -46,6 +53,21 @@
 @media (min-width: 600px) {
 
     // Desktop
+    // .navbar home-icon{
+
+    // }   
+    .primary_container .home-icon {
+        position: absolute;
+        padding: 4px 16px;
+        display: flex;
+
+    }
+
+    .primary_container .home-icon:hover,
+    .primary_container .home-icon:focus {
+        filter: invert(0%) sepia(0%) saturate(0%) brightness(200%) contrast(100%);
+    }
+
     .align_menu {
         display: flex;
         justify-content: right;
