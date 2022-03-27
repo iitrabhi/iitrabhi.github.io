@@ -21,7 +21,8 @@
 
 
 /* code {
-    font-family: 'Roboto Mono', monospace;
+    font-family: monaco, Consolas, Lucida Console, monospace;
+    -webkit-font-smoothing: antialiased;
 } */
 
 .highlight table td {
