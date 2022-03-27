@@ -34,6 +34,8 @@ These settings will change the font size of the markdown for the current workspa
 
 ![Screenshot 2022-03-27 at 12.13.04 PM](/assets/images/Screenshot%202022-03-27%20at%2012.13.04%20PM.png)
 
+This kind of synchrony gives a sense of WYSIWYG while writing the blog posts and I like it. 
+
 ## References
 
 - [This gave me an idea of implementation](https://github.com/raycon/vscode-markdown-style)
