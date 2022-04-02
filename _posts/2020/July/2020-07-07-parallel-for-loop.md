@@ -43,20 +43,20 @@ This will tell MPI to run test-parallel.py on 6 processors. The thing to underst
 
 Thus we need to identify the processor number inside the program and execute the commands accordingly. We can identify the processor number by first getting a handle to the world communicator by using command
 
-```
+```python
 comm = MPI.COMM_WORLD
 ```
 
 and then get the size of the world and the rank of the processor by using the commands
 
-```
+```python
 rank = comm.Get_rank()
 size = comm.Get_size()
 ```
 
 Based on this information we can modify our logic to run on multiple processors. This simple program sums the numbers from a to b and gives us the result. This logic is parallelizable. We can split the whole domain of calculation into the number of processors available and then add the numbers in that domain. Finally, we can add the results of all the processors. The program below is self-explanatory and you can run the same on your machine with the help of `mpirun` command.
 
-```
+```python
 import numpy
 from mpi4py import MPI
 import time
