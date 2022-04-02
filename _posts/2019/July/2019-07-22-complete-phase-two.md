@@ -14,7 +14,7 @@ Goals for the second phase of the programming were two-fold:
 
 Creating MVC directly from arrays would allow bypassing saving of the mesh file onto the hard disk. The idea is to directly create MVC from pygmsh data. The functionality was achieved with and [the following PR was made](https://github.com/FEniCS/dolfinx/pull/467). Here is a snippet to create MVC from pygmsh data.
 
-```
+```cpp
 #include <cfloat>
 #include <dolfin.h>
 #include "main.h"
@@ -42,7 +42,7 @@ You can find the complete code [here](https://github.com/iitrabhi/GSoC2019/tree/
 
 ## Python + Pygmsh
 
-```
+```python
 from pygmsh.built_in.geometry import Geometry
 from pygmsh import generate_mesh
 import dolfin
@@ -97,7 +97,7 @@ mvc_from_array = dolfin.MeshValueCollection("size_t",
 
 ## Python + Gmsh API
 
-```
+```python
 import gmsh
 import sys
 import numpy

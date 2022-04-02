@@ -68,7 +68,7 @@ pip install meshio
 
 Once you have the package installed you can use the following command to convert the mesh to xdmf. Right now FEniCS does not support mixed topologies so you have to individually export mesh entities of different dimension to different XDMF files. Thus for the current mesh, we need to export one mesh of 2D `triangle` elements and the other of 1D ‘line’ elements.
 
-```
+```python
 mesh_of_triangles = meshio.Mesh(points=points[:, :2],
                                 cells={'triangle': cells['triangle']},
                                 cell_data={'triangle': 
@@ -93,7 +93,7 @@ meshio.write("poisson_subdomain_line.xdmf", mesh_of_lines )
 
 Once we have the XDMF files we can import them to FEniCS as follows:
 
-```
+```python
 with XDMFFile(MPI.comm_world,
               "poisson_subdomain_triangle.xdmf") as xdmf_infile:
     mesh = xdmf_infile.read_mesh(cpp.mesh.GhostMode.none)
@@ -107,7 +107,7 @@ FEniCS provide us with two classes `MeshFunction` and `MeshValueCollection` that
 
 We could visualize the solution using opensource package paraview. Once again the filetype of choice is XDMF and we can easily write the solution to the file using the **write** method of class **XDMFFile**.
 
-```
+```python
 with XDMFFile(dolfin.MPI.comm_world, "output.xdmf") as xdmf_outfile:
     xdmf_outfile.write(u)
 ```

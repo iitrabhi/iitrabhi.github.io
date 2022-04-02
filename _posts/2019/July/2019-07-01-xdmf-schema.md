@@ -19,7 +19,7 @@ XDMF is based on XML file structure and thus the file format is highly readable 
 
 The code below presents a simple XDMF file where the data is stored in an HFD5 file named `poisson.h5`
 
-```
+```xml
 <Xdmf Version="3.0">
   <Domain>
     <Grid Name="mesh" GridType="Uniform">

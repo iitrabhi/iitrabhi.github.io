@@ -16,7 +16,7 @@ I have curated a lot of information on this website and would like to have searc
 The first step is to create an index of all the posts on the website. This could be done automatically with the help of a small `Liquid` script. The full process is detailed on [this blogpost](https://blog.webjeda.com/instant-jekyll-search/). Copy and paste the following to the root directory of the project in a file named `search.json`.
 
 ```json
----
+{% raw %}---
 ---
 [
   {% for post in site.posts %}
@@ -31,7 +31,7 @@ The first step is to create an index of all the posts on the website. This could
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
-]
+]{% endraw%}
 ```
 
 The above script will automatically create an index of all the posts on the website.
