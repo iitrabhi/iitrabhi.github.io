@@ -17,7 +17,7 @@
 
 .form-field {
     display: block;
-    min-width: 360px;
+    /*min-width: 360px;*/
     max-width: 360px;
 
     /*width: 100%;*/
@@ -141,4 +141,11 @@ html {
 
 body .form-group:not(:last-child) {
     margin-bottom: 32px;
+}
+
+/*@media only screen and (max-width: 600px) {
+.form-field {
+    display: block;
+min-width: 100px;
+    width: 100%;*/}*/
 }
