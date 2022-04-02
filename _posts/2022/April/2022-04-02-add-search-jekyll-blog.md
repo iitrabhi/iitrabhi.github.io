@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to add search functionallity to jekyll blog."
-description: " "
+description: "Use this simple method to add search functionallity to your jekyll blog."
 tag: 
   - code
 typora-root-url: ../../../../website
