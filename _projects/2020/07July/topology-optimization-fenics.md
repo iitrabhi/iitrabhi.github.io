@@ -12,6 +12,8 @@ Even before starting my PhD, I had a strong inclination towards python and had a
 
 ![55line](/assets/images/55line.png)
 
+![output](/assets/images/output.gif)
+
 The current implementation’s primary purpose is to help researchers expand their applications of TO with complex design domains on parallel HPC systems. We believe this implementation will bridge the gap between open-source codes that are limited to regular shapes and commercial packages that might not be accessible by many. Moreover, the use of HPC library PETSc - which has a very easy-to-understand interface in FEniCS - would also allow researchers to study the effect of different solvers and optimization algorithms on the TO solution. These solvers can be configured with less than ten code lines but could lead to substantial gains in terms of computational speed and accuracy. The implementation has been thoroughly tested with respect to existing literature, and the results are provided in detail in the text of the manuscript. The benefits of the current implementation are:
 
 - This implementation is capable of handling both 2D as well as 3D domains in 55 lines.
