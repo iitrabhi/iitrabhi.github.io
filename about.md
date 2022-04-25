@@ -28,7 +28,6 @@ I also love the open-source community and use FEniCS as my primary package for p
 |   22/03/2019  |   Gave a presentation on "Isogeometric Shape Optimization" at IISC-Bangalore  |
 |   **13/02/2019**  |   **PHD Candidacy 😄** |
 |   25/10/2018  |   Completed 5 days course on `HPC and Deep Learning` at EICT Academy, ECE Department, IIT Roorkee |
-|   11/03/2018| Got third place in "Google - Techstars Startup Weekend" on the idea of centralized system for agriculture management. |
 |   20/01/2018  |   Completed GIAN course on `Topology optimization` at IISC-Bangalore  |
 |   20/12/2017  |   Completed GIAN course on `Isogeometric analysis` at IIT-BHU by Prof. Mukesh Kumar   |
 |   10/12/2017  |   Completed the mandatory course work at IIT Roorkee. |
@@ -47,6 +46,7 @@ I also love the open-source community and use FEniCS as my primary package for p
 | Date           | Award                                                    |
 | -------------- | ------------------------------------------------------------ |
 | 2019 | Google Summer of Code Scholarship, Google |
+|   11/03/2018| Got third place in "Google - Techstars Startup Weekend" on the idea of centralized system for agriculture management. |
 | 2017 | HP Higher education award, Himachal Government, India |
 | 2017 | MHRD Fellowship, Ministry of Human Resource Development, India |
 | 2010 | DAE Graduate Fellowship, Board of research in nuclear science, India |
