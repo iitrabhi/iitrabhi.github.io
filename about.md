@@ -33,3 +33,23 @@ I also love the open-source community and use FEniCS as my primary package for p
 |   10/12/2017  |   Completed the mandatory course work at IIT Roorkee. |
 |   23/08/2017  |   Joined IIT Roorkee. Finally starting a journey that I had dreamt of for so long.    |
 |   19/05/2017  |   Got accepted to PhD program at IIT Roorkee. |
+| 2010 | Got accepted for the role of scientific officer at Department of atomic energy |
+| 2010 | Got accepted for M.Tech in Structural engineering at IIT Roorkee |
+| 2010 | Cleared GATE. All India Rank - 161 |
+| 2006 | Cleared AIEEE. State Rank - 220 |
+| 2006 | Developed software “Fee Management System” using DBMS language FOXPRO. |
+
+
+
+### Awards
+
+| Date           | Award                                                    |
+| -------------- | ------------------------------------------------------------ |
+| 2019 | Google Summer of Code Scholarship, Google |
+| 2017 | HP Higher education award, Himachal Government, India |
+| 2017 | MHRD Fellowship, Ministry of Human Resource Development, India |
+| 2010 | DAE Graduate Fellowship, Board of research in nuclear science, India |
+| 2010 | MHRD Fellowship, Ministry of Human Resource Development, India |
+| 2006 | HP board student award, Himachal Government, India |
+| 2005 | HP board student award, Himachal Government, India |
+| 2005 | Certificate of Distinction, National Computer Olympiad, India |
