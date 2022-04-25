@@ -42,7 +42,7 @@ I also love the open-source community and use FEniCS as my primary package for p
 
 
 
-### Awards
+### Awards and Scholarships
 
 | Date           | Award                                                    |
 | -------------- | ------------------------------------------------------------ |
