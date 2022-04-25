@@ -53,4 +53,4 @@ I also love the open-source community and use FEniCS as my primary package for p
 | 2010 | MHRD Fellowship, Ministry of Human Resource Development, India |
 | 2006 | HP board student award, Himachal Government, India |
 | 2005 | HP board student award, Himachal Government, India |
-| 2005 | Certificate of Distinction, National Computer Olympiad, India |
+| 2004 | Certificate of Distinction, National Computer Olympiad, India |
