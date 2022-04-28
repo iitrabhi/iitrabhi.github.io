@@ -29,6 +29,12 @@ Box.com is a service similar to pcloud that offers 10GB of free space. Follow th
 
 - For windows and ipad follow the same process. Now, you can enjoy free sync of your complete library between devices.
 
+## PS
+
+If after changing your WEBDAV server your files are not syncing then goto Zotero →  Preferences → Sync → Reset. Choose the radio button Replace Online Library and hit Reset.
+
+`Caution: The above process will overwrite your online library with your local library. Use this option wisely.`
+
 ## References
 
 -  [Pcloud end webdav support ](https://forums.zotero.org/discussion/94430/pcloud-ending-webdav-support-for-free-plan)
