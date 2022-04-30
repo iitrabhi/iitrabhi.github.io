@@ -22,7 +22,6 @@ typora-root-url: ../../../../website
 \date{}
 
 \begin{document}
-% 	\newgeometry{left=3.0cm,right=3.0cm,top=3.0cm,bottom=3.0cm}
 \section{lowercase}
 
 \begin{tabular}{r|l}
@@ -53,7 +52,6 @@ typora-root-url: ../../../../website
     mathbb & $\mathbb{A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z}$ \\
     mathscr & $\mathscr{A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z}$ \\
     mathcal & $\mathcal{A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z}$ \\
-
 \end{tabular}
 
 \end{document}
