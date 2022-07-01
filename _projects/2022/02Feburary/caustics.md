@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Caustics in FEniCS [WIP]"
+title: "Caustics in FEniCS"
 description: "Recreating the winning entry of 3B1B SoME challenge."
 langs: [python]
 year: "Feburary 2022"
@@ -25,3 +25,25 @@ The image generated from this experiment is a good first try. The next step is t
 `[Update 2/3/22]` With some tweaks, I got the following image from the blender simulation. This simulation is with the 100mm $$\times$$ 100mm size and 5mm thickness of the acrylic sheet. The total cut depth is 3mm. Will try to machine it tomorrow and update the results.
 
 ![image-20220302214214166](/assets/images/image-20220302214214166.png)
+
+`[Update 8/3/22]` The first CNC run was almost successful. Got to learn a few things.
+
+![image-20220327193945103](/assets/images/image-20220327193945103.png)
+
+![Artboard1](/assets/images/Artboard1.png)
+
+precision of carvey = 75 micro meter. The height variation is also in this range for our sample
+
+| Grit | Microns |
+| ---- | ------- |
+| 220  | 63      |
+| 500  | 16      |
+| 1000 | 7       |
+
+Bit size - 3mm
+
+Ball nose spiral end mills are used for smooth contouring and fine detail passes with a CNC router and often for complex shapes like 3D carvings. The rounded ends produce smooth curves that would be impossible to achieve with flat end bits. Small diameter ball nose end mills are used for projects with intricate detail while larger bits are used for smoother projects with more gradual slopes. These bits are also excellent for routing fluted columns and channels in cutting boards and countertops edges.The radius defines the size of the tip of the bit which is half the size of the cutting diameter. `Choose the radius that matches the detail resolution of your project.` These ball nose end mill bits come in a wide array of shank and radius combinations, with many different ball nose cutter sizes.
+
+The G-code data is in mm and it is taking up-to 3 decimals. Micrometer movement is considered.
+
+[How does frosted glass become transparent?](https://iopscience.iop.org/article/10.1088/0031-9120/50/5/638)

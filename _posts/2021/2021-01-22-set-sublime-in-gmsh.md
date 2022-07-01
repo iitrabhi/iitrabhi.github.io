@@ -10,16 +10,22 @@ Go to `Tools` → `options` → `General` → `Advanced`
 
 ![image-20210122154513524](/assets/images/image-20210122154513524.png)
 
-Paste the following in Text Editor command
+`Windows` Paste the following in Text Editor command
 
 ```
 C:\Program Files\Sublime Text 3\subl.exe %s 
 ```
 
-on a Mac type the following command
+on a `Mac` type the following command
 
 ```
 /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl %s
+```
+
+On `Linux` type
+
+```
+subl %s
 ```
 
 Goto sublime and open package manager and install `gmsh-Tools`

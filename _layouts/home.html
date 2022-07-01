@@ -6,7 +6,6 @@ layout: default
     <head>
         <title>{{ site.title }}</title>
     </head>
-    {%- include main-menu.html -%}
     <div class="home-title">
         <p class="home-heading"><span class="hand-hello">👋</span> Hi, I'm Abhinav Gupta</p>
         <p style="color: #ffffff; font-size: 24px;line-height: 1.0;margin-top: -16px">{{ site.description }}</p>
@@ -33,12 +32,24 @@ layout: default
     {%- if site.posts.size > 0 -%}
     <ul class="post-list">
         {% for post in site.posts %}
+
+        <!-- Use this when you wish to show tag under post title -->
+        <!-- {% if post.tags.size > 0 %}
+          Tag{% if post.tags.size > 1 %}s{% endif %}:
+          {{ post.tags | sort | join: ", " }}
+        {% endif %} -->
+
         {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
         {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
         {% if forloop.first %}
         <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
         <ul>
             {% endif %}
+
+            {% if post.tags contains 'finance' %}
+            {% continue %}
+            {% endif %}
+            
             <li>
                 {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
                 <span class="post-meta">

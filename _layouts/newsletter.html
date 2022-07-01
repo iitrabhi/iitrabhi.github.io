@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<div class="about-page">
+
+    <head>
+        <title>{{ site.author }}</title>
+    </head>
+    <div class="post-back">
+        <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
+    </div>
+    <div class="about-header">
+        {%- if site.moving.avatar_url -%}
+        <img class="about-avatar" src="{{ site.moving.avatar_url }}" />
+        {%- endif -%} {%- if site.author -%}
+        <div class="about-info">
+            <div class="about-your-name">
+                {{ site.author | escape }}
+            </div>
+            {%- endif -%} {%- if site.moving.about_you -%}
+            <p class="about-description">
+                {{ site.moving.about_you | escape }}
+            </p>
+            {%- endif -%} {%- include social.html -%}
+        </div>
+    </div>
+    <div class="about-content e-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+
+{%- if site.newsletters.size > 0 -%}
+    <ul class="post-list">
+        {% for newsletter in site.newsletters %}
+
+        <!-- Use this when you wish to show tag under post title -->
+        <!-- {% if post.tags.size > 0 %}
+          Tag{% if post.tags.size > 1 %}s{% endif %}:
+          {{ post.tags | sort | join: ", " }}
+        {% endif %} -->
+
+        {% capture this_year %}{{ newsletter.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ newsletter.previous.date | date: "%Y" }}{% endcapture %}
+        {% if forloop.first %}
+        <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
+        <ul>
+            {% endif %}
+
+            <li>
+                {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">
+                    {{ newsletter.date | date: date_format }}
+                </span>
+                <a class="black-link post-link-layout" href="{{ newsletter.url | relative_url }}">
+                    {{ newsletter.title | escape }}
+                </a>
+            </li>
+            {% if forloop.last %}
+        </ul>
+        {% else %}
+        {% if this_year != next_year %}
+    </ul>
+    <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+    <ul>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {%- endif -%}
+</div>

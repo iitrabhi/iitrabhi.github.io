@@ -13,7 +13,7 @@ This would require changes to be made in the source code of meshio and dolfinx. 
 
 My plan was to initially start with the python version of dolfinx and then work on cpp version. Thus, I made a simple unit square in gmsh, exported it via meshio and then manually added the required data in the Information tag of XDMF. All the four boundaries were marked with string names and stored in information tag.
 
-```
+```xml
 <Information Name="BoundaryTags">
        <![CDATA[
        <main>
@@ -28,7 +28,7 @@ My plan was to initially start with the python version of dolfinx and then work 
 
 The following code successfully read and created a dictionary of the map stored in the XDMF file.
 
-```
+```python
 from lxml import etree
 
 with open(r'Models/tag_all.xdmf') as fobj:

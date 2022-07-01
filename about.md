@@ -12,6 +12,7 @@ I also love the open-source community and use FEniCS as my primary package for p
 
 | Date           | Event                                                        |
 | -------------- | ------------------------------------------------------------ |
+|  09/04/2022  |  Article on "Adaptive isogeometric topology optimization using PHT splines" has been accepted for publication in Computer Methods in Applied Mechanics and Engineering.  |
 |   11/10/2021  |   Article on [metamaterials](https://www.sciencedirect.com/science/article/pii/S0168874X21001311) accepted in Finite Elements in Analysis and Design  |
 |   23/08/2021  |   Completed training course `Introduction to using Firedrake on ARCHER2`. ARCHER2 is the UK National Supercomputing Service   |
 | 23/03/2021| Gave talk at the [FEniCS 2021 conference](https://fenics2021.com/talks/gupta.html) `Run-time from 300 years to 300 min: Lessons learned in large-scale modeling in FEniCS` |
@@ -27,9 +28,29 @@ I also love the open-source community and use FEniCS as my primary package for p
 |   22/03/2019  |   Gave a presentation on "Isogeometric Shape Optimization" at IISC-Bangalore  |
 |   **13/02/2019**  |   **PHD Candidacy 😄** |
 |   25/10/2018  |   Completed 5 days course on `HPC and Deep Learning` at EICT Academy, ECE Department, IIT Roorkee |
-|   11/03/2018| Got third place in "Google - Techstars Startup Weekend" on the idea of centralized system for agriculture management. |
 |   20/01/2018  |   Completed GIAN course on `Topology optimization` at IISC-Bangalore  |
 |   20/12/2017  |   Completed GIAN course on `Isogeometric analysis` at IIT-BHU by Prof. Mukesh Kumar   |
 |   10/12/2017  |   Completed the mandatory course work at IIT Roorkee. |
 |   23/08/2017  |   Joined IIT Roorkee. Finally starting a journey that I had dreamt of for so long.    |
 |   19/05/2017  |   Got accepted to PhD program at IIT Roorkee. |
+| 2010 | Got accepted for the role of scientific officer at Department of atomic energy |
+| 2010 | Got accepted for M.Tech in Structural engineering at IIT Roorkee |
+| 2010 | Cleared GATE. All India Rank - 161 |
+| 2006 | Cleared AIEEE. State Rank - 220 |
+| 2006 | Developed software “Fee Management System” using DBMS language FOXPRO. |
+
+
+
+### Awards and Scholarships
+
+| Date           | Award                                                    |
+| -------------- | ------------------------------------------------------------ |
+| 2019 | Google Summer of Code Scholarship, Google |
+|   11/03/2018| Got third place in "Google - Techstars Startup Weekend" on the idea of centralized system for agriculture management. |
+| 2017 | HP Higher education award, Himachal Government, India |
+| 2017 | MHRD Fellowship, Ministry of Human Resource Development, India |
+| 2010 | DAE Graduate Fellowship, Board of research in nuclear science, India |
+| 2010 | MHRD Fellowship, Ministry of Human Resource Development, India |
+| 2006 | HP board student award, Himachal Government, India |
+| 2005 | HP board student award, Himachal Government, India |
+| 2004 | Certificate of Distinction, National Computer Olympiad, India |

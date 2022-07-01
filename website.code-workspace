@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {"markdown.styles": [
+		"markdown.css"
+	],
+"markdown.preview.fontSize":16}
+}

@@ -10,9 +10,9 @@ layout: default
   <head>
     <title>{{ page.title }}</title>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <link rel="stylesheet" href="{{ base.url | prepend: site.url }}/assets/css/form.css">
   </head>
 
-  {%- include main-menu.html -%}
 
   <header class="post-header">
     <div class="post-back">
@@ -49,11 +49,11 @@ layout: default
   
 
   <div class="PageNavigation">
-    {% if page.next.url %}
-      <a class="prev" href="{{page.next.url}}">&laquo; {{page.next.title}} </a>
-    {% endif %}
     {% if page.previous.url %}
-      <a class="next" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
+      <a class="button button-prev" href="{{page.previous.url}}" title="{{page.previous.title}}">&laquo; Previous</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="button button-next" href="{{page.next.url}}" title="{{page.next.title}}">Next &raquo;</a>
     {% endif %}
   </div>
 

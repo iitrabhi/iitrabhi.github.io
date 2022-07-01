@@ -3,10 +3,10 @@
 // Define defaults for each variable.
 
 $base-font-family: "Bitter", "Bitter", sans-serif;
-$base-font-size: 18px !default;
+$base-font-size: 20px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.85 !default;
-$base-line-height: 1.8 !default;
+$base-line-height: 1.625 !default;
 $small-line-height: 1.6 !default;
 
 $spacing-unit: 30px !default;
@@ -18,7 +18,7 @@ $spacing-unit: 30px !default;
 
 // Dark Mode
 $text-color: #fff !default;
-$background-color: #252a33 !default;
+$background-color: #242932 !default;
 $brand-color: #f9ae58 !default;
 $code-background: #1A1D24 !default;
 
@@ -51,4 +51,4 @@ $on-large: $on-laptop !default;
 }
 
 // Import partials.
-@import "moving/base", "moving/layout", "moving/cards";
+@import "moving/base", "moving/layout", "moving/cards", "moving/button", "moving/anim", "moving/code", "moving/main_menu", "moving/footer";
