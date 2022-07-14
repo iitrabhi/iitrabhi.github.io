@@ -39,7 +39,7 @@ with XDMFFile("dof.xdmf") as xdmf:
 
 The thing to remember here is that, when we call the `vector()` method on any function, the return vector is ordered as per the `degrees of freedom`. Thus, we can just put in the row number of the vector as degree of freedom number and visualize it in paraview. The `Id` in paraview is the vertex number assigned by FEniCS.![image-20210125141950089](/assets/images/image-20210125141950089.png)
 
-> Note that in this post I have added +1 to the degrees of freedom. This is done just to compare the output with that of MATLAB. If you wish to use this with FEniCS than delete the +1.
+> Note that in this post I have added +1 to the degrees of freedom. This is done just to compare the output with that of MATLAB. If you wish to use this with FEniCS then delete the +1.
 
 ```python
 from dolfin import *
