@@ -46,7 +46,7 @@ It is inside this space constraint that you have to draw. Thus, we will begin by
 import matplotlib.pyplot as plt
 import numpy as np
 
-cm = 1/25.4  # millimeters in inches
+mm = 1/25.4  # millimeters in inches
 plt.figure(figsize=(150*mm,60*mm), dpi=80)
 plt.subplots_adjust(left=0.1, right=0.1, top=0.75, bottom=0.15)
 ```
@@ -107,7 +107,7 @@ import numpy as np
 from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF
 
-cm = 1/25.4  # millimeters in inches
+mm = 1/25.4  # millimeters in inches
 plt.figure(figsize=(70*mm,50*mm), dpi=80)
 plt.subplots_adjust(left=0.1, right=0.9, top=0.75, bottom=0.15)
 
