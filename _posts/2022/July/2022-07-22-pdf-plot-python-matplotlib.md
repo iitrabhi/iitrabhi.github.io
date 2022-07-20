@@ -48,14 +48,14 @@ import numpy as np
 
 cm = 1/25.4  # millimeters in inches
 plt.figure(figsize=(150*mm,60*mm), dpi=80)
-plt.subplots_adjust(left=0.1, right=0.8, top=0.75, bottom=0.1)
+plt.subplots_adjust(left=0.1, right=0.1, top=0.75, bottom=0.15)
 ```
 
 `plt.figure` command will set the size of the figure and with the help of `plt.subplots_adjust` we can adjust the padding around the plot as a percentage of the width and height of the figure. The arguments `left`, `right`, `bottom` and `top` are fractional units (of the total figure dimensions). 
 
 ### Tell matplotlib to use LaTeX
 
-Now we will tell python to use latex fonts and also set the font size to 10. This is the font size that we use for the main content of our article. It is very important to have consistency in the font size and your figure font size should `always` match your article font size.
+Now we will tell python to use latex fonts and also **set the font size to 10**. This is the font size that we use for the main content of our article. It is very important to have consistency in the font size and your figure font size should `always` match your article font size.
 
 ```python
 plt.rcParams.update({
@@ -87,7 +87,7 @@ If you do not wish to edit your file you can now directly export it as a pdf usi
 plt.savefig("plot.pdf", format="pdf")
 ```
 
-But, if you wish to edit your file in a vector-based editing program then the file generated from the above command would result in the wrong rendering of text. To prevent this we can save the figure as SVG and then convert that to pdf. Writing to SVG will convert the text to a path and thus it will render properly in vector-based editing program. To do that use the following code
+But, if you wish to edit your file in a vector-based editing program then the file generated from the above command would result in the wrong rendering of text. To prevent this we can save the figure as SVG and then convert that to pdf. Writing to SVG will convert the text to a path and thus it will render properly in a vector-based editing program. To do that use the following code
 
 ```python
 plt.savefig("plot.svg", format="svg")
@@ -151,8 +151,6 @@ plt.savefig("plot.svg", format="svg")
 drawing = svg2rlg("plot.svg")
 renderPDF.drawToFile(drawing, "plot.pdf")
 ```
-
-
 
 ## References
 
