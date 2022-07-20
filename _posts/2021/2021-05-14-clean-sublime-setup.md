@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to have a clean and minimal sublime setup + Dark Mode."
+title: "How to setup sublime as a beautiful latex editor | Dark Mode | Windows"
 tag: 
   - tools
 typora-root-url: ../../../website
