@@ -136,8 +136,6 @@ plt.yticks([-1, +1],
 plt.legend(loc='upper left', frameon=True)
 
 t = 2*np.pi/3
-plt.plot([t,t],[0,np.sin(t)],
-         color ='red',  linewidth=1.5, linestyle="--")
 plt.scatter([t,],[np.sin(t),], 50, color ='red')
 plt.annotate(r'$\sin(\frac{2\pi}{3})=\frac{\sqrt{3}}{2}$',
              xy=(t, np.sin(t)),  xycoords='data',
