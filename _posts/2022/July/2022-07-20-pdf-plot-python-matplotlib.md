@@ -48,7 +48,7 @@ import numpy as np
 
 mm = 1/25.4  # millimeters in inches
 plt.figure(figsize=(150*mm,60*mm), dpi=80)
-plt.subplots_adjust(left=0.1, right=0.1, top=0.75, bottom=0.15)
+plt.subplots_adjust(left=0.1, right=0.9, top=0.75, bottom=0.15)
 ```
 
 `plt.figure` command will set the size of the figure and with the help of `plt.subplots_adjust` we can adjust the padding around the plot as a percentage of the width and height of the figure. The arguments `left`, `right`, `bottom` and `top` are fractional units (of the total figure dimensions). 
@@ -108,7 +108,7 @@ from svglib.svglib import svg2rlg
 from reportlab.graphics import renderPDF
 
 mm = 1/25.4  # millimeters in inches
-plt.figure(figsize=(70*mm,50*mm), dpi=80)
+plt.figure(figsize=(70*mm,50*mm), dpi=200)
 plt.subplots_adjust(left=0.1, right=0.9, top=0.75, bottom=0.15)
 
 plt.rcParams.update({
