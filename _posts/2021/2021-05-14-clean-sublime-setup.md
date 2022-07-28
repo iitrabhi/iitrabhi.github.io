@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to have a clean and minimal sublime setup + Dark Mode."
+title: "How to setup sublime as a beautiful latex editor | Dark Mode | Windows"
 tag: 
   - tools
 typora-root-url: ../../../website
@@ -50,7 +50,7 @@ typora-root-url: ../../../website
   		"LaTeX-cwl",
   		"LaTeXTab",
   		"LaTeXTools",
-      "LaTeXYZ",
+  		"LaTeXYZ",
   		"Non Text Files",
   		"Package Control",
   		"Python 3",
