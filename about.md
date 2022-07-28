@@ -12,7 +12,8 @@ I also love the open-source community and use FEniCS as my primary package for p
 
 | Date           | Event                                                        |
 | -------------- | ------------------------------------------------------------ |
-|  09/04/2022  |  Article on "Adaptive isogeometric topology optimization using PHT splines" has been accepted for publication in Computer Methods in Applied Mechanics and Engineering.  |
+| 20/07/2022 | Article on "[An adaptive mesh refinement algorithm for phase-field fracture models: Application to brittle, cohesive, and dynamic fracture](https://www.sciencedirect.com/science/article/pii/S0045782522004339)" has been accepted for publication in CMAME. It was submitted on 02/07/2022, and got accepted in 18 days 🤯🥳. |
+|  09/04/2022  |  Article on "[Adaptive isogeometric topology optimization using PHT splines](https://www.sciencedirect.com/science/article/pii/S0045782522002365)" has been accepted for publication in Computer Methods in Applied Mechanics and Engineering.  |
 |   11/10/2021  |   Article on [metamaterials](https://www.sciencedirect.com/science/article/pii/S0168874X21001311) accepted in Finite Elements in Analysis and Design  |
 |   23/08/2021  |   Completed training course `Introduction to using Firedrake on ARCHER2`. ARCHER2 is the UK National Supercomputing Service   |
 | 23/03/2021| Gave talk at the [FEniCS 2021 conference](https://fenics2021.com/talks/gupta.html) `Run-time from 300 years to 300 min: Lessons learned in large-scale modeling in FEniCS` |
