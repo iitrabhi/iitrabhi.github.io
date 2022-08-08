@@ -30,7 +30,7 @@
     -webkit-appearance: none;
     color: var(--input-color);
     border: 1px solid var(--input-border);
-    background: var(--input-background);
+    /*background: var(--input-background);*/
     transition: border 0.3s ease;
 }
 

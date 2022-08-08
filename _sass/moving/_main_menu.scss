@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     display: -webkit-flexbox;
-    background-color: #000000;
+    background-color: var(--background-color);
     justify-content: center;
     z-index: 10;
 }
@@ -25,7 +25,7 @@
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: var(--text-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,13 +33,13 @@
 }
 
 .navbar a:hover {
-    background: #f1f1f1;
+    background: var(--text-color);
     color: black;
 }
 
 .navbar a.active {
     background-color: #04AA6D;
-    color: white;
+    color: var(--text-color);
 }
 
 
@@ -65,9 +65,14 @@
         display: -webkit-flexbox;
     }
 
+    .primary_container .home-icon{
+    fill:var(--brand-color);
+    }
+
     .primary_container .home-icon:hover,
     .primary_container .home-icon:focus {
-        filter: invert(0%) sepia(0%) saturate(0%) brightness(200%) contrast(100%);
+            fill:var(--text-color);
+
     }
 
     .align_menu {
@@ -86,7 +91,7 @@
     .navbar a {
         float: left;
         display: block;
-        color: #f2f2f2;
+        color: var(--text-color);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -94,19 +99,19 @@
     }
 
     .navbar a:hover {
-        background: #f1f1f1;
-        color: black;
+        background: var(--background-color-lighten-9);
+        color: var(--text-color);
     }
 
     .navbar a.active {
-        background-color: #04AA6D;
-        color: white;
+       background: var(--background-color-lighten-9);
+        color: var(--text-color);
     }
 
     .navbar-container {
         position: static;
         width: 100%;
-        background-color: #000000;
+        background-color: var(--background-color);
         display: flex;
         display: -webkit-flexbox;
         justify-content: flex-end;
