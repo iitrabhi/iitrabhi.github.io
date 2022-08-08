@@ -99,9 +99,10 @@ hr {
     border: 0;
     height: 2px;
     /* Set the hr color */
-    color: lighten($grey-color-light, 3%);
+    // color: lighten($grey-color-light, 3%);
+    background-color: var(--text-color);
+
     /* old IE */
-    background-color: lighten($grey-color-light, 3%);
     /* Modern Browsers */
     // background: -webkit-linear-gradient(
     //   left,
