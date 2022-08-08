@@ -1,5 +1,5 @@
 .button {
-    background-color: $background-color;
+    background-color: var(--baackground-color);
     color: white;
     padding: 10px;
     text-align: center;
@@ -8,7 +8,7 @@
     font-size: $small-font-size;
     margin: 4px 2px;
     cursor: pointer;
-    color: $brand-color;
+    color: var(--brand-color);
     font-weight: bold;
     border-style: solid;
     border-width: 2px;
@@ -17,8 +17,8 @@
 }
 
 .button:hover {
-  background-color: $brand-color;
-  color: $background-color;
+  background-color: var(--brand-color);
+  color: var(--baackground-color);
         text-decoration: none;
 
 }

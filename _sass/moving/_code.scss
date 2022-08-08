@@ -6,16 +6,18 @@
 
 pre,
 code {
-    border: 2px solid #ffffff;
+    border: 2px solid var(--text-color);
     border-radius: 6px;
+    background-color: var(--background-color-lighten-9);
+
 }
 
 code {
     @include relative-font-size(0.9);
     color: $notion-red;
-    border: 1px solid darken($grey-color-light, 3%);
+    border: 1px solid var(--text-color);
     border-radius: 3px;
-    background-color: lighten($grey-color-light, 3%);
+    background-color: var(--background-color-lighten-9);
     padding: 1px 1px;
 }
 
@@ -26,11 +28,12 @@ pre {
     >code {
         @include relative-font-size(0.9);
         display: block;
-        border: 0px solid darken($grey-color-light, 3%);
         padding-right: 0;
         padding-left: 0;
-        margin: 10px;
-        color: #fff;
-        background-color: rgba(76, 175, 80, 0.0);
+        padding: 10px;
+        color: var(--text-color);
+        background-color: var(--background-color-lighten-9);
+        border: 0px solid var(--text-color);
+
     }
 }

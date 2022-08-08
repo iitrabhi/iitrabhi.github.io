@@ -41,8 +41,8 @@ figure {
   */
 body {
     font: $base-font-weight #{$small-font-size}/#{$small-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    color: var(--text-color);
+    background-color: var(--background-color);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern"1;
     -moz-font-feature-settings: "kern"1;
@@ -191,7 +191,7 @@ h6 {
   * Links
   */
 a {
-    color: $brand-color;
+    color: var(--brand-color);
     text-decoration: none;
 
     &:hover {
@@ -203,12 +203,12 @@ a {
   * Blockquotes
   */
 blockquote {
-    color: $text-color;
-    background-color: lighten($background-color, 9%);
+    color: var(--text-color);
+    background-color: var(--background-color-lighten-9);
 
     border-radius: 0.3em;
 
-    border-left: 4px solid $brand-color;
+    border-left: 4px solid var(--brand-color);
     padding-left: $spacing-unit / 2;
     @include relative-font-size(1.4);
     line-height: 34px;
@@ -286,13 +286,13 @@ table {
     margin-bottom: $spacing-unit;
     width: 100%;
     text-align: $table-text-align;
-    color: lighten($text-color, 18%);
+    // color: lighten(var(--text-color), 18%);
     border-collapse: collapse;
-    border: 1px solid $grey-color-light;
+    border: 2px solid var(--text-color);
 
     tr {
         &:nth-child(even) {
-            background-color: lighten($background-color, 6%);
+            background-color: var(--background-color-lighten-9);
         }
     }
 
@@ -302,13 +302,13 @@ table {
     }
 
     th {
-        background-color: lighten($background-color, 3%);
-        border: 1px solid darken($grey-color-light, 4%);
-        border-bottom-color: darken($grey-color-light, 12%);
+        background-color: var(--background-color-lighten-9);
+        border: 2px solid var(--text-color);
+        border-bottom-color: var(--text-color);
     }
 
     td {
-        border: 1px solid $grey-color-light;
+        border: 2px solid var(--text-color);
     }
 }
 
@@ -376,13 +376,13 @@ nav {
 
 ::-moz-selection {
     /* Code for Firefox */
-    color: $background-color;
-    background: $text-color;
+    color: var(--background-color);
+    background: var(--text-color);
 }
 
 ::selection {
-    color: $background-color;
-    background: $text-color;
+    color: var(--background-color);
+    background: var(--text-color);
 }
 
 
@@ -400,9 +400,9 @@ nav {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: lighten($background-color, 100%);
+    background: var(--text-color);
 
     &:hover {
-        background: lighten($background-color, 10%);
+        background: var(--background-color-lighten-9);
     }
 }

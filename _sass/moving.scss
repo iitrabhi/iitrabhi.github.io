@@ -11,16 +11,56 @@ $small-line-height: 1.6 !default;
 
 $spacing-unit: 30px !default;
 
+
+
+
+html, html[data-theme="light"] {
+  --text-color: #303030;
+  --background-color: #ebebeb;
+  --background-color-lighten-9: #ffffff;
+  --brand-color: #2a7ae2;
+
+}
+
+html[data-theme="dark"] {
+  --text-color: #ffffff;
+  --background-color: #242932;
+  --background-color-lighten-9: #333b48;
+  --brand-color: #f9ae58;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+      --text-color: #ffffff;
+      --background-color: #242932;
+  --background-color-lighten-9: #333b48;
+      --brand-color: #f9ae58;
+    }
+
+    html[data-theme="light"] {
+      --text-color: #303030;
+      --background-color: #ebebeb;
+      --background-color-lighten-9: #ffffff;
+      --brand-color: #2a7ae2;
+  } 
+}
+
+
+
+
 // Light mode
-// $text-color: #111 !default;
-// $background-color: #fdfdfd !default;
-// $brand-color: #2a7ae2 !default;
+// var(--text-color): #303030 !default;
+// var(--baackground-color): #ebebeb !default;
+// var(--brand-color): #2a7ae2 !default;
 
 // Dark Mode
-$text-color: #fff !default;
-$background-color: #242932 !default;
-$brand-color: #f9ae58 !default;
-$code-background: #1A1D24 !default;
+// var(--text-color): #fff !default;
+// var(--baackground-color): #242932 !default;
+// var(--brand-color): #f9ae58 !default;
+
+
+$code-background: var(--background-color-lighten-9);
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

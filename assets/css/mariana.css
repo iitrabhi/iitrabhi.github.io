@@ -40,7 +40,7 @@ code {
 
 .highlight {
     color: #faf6e4;
-    background-color: #1A1D24;
+    /*background-color: var(--background-color-lighten-9);*/
 }
 
 .highlight .gl {

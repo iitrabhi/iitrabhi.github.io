@@ -30,7 +30,7 @@
 
 .home-heading {
     font-weight: 500;
-    color: lighten($text-color, 15%);
+    color: var(--text-color);
 
     @media (max-width: 500px) {
         margin-top: 20px;
@@ -44,7 +44,7 @@
 
 .home-sub-heading {
     margin-top: -0.6rem;
-    color: lighten($text-color, 25%);
+    color: var(--text-color);
 
     @media (max-width: 500px) {
         @include relative-font-size(0.8);
@@ -67,7 +67,7 @@
     margin-top: 2rem;
     margin-bottom: 0.25rem;
     font-weight: 700;
-    color: lighten($text-color, 15%);
+    // color: lighten(var(--text-color), 15%);
 
     @media (max-width: 500px) {
         @include relative-font-size(1.2);
@@ -85,7 +85,7 @@
     }
 
     @include relative-font-size(1);
-    color: lighten($text-color, 25%);
+    // color: lighten(var(--text-color), 25%);
 }
 
 .post-link-layout {
@@ -100,18 +100,18 @@
 }
 
 .black-link {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
 
     &:hover {
-        color: $text-color;
+        color: var(--text-color);
         text-decoration: underline;
     }
 }
 
 .post-back {
     margin-bottom: 20px;
-    color: lighten($text-color, 25%);
+    // color: lighten(var(--text-color), 25%);
 }
 
 /**
@@ -224,7 +224,7 @@
             .about-description {
                 margin-top: -0.6rem;
                 @include relative-font-size(1);
-                color: lighten($text-color, 25%);
+                // color: lighten(var(--text-color), 25%);
             }
         }
     }
