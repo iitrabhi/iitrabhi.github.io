@@ -1,6 +1,5 @@
 :root {
-    --input-color: #fff;
-
+    --input-color: var(--text-color);
     --input-background: var(--background-color-lighten-9);
     --input-placeholder: #828282;
     --input-border-focus: #f9ae58;
@@ -30,7 +29,7 @@
     -webkit-appearance: none;
     color: var(--input-color);
     border: 1px solid var(--input-border);
-    /*background: var(--input-background);*/
+    background: var(--input-background);
     transition: border 0.3s ease;
 }
 
@@ -58,31 +57,7 @@
 }
 
 
-/* .form-group>span,
-.form-group .form-field {
-    white-space: nowrap;
-    display: block;
-}
 
-.form-group>span:not(:first-child):not(:last-child),
-.form-group .form-field:not(:first-child):not(:last-child) {
-    border-radius: 0;
-}
-
-.form-group>span:first-child,
-.form-group .form-field:first-child {
-    border-radius: 6px 6px 6px 6px;
-}
-
-.form-group>span:last-child,
-.form-group .form-field:last-child {
-    border-radius: 6px 6px 6px 6px;
-}
-
-.form-group>span:not(:first-child),
-.form-group .form-field:not(:first-child) {
-    margin-left: -1px;
-} */
 
 .form-group .form-field {
     position: relative;
@@ -116,6 +91,14 @@ html {
 }
 
 
+
+
+body .form-group:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+
+
 /* * {
     box-sizing: inherit;
 }
@@ -139,13 +122,28 @@ html {
     max-width: 360px;
 }*/
 
-body .form-group:not(:last-child) {
-    margin-bottom: 32px;
+/* .form-group>span,
+.form-group .form-field {
+    white-space: nowrap;
+    display: block;
 }
 
-/*@media only screen and (max-width: 600px) {
-.form-field {
-    display: block;
-min-width: 100px;
-    width: 100%;*/}*/
+.form-group>span:not(:first-child):not(:last-child),
+.form-group .form-field:not(:first-child):not(:last-child) {
+    border-radius: 0;
 }
+
+.form-group>span:first-child,
+.form-group .form-field:first-child {
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form-group>span:last-child,
+.form-group .form-field:last-child {
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form-group>span:not(:first-child),
+.form-group .form-field:not(:first-child) {
+    margin-left: -1px;
+} */

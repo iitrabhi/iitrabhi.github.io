@@ -16,7 +16,7 @@ code {
     @include relative-font-size(0.9);
     color: $notion-red;
     border: 1px solid var(--text-color);
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: var(--background-color-lighten-9);
     padding: 1px 1px;
 }
@@ -24,6 +24,7 @@ code {
 pre {
     // padding: 2px 2px;
     overflow-x: auto;
+    border-radius: 6px;
 
     >code {
         @include relative-font-size(0.9);
