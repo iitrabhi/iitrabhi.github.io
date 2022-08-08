@@ -8,7 +8,6 @@ $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.85 !default;
 $base-line-height: 1.625 !default;
 $small-line-height: 1.6 !default;
-
 $spacing-unit: 30px !default;
 
 
@@ -60,7 +59,7 @@ html[data-theme="dark"] {
 // var(--brand-color): #f9ae58 !default;
 
 
-$code-background: #353535;
+$code-background: #161b22;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

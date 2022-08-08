@@ -16,7 +16,7 @@ code {
     @include relative-font-size(0.9);
     color: $notion-red;
     border: 1px solid var(--text-color);
-    border-radius: 6px;
+    border-radius: 3px;
     background-color: var(--background-color-lighten-9);
     padding: 1px 1px;
 }
