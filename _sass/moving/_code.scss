@@ -25,6 +25,7 @@ pre {
     // padding: 2px 2px;
     overflow-x: auto;
     border-radius: 6px;
+      position: relative;
 
     >code {
         @include relative-font-size(0.9);
@@ -36,5 +37,36 @@ pre {
         background-color: var(--background-color-lighten-9);
         border: 0px solid var(--text-color);
 
+    }
+}
+
+
+
+// copy code to clipboard
+.copy-code-button {
+    @include relative-font-size(0.9);
+
+    font-family: monospace;
+    background-color: var(--background-color);
+    border: none;
+    color: var(--text-color);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+    // opacity: 0;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: var(--text-color);
+      color:var(--background-color);
+      opacity: 1;
     }
 }

@@ -3,7 +3,6 @@
 {%- include head.html -%}
 
 <body>
-   <!--  <script src="{{ base.url | prepend: site.url }}/assets/js/test.js"></script> -->
     {%- include main-menu.html -%}
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
@@ -11,7 +10,9 @@
         </div>
     </main>
     {%- include footer.html -%}
+
     <script src="{{ base.url | prepend: site.url }}/assets/js/mode_switcher.js" type="text/javascript"></script>
+    <script src="{{ base.url | prepend: site.url }}/assets/js/code_block.js" type="text/javascript"></script>
 </body>
 
 </html>
