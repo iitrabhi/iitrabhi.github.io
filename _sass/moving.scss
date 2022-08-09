@@ -12,6 +12,12 @@ $spacing-unit: 30px !default;
 
 
 
+html[data-theme="dark"] {
+  --text-color: #ffffff;
+  --background-color: #202a38;
+  --background-color-lighten-9: #161b22;
+  --brand-color: #f9ae58;
+}
 
 html, html[data-theme="light"] {
   --text-color: #303030;
@@ -21,18 +27,10 @@ html, html[data-theme="light"] {
 
 }
 
-html[data-theme="dark"] {
-  --text-color: #ffffff;
-  --background-color: #0D1117;
-  --background-color-lighten-9: #161b22;
-  --brand-color: #f9ae58;
-}
-
-
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
       --text-color: #ffffff;
-      --background-color: #0D1117;
+      --background-color: #202a38;
       --background-color-lighten-9: #161b22;
       --brand-color: #f9ae58;
     }
