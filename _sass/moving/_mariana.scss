@@ -1,24 +1,23 @@
-/*!
- * Agate by Taufik Nurrohman <https://github.com/tovic>
- * ----------------------------------------------------
- *
- * #ade5fc
- * #a2fca2
- * #c6b4f0
- * #d36363
- * #fcc28c
- * #ffa
- * #fc9b9b
- * #fff
- * #333
- * #62c8f3
- * #888
- * new ----------
- * #3a9ddb
- * #b0d99d
- * #00cdaf
- * #89deff
- */
+html, html[data-theme="light"] {
+   --yellow: #f2d42c
+}
+
+html[data-theme="dark"] {
+   --yellow: #fff0a6
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+       --yellow: #fff0a6
+    }
+
+    html[data-theme="light"] {
+       --yellow: #f2d42c
+  } 
+}
+
+
 
 
 /* code {
@@ -40,7 +39,7 @@ code {
 
 .highlight {
     color: #faf6e4;
-    background-color: #353535;
+    background-color: var(--background-color);
 }
 
 .highlight .gl {
@@ -225,7 +224,7 @@ code {
 .highlight .sx,
 .highlight .sr,
 .highlight .s1 {
-    color: #fff0a6;
+    color: var(--yellow);
     font-weight: bold;
 }
 
@@ -288,3 +287,25 @@ code {
     color: #a8e1fe;
     font-weight: bold;
 }
+
+/*!
+ * Agate by Taufik Nurrohman <https://github.com/tovic>
+ * ----------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #ffa
+ * #fc9b9b
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ * new ----------
+ * #3a9ddb
+ * #b0d99d
+ * #00cdaf
+ * #89deff
+ */
