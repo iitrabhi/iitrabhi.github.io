@@ -28,6 +28,8 @@ fig.show()
 
 {% include_relative assets/sin.html %}
 
+---
+
 ```python
 import plotly.graph_objs as go
 layout = go.Layout(
