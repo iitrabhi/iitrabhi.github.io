@@ -7,7 +7,14 @@ tag:
 typora-root-url: ../../../../website
 ---
 
+## Installation
 
+```
+pip install plotly
+pip install cufflinks
+```
+
+## Example
 
 ```python
 import plotly.express as px
