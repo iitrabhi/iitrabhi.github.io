@@ -1,9 +1,3 @@
-.primary_container {
-    width: calc(#{$content-width} - (#{4*$spacing-unit}));
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .align_right {
     display: flex;
     display: -webkit-flexbox;
@@ -339,41 +333,6 @@ nav {
     font-size: 21.6px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
-    padding: 30px;
-}
-
-.flexbox-col {
-    flex-direction: column;
-    flex: 50%;
-    padding: 30px;
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .row {
-        flex-direction: column;
-    }
-
-    .flexbox {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .flexbox-col {
-        display: flex;
-        text-align: center;
-    }
-}
 
 ::-moz-selection {
     /* Code for Firefox */

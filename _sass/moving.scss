@@ -8,8 +8,11 @@ $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.85 !default;
 $base-line-height: 1.625 !default;
 $small-line-height: 1.6 !default;
-$spacing-unit: 30px !default;
 
+$content-width-home: 1200px !default
+$spacing-unit: 30px !default;
+// Width of the content area
+$content-width: 880px !default;
 
 
 html[data-theme="dark"] {
@@ -44,19 +47,6 @@ html, html[data-theme="light"] {
 }
 
 
-
-
-// Light mode
-// var(--text-color): #303030 !default;
-// var(--baackground-color): #ebebeb !default;
-// var(--brand-color): #2a7ae2 !default;
-
-// Dark Mode
-// var(--text-color): #fff !default;
-// var(--baackground-color): #242932 !default;
-// var(--brand-color): #f9ae58 !default;
-
-
 $code-background: #161b22;
 
 $grey-color: #828282 !default;
@@ -64,18 +54,11 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
 $orange-color: #f66a0a !default;
 $table-text-align: left !default;
-
-//New colors
 $notion-red: #cf4d45;
 
-// Width of the content area
-$content-width: 880px !default;
 
-$on-palm: 600px !default;
-$on-laptop: 880px !default;
-
-$on-medium: $on-palm !default;
-$on-large: $on-laptop !default;
+$on-medium: 600px !default;
+$on-large: 900px !default;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -88,4 +71,4 @@ $on-large: $on-laptop !default;
 }
 
 // Import partials.
-@import "moving/base", "moving/layout", "moving/cards", "moving/button", "moving/anim", "moving/mariana","moving/code", "moving/main_menu", "moving/footer", "moving/form";
+@import "moving/base", "moving/1_home", "moving/layout", "moving/cards", "moving/button", "moving/anim", "moving/mariana","moving/code", "moving/main_menu", "moving/footer", "moving/form";
