@@ -1,6 +1,11 @@
 * {
-    border: 1px solid #fff
+    box-sizing: border-box;
+    // border: 1px solid #fff
 }
+
+.full_width_container.primary_container {
+    display: flex;
+    flex-grow: 1;}
 
 // First I would like to have my primary container = 1200px
 // It should be flexbox container and should grow to fill the
@@ -24,46 +29,43 @@
     }
 }
 
+// Next I would like to define a flex box container for two col layout
+// The columns would fill the width and have variable height
+// They will be centered vertically
 
-
-* {
-    box-sizing: border-box;
-}
-
-.row {
+.flexbox_container_two_col {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
     justify-content: center;
     align-items: center;
 }
 
-.column {
+.flexbox_item {
     flex: 50%;
     padding: 30px;
-    flex-wrap: wrap;
-    align-content: center;
+    // flex-grow: 1;
 }
 
-.flexbox-col {
-    flex-direction: column;
-    flex: 50%;
-    padding: 30px;
-}
+.flexbox_container_flip{
+        flex-direction: row;
+    }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .row {
-        flex-direction: column;
-    }
-
-    .flexbox {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .flexbox-col {
+    .flexbox_container_two_col {
         display: flex;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .flexbox_item {
+        flex: 100%;
+        padding: 30px;
+        // flex-grow: 1;
+    }
+
+    .flexbox_container_flip{
+        flex-direction: column-reverse;
     }
 }
