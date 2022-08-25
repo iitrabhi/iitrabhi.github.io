@@ -1,0 +1,60 @@
+---
+layout: post
+title: Blogs
+---
+<div class="form-group" id="search-container">
+    <input class="form-field" type="text" id="search-input" placeholder="Search">
+    <!-- <span>Search</span> -->
+</div>
+<div>
+    <ul id="results-container"></ul>
+</div>
+<!-- Script pointing to search-script.js -->
+<script src="{{ base.url | prepend: site.url }}/assets/js/search_script.js" type="text/javascript"></script>
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json'
+})
+</script>
+
+{%- if site.posts.size > 0 -%}
+<ul class="post-list">
+    {% for post in site.posts %}
+    <!-- Use this when you wish to show tag under post title -->
+    <!-- {% if post.tags.size > 0 %}
+          Tag{% if post.tags.size > 1 %}s{% endif %}:
+          {{ post.tags | sort | join: ", " }}
+        {% endif %} -->
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+    {% if forloop.first %}
+    <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
+    <ul>
+        {% endif %}
+        {% if post.tags contains 'finance' %}
+        {% continue %}
+        {% endif %}
+        <li>
+            {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">
+                {{ post.date | date: date_format }}
+            </span>
+            <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+        </li>
+        {% if forloop.last %}
+    </ul>
+    {% else %}
+    {% if this_year != next_year %}
+</ul>
+<h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+<ul>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</ul>
+{%- endif -%}
