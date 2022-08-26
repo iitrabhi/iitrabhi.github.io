@@ -37,11 +37,13 @@ $$\text{current volume} = \text{target volume} \implies \frac{\text{current volu
 
 To implement the above equality constraint with `MMA` we have to apply two constraints:
 
-$$+\frac{\text{current volume} }{ \text{target volume}+0.01}-1 \leq 0$$
+$$+\frac{\text{current volume} }{ \text{target volume}+0.01}-1 \leq 0 \implies \text{current volume} \leq \text{target volume}+0.01  $$
 
-$$-\frac{\text{current volume} }{ \text{target volume} - 0.01}+1 \leq 0$$
+$$-\frac{\text{current volume} }{ \text{target volume} - 0.01}+1 \leq 0 \implies \text{target volume} - 0.01 \leq \text{current volume}$$
 
 With the above two constraints applied we can force `MMA` to give us the design volume equal to the required volume.
+
+$$\text{target volume} - 0.01 \leq \text{current volume}\leq \text{target volume}+0.01$$
 
 # References
 
