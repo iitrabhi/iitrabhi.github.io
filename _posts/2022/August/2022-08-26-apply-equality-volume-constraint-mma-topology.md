@@ -41,7 +41,7 @@ $$+\frac{\text{current volume} }{ \text{target volume}+0.01}-1 \leq 0 \implies \
 
 $$-\frac{\text{current volume} }{ \text{target volume} - 0.01}+1 \leq 0 \implies \text{target volume} - 0.01 \leq \text{current volume}$$
 
-With the above two constraints applied we can force `MMA` to give us the design volume equal to the required volume.
+With the above two constraints applied we can force `MMA` to give us the design volume equal to the target volume.
 
 $$\text{target volume} - 0.01 \leq \text{current volume}\leq \text{target volume}+0.01$$
 
