@@ -44,8 +44,8 @@ pre {
 
 // copy code to clipboard
 .copy-code-button {
-    @include relative-font-size(0.9);
-
+    // @include relative-font-size(0.9);
+    font-size: 13px;
     font-family: monospace;
     background-color: var(--background-color);
     border: none;
@@ -58,8 +58,8 @@ pre {
     border-radius: 6px;
 
     position: absolute;
-    right: 1.2rem;
-    top: 1.2rem;
+    right: 0.2rem;
+    top: 0.2rem;
     // opacity: 0;
 
     &:active,
