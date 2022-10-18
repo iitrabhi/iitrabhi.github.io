@@ -7,11 +7,11 @@ layout: default
         <title>{{ site.title }}</title>
     </head>
     <!-- ------------------------------------------------------------------- -->
-    <div class="flexbox_container_two_col flexbox_container_flip" style="margin-top: 50px;">
+    <div class="flexbox_container_two_col flexbox_container_flip primary_container" style="margin-top: 50px;">
         <div class="flexbox_item">
             <div>
                 <p style="font-size:30px; font-family: Montserrat;">Hi, I am Abhi Gupta</p>
-                <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1; ">I am a professional CAE engineer with doctorate in computational mechanics.</p>
+                <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">I am a professional CAE engineer with doctorate in computational mechanics.</p>
                 <p style="font-size:21px; padding-top: 20px; padding-bottom: 30px;">Since 2017, I have worked on developing HPC algorithms for simulation as a part of my doctoral studies. On this website you will find a culmination of ideas and notes on productivity, research, simulation and animation. </p>
                 <a class="button button-hello" href="https://www.calendly.com/abhiguptaio" target="_blank" title="Say Hello!">Say Hello!</a>
             </div>
@@ -21,7 +21,7 @@ layout: default
         </div>
     </div>
     <!-- ------------------------------------------------------------------- -->
-    <div class="container" style="padding-top: 100px;">
+    <div class="primary_container" style="margin-bottom: 50px; margin-top: 100px;">
         <main class="card-container">
             <plain_article>
                 <a href="{{ project.url | relative_url }}">
@@ -53,93 +53,57 @@ layout: default
         </main>
     </div>
     <!-- ------------------------------------------------------------------- -->
-    <h1 style="text-align: center; margin-top:100px; margin-bottom: 0px; font-weight:700;">My writings</h1>
-    <p style="text-align: center; margin-top: 0px;">Read through some of my ideas</p>
-    <div class="flexbox_container_two_col flexbox_container_flip" style="margin-top: 50px;">
-        <div class="flexbox_item">
-            <div>
-                <h3 style="font-family: Montserrat;font-weight:700;">Popular Articles</h3>
-                <a class=" plain-text">This is the most popular article</a><br>
-                <a class=" plain-text">This is the most popular article</a><br>
-                <a class=" plain-text">This is the most popular article</a><br>
-            </div>
-        </div>
-        <div class="flexbox_item">
-            <h3 style="font-family: Montserrat;font-weight:700;">Newsletter</h3>
-            <a class=" plain-text">This is the latest newsletter</a><br>
-            <a class=" plain-text">This is the latest newsletter</a><br>
-            <a class=" plain-text">This is the latest newsletter</a><br>
+    <!-- ------------------------------------------------------------------- -->
+    <div class="primary_container">
+        <div style="margin:10%">
+            <h1>
+                "It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong."
+            </h1>
+            <cite><a class="plain-text" href="https://www.youtube.com/watch?v=LIxvQMhttq4">Richard P. Feynman</a></cite>
         </div>
     </div>
     <!-- ------------------------------------------------------------------- -->
-    <div class="flexbox_container_two_col flexbox_container_flip" style="margin-top: 150px; margin-bottom: 100px;">
-        <div class="flexbox_item">
-            <div>
-                <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1; ">Get a free Notion template with a complete guide to quality research.</p>
-                <p style="font-size:21px; padding-top: 20px; padding-bottom: 30px;">Here I will give some bullet points related to the notion template and ask the visitor to add their mail to get the template. </p>
-                <a class="button button-hello" href="https://www.calendly.com/abhiguptaio" target="_blank" title="Say Hello!">I am interested 😊</a>
-            </div>
-        </div>
-        <div class="flexbox_item">
-            <img  src="{{ site.url }}/assets/images/image-20220217094357745.png" style="max-width: 100%; vertical-align: middle;     float: right;" />
-        </div>
-    </div>
-    <!-- ------------------------------------------------------------------- -->
-    <!-- ------------------------------------------------------------------- -->
-    <!-- hr style="margin-top: 0px;">
-    <div>
-        <blockquote>
-            It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong.
-        </blockquote>
-        <cite><a href="https://www.youtube.com/watch?v=LIxvQMhttq4">Richard P. Feynman</a></cite>
-    </div> -->
-    <!-- ------------------------------------------------------------------- -->
-    <!-- <div class="flexbox_container_two_col">
-        <div class="flexbox_container_two_col">
-            <div style="flex:35%; padding: 30px;">
-                <img src="{{ site.url }}/assets/images/abhi-3.jpg" style="flex: 1;" />
-            </div>
-            <div style="flex:65%; padding: 30px;">
-                <h2 style="font-size:30px; ">computational.</h2>
-                <p>I have worked as a professional CAE engineer for five years at the department of atomic energy. </p>
-            </div>
-        </div>
-        <div class="flexbox_container_two_col">
-            <div style="flex:35%; padding: 30px;">
-                <img src="{{ site.url }}/assets/images/abhi-3.jpg" style="flex: 1;" />
-            </div>
-            <div style="flex:65%; padding: 30px;">
-                <h2 style="font-size:30px; ">CAE engineer</h2>
-                <p>I have worked as a professional CAE engineer for five years at the department of atomic energy. </p>
+    <div style="border-top: 1px solid #EDEADE; border-bottom: 1px solid #EDEADE;
+     ">
+        <div class="primary_container">
+            <div class="flexbox_container_two_col flexbox_container_flip">
+                <div class="flexbox_item" style="border-right: 1px solid #EDEADE;padding-top: 100px; padding-bottom:100px; padding-right: 100px;">
+                    <h1 style=" font-weight:700;">My writings</h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        <br><br>
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <div class="flexbox_item" style="padding-left: 100px;">
+                    <div style="border-bottom: 2px solid #EDEADE;">
+                        <h3 style="font-family: Montserrat;font-weight:700;">Read a popular article:</h3>
+                        <p style="margin-bottom:30px"><a class="hover_highlight" href="https:\\">This is the most popular article</a></p>
+                        <p style="margin-bottom:30px"><a class="hover_highlight" href="https:\\">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></p>
+                        <p style="margin-bottom:30px"><a class="hover_highlight" href="https:\\">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></p>
+                    </div>
+                    <h3 style="font-family: Montserrat;font-weight:700;">Browse the latest newsletter:</h3>
+                    <p style="margin-bottom:30px"><a class="hover_highlight" href="https:\\">This is the most popular article</a></p>
+                    <p style="margin-bottom:30px"><a class="hover_highlight" href="https:\\">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></p>
+                    <p style="margin-bottom:30px"><a class="  hover_highlight" href="https:\\">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="flexbox_container_two_col">
-        <div style="margin-top: 0px; flex: 1; ">
-            <hr>
-        </div>
-        <div style="margin-top: 0px;flex: 1;">
-            <hr>
+    <!-- ------------------------------------------------------------------- -->
+    <div class="primary_container">
+        <div class="flexbox_container_two_col flexbox_container_flip" style="margin-top: 150px; margin-bottom: 100px;">
+            <div class="flexbox_item">
+                <div>
+                    <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">Get a free Notion template with a complete guide to quality research.</p>
+                    <p style="font-size:21px; padding-top: 20px; padding-bottom: 30px;">Here I will give some bullet points related to the notion template and ask the visitor to add their mail to get the template. </p>
+                    <a class="button button-hello" href="https://www.calendly.com/abhiguptaio" target="_blank" title="Say Hello!">I am interested 😊</a>
+                </div>
+            </div>
+            <div class="flexbox_item">
+                <img src="{{ site.url }}/assets/images/image-20220217094357745.png" style="max-width: 100%; vertical-align: middle;     float: right;" />
+            </div>
         </div>
     </div>
-    <div class="flexbox_container_two_col">
-        <div class="flexbox_container_two_col">
-            <div style="flex:35%; padding: 30px;">
-                <img src="{{ site.url }}/assets/images/abhi-3.jpg" style="flex: 1;" />
-            </div>
-            <div style="flex:65%; padding: 30px;">
-                <h2 style="font-size:30px; ">mechanics.</h2>
-                <p>I have worked as a professional CAE engineer for five years at the department of atomic energy. </p>
-            </div>
-        </div>
-        <div class="flexbox_container_two_col">
-            <div style="flex:35%; padding: 30px;">
-                <img src="{{ site.url }}/assets/images/abhi-3.jpg" style="flex: 1;" />
-            </div>
-            <div style="flex:65%; padding: 30px;">
-                <h2 style="font-size:30px; ">professional</h2>
-                <p>I have worked as a professional CAE engineer for five years at the department of atomic energy. </p>
-            </div>
-        </div> -->
-    <!-- </div> -->
+    <!-- ------------------------------------------------------------------- -->
 </div>

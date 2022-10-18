@@ -191,17 +191,7 @@ h6 {
     font-weight: $base-font-weight;
 }
 
-/**
-  * Links
-  */
-a {
-    color: var(--brand-color);
-    text-decoration: none;
 
-    &:hover {
-        text-decoration: underline;
-    }
-}
 
 /**
   * Blockquotes

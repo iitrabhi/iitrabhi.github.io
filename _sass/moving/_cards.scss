@@ -82,7 +82,9 @@ article {
 
 .card-container {
     display: flex;
+    min-width: 100%;
     justify-content: space-between;
+    // background-color: #000;
 }
 
 @media screen and (max-width: 600px) {
