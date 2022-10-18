@@ -1,16 +1,14 @@
 ---
 layout: default
 ---
-<div class="wrapper">
+<div class="wrapper" style="margin-left:auto; margin-right: auto; margin-top:100px; margin-bottom:50px">
 
 <div class="about-page">
 
     <head>
         <title>{{ site.author }}</title>
     </head>
-    <div class="post-back">
-        <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
-    </div>
+   
     <div class="about-header">
         {%- if site.moving.avatar_url -%}
         <img class="about-avatar" src="{{ site.moving.avatar_url }}" />
