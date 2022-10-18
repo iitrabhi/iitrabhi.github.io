@@ -7,6 +7,10 @@
     -webkit-align-items: flex-end;
 }
 
+.plain-text{
+        color: var(--text-color);
+
+}
 /**
  * Reset some basic elements
  */
@@ -169,6 +173,7 @@ li {
   * Headings
   */
 h1 {
+    font-family: Montserrat;
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 1.5;

@@ -2,48 +2,52 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Bitter", "Bitter", sans-serif;
+$base-font-family: "Bitter",
+"Bitter",
+sans-serif;
 $base-font-size: 20px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.85 !default;
 $base-line-height: 1.625 !default;
 $small-line-height: 1.6 !default;
 
-$content-width-home: 1200px !default
-$spacing-unit: 30px !default;
+$content-width-home: 1200px !default $spacing-unit: 30px !default;
 // Width of the content area
 $content-width: 880px !default;
 
 
 html[data-theme="dark"] {
-  --text-color: #ffffff;
-  --background-color: #202a38;
-  --background-color-lighten-9: #161b22;
-  --brand-color: #f9ae58;
+    --text-color: #ffffff;
+    --background-color: #202a38;
+    --background-color-lighten-9: #161b22;
+    --brand-color: #f9ae58;
 }
 
-html, html[data-theme="light"] {
-  --text-color: #303030;
-  --background-color: #ebebeb;
-  --background-color-lighten-9: #ffffff;
-  --brand-color: #2a7ae2;
+html,
+html[data-theme="light"] {
+    --text-color: #303030;
+    --background-color: #ffffff;
+    --background-color-lighten-9: #ebebeb;
+    --brand-color: #2a7ae2;
 
 }
 
 @media (prefers-color-scheme: dark) {
-    html, html[data-theme="dark"] {
-      --text-color: #ffffff;
-      --background-color: #202a38;
-      --background-color-lighten-9: #161b22;
-      --brand-color: #f9ae58;
+
+    html,
+    html[data-theme="dark"] {
+        --text-color: #ffffff;
+        --background-color: #202a38;
+        --background-color-lighten-9: #161b22;
+        --brand-color: #f9ae58;
     }
 
     html[data-theme="light"] {
-      --text-color: #303030;
-      --background-color: #ebebeb;
-      --background-color-lighten-9: #ffffff;
-      --brand-color: #2a7ae2;
-  } 
+        --text-color: #303030;
+        --background-color: #ffffff;
+        --background-color-lighten-9: #ebebeb;
+        --brand-color: #2a7ae2;
+    }
 }
 
 
@@ -61,14 +65,14 @@ $on-medium: 600px !default;
 $on-large: 900px !default;
 
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+    @media screen and (max-width: $device) {
+        @content;
+    }
 }
 
 @mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
+    font-size: $base-font-size * $ratio;
 }
 
 // Import partials.
-@import "moving/base", "moving/1_home", "moving/layout", "moving/cards", "moving/button", "moving/anim", "moving/mariana","moving/code", "moving/main_menu", "moving/footer", "moving/form";
+@import "moving/base", "moving/1_home", "moving/layout", "moving/cards", "moving/button", "moving/anim", "moving/mariana", "moving/code", "moving/main_menu", "moving/footer", "moving/form";
