@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post_container">
-    <div class="post_item_left" style=" padding-bottom:50px; padding-top:50px ;border-right: 1px solid #EDEADE;">
+    <div class="post_item_left" style=" padding-bottom:50px; border-right: 1px solid #EDEADE;">
         <div class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
             <head>
@@ -10,8 +10,8 @@ layout: default
                 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
                 <!-- <link rel="stylesheet" href="{{ base.url | prepend: site.url }}/assets/css/form.css"> -->
             </head>
-            <header class="post-header">
-                <h1 style="font-weight:700; font-size: 56px; margin-top: 140px; " class="post-title p-name" itemprop="name headline">
+            <header class="post-header" style="margin-bottom: 100px;">
+                <h1 style="font-weight:600; font-size: 46px; margin-top: 120px; " class="post-title p-name" itemprop="name headline">
                     {{ page.title | escape }}
                 </h1>
                 <p class="post-meta">
@@ -26,7 +26,7 @@ layout: default
                     {%- endif -%}
                 </p>
             </header>
-            <hr style="position: relative; width: 300%;right:calc(200% - 30px); background: #EDEADE;border: none;height: 1px;">
+            <hr style="position: relative; width: 300%;right:calc(200% - 30px); background: #EDEADE;border: none;height: 1px; margin-bottom: 150px;">
             <div class="post-content e-content" itemprop="articleBody">
                 {{ content }}
             </div>
@@ -40,5 +40,7 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="post_item_right"></div>
+    <div class="post_item_right">
+      <p style="padding-top:200px; font-size: 14px;">tant to understand that figures and plots are a way of communicating your ideas and findings to a bigger community. Typically most of the research documents are made for an A4 size sheet of paper. The width of an A4 size paper is 210mm, take out the 30mm right and left margin and you are left with 150mm of usable space. That is the space that you should always use whil</p>
+    </div>
 </div>

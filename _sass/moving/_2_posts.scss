@@ -9,11 +9,12 @@
 
 
 .post_item_left {
+    // background-color: #aea;
     max-width: -webkit-calc(#{$content-width-home} *0.7 + (#{$spacing-unit} * 2));
     max-width: calc(#{$content-width-home} *0.7 + (#{$spacing-unit} * 2));
     margin-left: auto;
     padding-right: $spacing-unit;
-    // padding-left: $spacing-unit;
+    padding-left: $spacing-unit;
     @extend %clearfix;
 
     @media screen and (max-width: 600px) {
@@ -25,9 +26,9 @@
 }
 
 .post_item_right {
-    flex-grow: 1;
-    max-width: -webkit-calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
-    max-width: calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
+    // background-color: #eea;
+    width: -webkit-calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
+    width: calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
     margin-right: auto;
 
     padding-right: $spacing-unit;
