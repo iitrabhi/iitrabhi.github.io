@@ -66,12 +66,12 @@
     }
 
     .primary_container .home-icon{
-    fill:var(--brand-color);
+    fill:var(--text-color);
     }
 
     .primary_container .home-icon:hover,
     .primary_container .home-icon:focus {
-            fill:var(--text-color);
+            fill:var(--brand-color);
 
     }
 
