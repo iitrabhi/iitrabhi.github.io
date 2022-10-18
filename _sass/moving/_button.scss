@@ -1,6 +1,5 @@
 .button {
-    background-color: var(--baackground-color);
-    color: white;
+    background-color: var(--background-color);
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -18,8 +17,8 @@
 
 .button:hover {
   background-color: var(--brand-color);
-  color: var(--baackground-color);
-        text-decoration: none;
+  color: var(--background-color);
+  text-decoration: none;
 
 }
 
@@ -36,6 +35,15 @@
     display: block;
     width: auto;
     overflow: hidden;
+}
+
+.button-hello {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 // .PageNavigation a {
