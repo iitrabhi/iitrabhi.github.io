@@ -229,8 +229,8 @@ cite {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width: calc(#{$content-width} - (#{$spacing-unit}));
-    margin-right: auto;
-    margin-left: auto;
+    // margin-right: auto;
+    // margin-left: auto;
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
     @extend %clearfix;
@@ -238,8 +238,8 @@ cite {
     @media screen and (min-width: $on-large) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
         max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-        padding-right: $spacing-unit;
-        padding-left: $spacing-unit;
+        // padding-right: $spacing-unit;
+        // padding-left: $spacing-unit;
     }
 }
 

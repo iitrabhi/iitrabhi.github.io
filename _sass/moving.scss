@@ -19,6 +19,7 @@ $content-width: 880px !default;
 html[data-theme="dark"] {
     --text-color: #ffffff;
     --background-color: #202a38;
+    --background-color-2: #202a38;
     --background-color-lighten-9: #161b22;
     --brand-color: #f9ae58;
 }
@@ -27,6 +28,7 @@ html,
 html[data-theme="light"] {
     --text-color: #303030;
     --background-color: #ffffff;
+    --background-color-2: #F9F8F4;
     --background-color-lighten-9: #ebebeb;
     --brand-color: #2a7ae2;
 
@@ -38,6 +40,8 @@ html[data-theme="light"] {
     html[data-theme="dark"] {
         --text-color: #ffffff;
         --background-color: #202a38;
+        --background-color-2: #202a38;
+
         --background-color-lighten-9: #161b22;
         --brand-color: #f9ae58;
     }
@@ -45,6 +49,8 @@ html[data-theme="light"] {
     html[data-theme="light"] {
         --text-color: #303030;
         --background-color: #ffffff;
+        --background-color-2: #F9F8F4;
+
         --background-color-lighten-9: #ebebeb;
         --brand-color: #2a7ae2;
     }
@@ -75,4 +81,4 @@ $on-large: 900px !default;
 }
 
 // Import partials.
-@import "moving/base", "moving/1_home", "moving/layout", "moving/cards", "moving/button", "moving/anim", "moving/mariana", "moving/code", "moving/main_menu", "moving/footer", "moving/form", "moving/text";
+@import "moving/base", "moving/1_home", "moving/2_posts", "moving/layout", "moving/cards", "moving/button", "moving/anim", "moving/mariana", "moving/code", "moving/main_menu", "moving/footer", "moving/form", "moving/text";

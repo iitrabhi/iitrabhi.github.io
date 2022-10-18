@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     display: -webkit-flexbox;
-    background-color: var(--background-color);
+    background-color: var(--background-color-2);
     justify-content: center;
     z-index: 10;
 }
@@ -114,10 +114,12 @@
     .navbar-container {
         position: static;
         width: 100%;
-        background-color: var(--background-color);
+        background-color: var(--background-color-2);
         display: flex;
         display: -webkit-flexbox;
         justify-content: flex-end;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 
     .navbar a.nav_desktop {
