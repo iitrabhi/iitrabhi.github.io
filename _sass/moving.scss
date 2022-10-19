@@ -22,6 +22,7 @@ html[data-theme="dark"] {
     --background-color-2: #243040;
     --background-color-lighten-9: #161b22;
     --brand-color: #f9ae58;
+    --shadow-color: rgba(255,255,255, 0.2);
 }
 
 html,
@@ -31,6 +32,7 @@ html[data-theme="light"] {
     --background-color-2: #F1EEE5;
     --background-color-lighten-9: #E4DECC;
     --brand-color: #2a7ae2;
+    --shadow-color: rgba(249,174,88, 0.2);
 
 }
 
@@ -41,9 +43,9 @@ html[data-theme="light"] {
         --text-color: #ffffff;
         --background-color: #202a38;
         --background-color-2: #243040;
-
         --background-color-lighten-9: #161b22;
         --brand-color: #f9ae58;
+        --shadow-color: rgba(255,255,255, 0.2);
     }
 
     html[data-theme="light"] {
@@ -53,6 +55,7 @@ html[data-theme="light"] {
 
         --background-color-lighten-9: #E4DECC;
         --brand-color: #2a7ae2;
+        --shadow-color: rgba(249,174,88, 0.2);
     }
 }
 

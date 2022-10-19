@@ -104,7 +104,7 @@ article {
 
 plain_article {
     display: block;
-    border: 2px solid var(--text-color);
+    border: 1.5px solid var(--text-color);
     border-radius: 0.3em;
     background-color: var(--background-color);
     min-height: 300px;
@@ -114,7 +114,7 @@ plain_article {
 
     &:hover {
         transition: all 0.5s ease-out;
-        box-shadow: 0px 16px 16px rgba(38, 38, 38, 0.2);
+        box-shadow: 0px 16px 16px var(--shadow-color);
         top: -8px;
         background-color: var(--background-color);
     }
