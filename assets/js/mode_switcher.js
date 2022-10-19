@@ -21,7 +21,7 @@ function prefersColorTest(systemInitiatedDark) {
 systemInitiatedDark.addListener(prefersColorTest);
 
 
-functionSwitcher() {
+function modeSwitcher() {
 	let theme = sessionStorage.getItem('theme');
 	let trans = () => {
             document.documentElement.classList.add('transition');

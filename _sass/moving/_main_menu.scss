@@ -65,13 +65,13 @@
         display: -webkit-flexbox;
     }
 
-    .primary_container .home-icon{
-    fill:var(--text-color);
+    .primary_container .home-icon {
+        fill: var(--text-color);
     }
 
     .primary_container .home-icon:hover,
     .primary_container .home-icon:focus {
-            fill:var(--brand-color);
+        fill: var(--brand-color);
 
     }
 
@@ -88,8 +88,9 @@
 
     }
 
-    .navbar {    flex-grow: 1;
-}
+    .navbar {
+        flex-grow: 1;
+    }
 
     .navbar a {
         float: left;
@@ -107,7 +108,7 @@
     }
 
     .navbar a.active {
-       background: var(--background-color-lighten-9);
+        background: var(--background-color-lighten-9);
         color: var(--text-color);
     }
 
