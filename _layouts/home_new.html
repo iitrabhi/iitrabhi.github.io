@@ -108,7 +108,8 @@ layout: default
                     <h3 style="font-family: Montserrat;font-weight:700;">Browse the latest newsletter:</h3>
 
                     {%- if site.newsletters.size > 0 -%}
-                        {% for newsletter in site.newsletters reversed limit:3 %}
+                    {% assign sorted_newsletters = site.newsletters | reverse %}
+                        {% for newsletter in sorted_newsletters limit:3 %}
                                 <p style="margin-bottom:30px"><a class="hover_highlight"  href="{{ newsletter.url | relative_url }}">
                                     {{ newsletter.title | escape }}
                                 </a></p>
