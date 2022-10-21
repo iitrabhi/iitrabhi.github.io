@@ -27,6 +27,9 @@ layout: default
         </div>
     </div>
 </div>
+
+<!-- ------------------------------------------------------------ -->
+
 <div class="primary_container" style="margin-bottom:50px">
     <div class="about-content e-content" itemprop="articleBody">
         {{ content }}
@@ -34,7 +37,7 @@ layout: default
     {%- if site.newsletters.size > 0 -%}
     <div style="width: 100%;">
     <ul class="post-list">
-        {% for newsletter in site.newsletters %}
+        {% for newsletter in site.newsletters reversed %}
         <!-- Use this when you wish to show tag under post title -->
         <!-- {% if post.tags.size > 0 %}
           Tag{% if post.tags.size > 1 %}s{% endif %}:
@@ -59,9 +62,9 @@ layout: default
         </ul>
         {% else %}
         {% if this_year != next_year %}
-    </ul>
-    <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
-    <ul>
+    <!-- </ul> -->
+    <!-- <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2> -->
+    <!-- <ul> -->
         {% endif %}
         {% endif %}
         {% endfor %}
