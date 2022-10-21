@@ -93,15 +93,27 @@ layout: default
                 <div class="flexbox_item" style="padding-left: 100px; border-left: 1px solid var(--background-color-2);">
                     <div style="margin-bottom:70px">
                         <h3 style="font-family: Montserrat;font-weight:700;">Read a popular article:</h3>
-                        <p style="margin-bottom:30px"><a class="hover_highlight" href="https://abhigupta.io/2021/05/14/clean-sublime-setup.html">How to setup sublime as a beautiful latex editor?</a></p>
-                        <p style="margin-bottom:30px"><a class="hover_highlight" href="https://abhigupta.io/2022/07/20/pdf-plot-python-matplotlib.html">How to get production-ready plots from python?</a></p>
-                        <p style="margin-bottom:30px"><a class="hover_highlight" href="https://abhigupta.io/2022/05/01/linux-add-to-path.html">What to do when linux can not find an installed python package?</a></p>
+                        {%- if site.posts.size > 0 -%}
+                            {% for post in site.posts reversed%}
+                            {% if post.tags contains 'home' %}
+                                <p style="margin-bottom:30px"><a class="hover_highlight"  href="{{ newsletter.url | relative_url }}">
+                                    {{ post.title | escape }}
+                                </a></p>
+                            {% endif %}
+
+                            {% endfor %}
+                        {%- endif -%}
                     </div>
-                    <hr style="position: relative; width: 300%;left:calc(00% - 100px); background: var(--background-color-2);border: none;height: 1px; margin-bottom: 80px;">
+                    <hr class="hide_mobile" style="position: relative; width: 300%;left:calc(00% - 100px); background: var(--background-color-2);border: none;height: 1px; margin-bottom: 80px;">
                     <h3 style="font-family: Montserrat;font-weight:700;">Browse the latest newsletter:</h3>
-                    <p style="margin-bottom:30px"><a class="hover_highlight" href="https:\\">This is the most popular article</a></p>
-                    <p style="margin-bottom:30px"><a class="hover_highlight" href="https:\\">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></p>
-                    <p style="margin-bottom:30px"><a class="  hover_highlight" href="https:\\">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></p>
+
+                    {%- if site.newsletters.size > 0 -%}
+                        {% for newsletter in site.newsletters reversed limit:3 %}
+                                <p style="margin-bottom:30px"><a class="hover_highlight"  href="{{ newsletter.url | relative_url }}">
+                                    {{ newsletter.title | escape }}
+                                </a></p>
+                        {% endfor %}
+                    {%- endif -%}
                 </div>
             </div>
         </div>
