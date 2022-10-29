@@ -8,7 +8,7 @@ pre,
 code {
     border: 2px solid var(--text-color);
     border-radius: 6px;
-    background-color: var(--background-color-lighten-9);
+    background-color: var(--code-background-color);
 
 }
 
@@ -17,7 +17,7 @@ code {
     color: $notion-red;
     border: 1px solid var(--text-color);
     border-radius: 3px;
-    background-color: var(--background-color-lighten-9);
+    background-color: var(--code-background-color);
     padding: 1px 1px;
 }
 
@@ -34,7 +34,7 @@ pre {
         padding-left: 0;
         padding: 10px;
         color: var(--text-color);
-        background-color: var(--background-color-lighten-9);
+        background-color: var(--code-background-color);
         border: 0px solid var(--text-color);
 
     }

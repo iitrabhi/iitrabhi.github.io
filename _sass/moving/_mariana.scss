@@ -1,5 +1,5 @@
 html, html[data-theme="light"] {
-   --yellow: #f2d42c
+   --yellow:  #0000A3
 }
 
 html[data-theme="dark"] {
@@ -13,7 +13,7 @@ html[data-theme="dark"] {
     }
 
     html[data-theme="light"] {
-       --yellow: #f2d42c
+       --yellow: #0000A3
   } 
 }
 
@@ -39,7 +39,7 @@ code {
 
 .highlight {
     color: #faf6e4;
-    background-color: var(--background-color);
+    background-color: var(--code-background-color);
 }
 
 .highlight .gl {
