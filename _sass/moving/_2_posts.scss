@@ -4,14 +4,9 @@
 .post_container {
     display: flex;
     flex-grow: 1;
-}
-
-
-
-.post_item_left {
-    // background-color: #aea;
-    max-width: -webkit-calc(#{$content-width-home} *0.7 + (#{$spacing-unit} * 2));
-    max-width: calc(#{$content-width-home} *0.7 + (#{$spacing-unit} * 2));
+     max-width: -webkit-calc(#{$content-width-home} + (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width-home} + (#{$spacing-unit} * 2));
+    margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
@@ -25,10 +20,34 @@
     }
 }
 
+
+
+.post_item_left {
+    // background-color: #aea;
+    // max-width: -webkit-calc(#{$content-width-home} *0.7 + (#{$spacing-unit} * 2));
+    // max-width: calc(#{$content-width-home} *0.7 + (#{$spacing-unit} * 2));
+    width: 70%;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    border-right: 1px solid var(--background-color-2);
+    @extend %clearfix;
+
+    @media screen and (max-width: 600px) {
+        // max-width: -webkit-calc(#{$content-width} + (#{$spacing-unit} * 2));
+        // max-width: calc(#{$content-width} + (#{$spacing-unit} * 2));
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        border-right: 0px solid var(--background-color-2);
+    }
+}
+
 .post_item_right {
     // background-color: #eea;
-    width: -webkit-calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
-    width: calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
+    // width: -webkit-calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
+    // width: calc(#{$content-width-home} *0.3 + (#{$spacing-unit} * 2));
+    width: 30%;;
     margin-right: auto;
 
     padding-right: $spacing-unit;
@@ -36,10 +55,10 @@
     @extend %clearfix;
 
     @media screen and (max-width: 600px) {
-        max-width: -webkit-calc(#{$content-width} + (#{$spacing-unit} * 2));
-        max-width: calc(#{$content-width} + (#{$spacing-unit} * 2));
-        padding-right: $spacing-unit;
-        padding-left: $spacing-unit;
+        // max-width: -webkit-calc(#{$content-width} + (#{$spacing-unit} * 2));
+        // max-width: calc(#{$content-width} + (#{$spacing-unit} * 2));
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
