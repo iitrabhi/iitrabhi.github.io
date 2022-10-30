@@ -14,6 +14,7 @@ $small-line-height: 1.6 !default;
 $content-width-home: 1200px !default $spacing-unit: 30px !default;
 // Width of the content area
 $content-width: 880px !default;
+$invert:alpha(#fff);
 
 
 html[data-theme="dark"] {
@@ -25,6 +26,7 @@ html[data-theme="dark"] {
     --background-color-lighten-9: #161b22;
     --brand-color: #f9ae58;
     --shadow-color: rgba(255, 255, 255, 0.2);
+    --invert-intensity: invert(1);
 }
 
 html,
@@ -34,9 +36,10 @@ html[data-theme="light"] {
     --code-background-color: #F1EEE5;
 
     --background-color-2: #F1EEE5;
-    --background-color-lighten-9: #E4DECC;
+    --background-color-lighten-9: #F1EEE5;
     --brand-color: #2a7ae2;
     --shadow-color: rgba(249, 174, 88, 0.2);
+    --invert-intensity:invert(0);
 
 }
 
@@ -52,6 +55,7 @@ html[data-theme="light"] {
         --background-color-lighten-9: #161b22;
         --brand-color: #f9ae58;
         --shadow-color: rgba(255, 255, 255, 0.2);
+        --invert-intensity: invert(1);
     }
 
     html[data-theme="light"] {
@@ -61,9 +65,10 @@ html[data-theme="light"] {
 
         --background-color-2: #F1EEE5;
 
-        --background-color-lighten-9: #E4DECC;
+        --background-color-lighten-9: #F1EEE5;
         --brand-color: #2a7ae2;
         --shadow-color: rgba(249, 174, 88, 0.2);
+        --invert-intensity: invert(0);
     }
 }
 
