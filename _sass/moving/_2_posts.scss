@@ -99,7 +99,7 @@
 
 .post-meta {
     display: inline-block;
-    min-width: 72px;
+    min-width: 30px;
 
     @media (max-width: 500px) {
         @include relative-font-size(0.8);
