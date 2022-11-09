@@ -2,7 +2,7 @@
 layout: post
 title: "First meeting with my GSoC mentors"
 description: "Meeting my mentors for the GSoC2019"
-tag: 
+categories: 
   - [gsoc,coding]
 typora-root-url: ../../../../website
 ---

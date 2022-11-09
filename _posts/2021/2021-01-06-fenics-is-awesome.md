@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FEniCS is incredible"
-tag: 
+categories: 
   - [fenics, coding]
 typora-root-url: ../../../website
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to setup Typora for daily journaling"
-tag: 
+categories: 
   - [productivity]
 typora-root-url: ../../../website
 ---

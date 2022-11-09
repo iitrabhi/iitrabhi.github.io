@@ -2,7 +2,7 @@
 layout: post
 title: "Thoughts on writing blog posts or tweets on the internet."
 description: "I have always felt resistance to writing on the internet, whether it is a blog post or a short tweet."
-tag: 
+categories: 
   - [productivity]
 typora-root-url: ../../../../website
 ---

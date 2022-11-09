@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Load the project to PyPi"
-tag: 
+categories: 
   - [coding]
 typora-root-url: ../../../website
 ---

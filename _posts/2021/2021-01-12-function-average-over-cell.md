@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to get average of a function over each cell."
-tag: 
+categories: 
   - [fenics, coding]
 typora-root-url: ../../../website
 ---

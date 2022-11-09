@@ -2,7 +2,7 @@
 layout: post
 title: "How to take derivatives with sympy."
 description: "Generate or validate your derivatives with symbolic calculation in python."
-tag: 
+categories: 
   - [coding]
 typora-root-url: ../../../../website
 ---

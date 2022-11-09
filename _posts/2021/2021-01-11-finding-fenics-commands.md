@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to find the explanation of different FEniCS commands."
-tag:
+categories:
   - [fenics, coding]
 typora-root-url: ../../../website
 ---

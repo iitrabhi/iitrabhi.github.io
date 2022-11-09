@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to get hmin for each cell in FEniCS"
-tag: 
+categories: 
   - [fenics, coding]
 typora-root-url: ../../../website
 ---

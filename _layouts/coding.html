@@ -45,7 +45,7 @@ layout: default
         <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
         <ul>
             {% endif %}
-            {% if post.tags contains 'coding' %}
+            {% if post.categories contains 'coding' %}
             
             <li>
                 {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}

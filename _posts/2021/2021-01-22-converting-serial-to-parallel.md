@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to convert serial FEniCS code to parallel."
-tag: 
+categories: 
   - [fenics, coding]
 typora-root-url: ../../../website
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to add images, latex and code to blog."
-tag: 
+categories: 
   -  [presentation]
 typora-root-url: ../../../website
 ---

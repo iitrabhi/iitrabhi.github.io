@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to export animation from paraview."
-tag: 
+categories: 
   - [software, presentation]
 typora-root-url: ../../../website
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding make and cmake"
 description: "Understanding the compilation process of C++"
-tag: 
+categories: 
   - [gsoc,coding]
 typora-root-url: ../../../../website
 ---

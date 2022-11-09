@@ -25,7 +25,8 @@ layout: default
                             }}</span></span>
                     {%- endif -%}
 
-                    {%- if page.tags -%}
+                    <!-- TAGS --------------------------------------- -->
+                   <!--  {%- if page.tags -%}
                     <span style="padding-left:10px;padding-right: 10px;">|</span>
                     {% for tag in page.tags %}
                     <span class="post-meta">
@@ -36,7 +37,24 @@ layout: default
                         {%- endif -%}
                     </span>
                     {%- endfor -%}
+                    {%- endif -%} -->
+
+                    <!-- Categories--------------------------------------- -->
+
+                    {%- if page.categories -%}
+                    <span style="padding-left:10px;padding-right: 10px;">|</span>
+                    {% for category in page.categories %}
+                    <span class="post-meta">
+                        {%- if forloop.last -%}
+                        <a style="font-size:14px;color: var(--text-color);" href="{{ site.url }}/categories/{{ tag }}">{{ category| upcase }}</a>
+                        {%- else -%}
+                        <a style="font-size:14px;color: var(--text-color);padding-right: 10px" href="{{ site.url }}/categories/{{ tag }}">{{category| upcase }}, </a> 
+                        {%- endif -%}
+                    </span>
+                    {%- endfor -%}
                     {%- endif -%}
+                    <!-- --------------------------------------- -->
+
                 </p>
             </header>
             <hr style="/*position: relative; width: 300%;right:calc(200% - 30px);*/ background: var(--color-1);border: none;height: 1px; margin-bottom: 80px; opacity: 1;">

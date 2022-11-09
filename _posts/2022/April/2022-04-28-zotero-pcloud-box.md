@@ -2,7 +2,7 @@
 layout: post
 title: "How to get 10 GB of sync space for your zotero library."
 description: "Pcloud ended support for webdav sync in Zotero. It's time to move to box.com"
-tag: 
+categories: 
   - [productivity, presentation]
 typora-root-url: ../../../../website
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to setup the Moving theme for your Jekyll blog."
-tag: 
+categories: 
   - [coding,presentation]
 ---
 

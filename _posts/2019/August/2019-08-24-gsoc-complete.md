@@ -2,7 +2,7 @@
 layout: post
 title: "GSoC complete: FEniCS-The mesh workflow"
 description: "This is the final post for my google summer of code 2019"
-tag: 
+categories: 
   - [gsoc,coding]
 typora-root-url: ../../../../website
 ---
