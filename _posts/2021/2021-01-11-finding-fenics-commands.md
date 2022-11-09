@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to find the explanation of different FEniCS commands."
-categories: 
-  - [fenics, coding]
+categories: [fenics, coding]
 typora-root-url: ../../../website
 ---
 FEniCS has one of the best documentation in opensource and an incredible support community. The first step to start working with FEniCS is to download and install it. You can find the installation instructions [here](https://github.com/iitrabhi/fenics-docker). It is straightforward to get started with FEniCS by just following there an excellent tutorial that they have provided [here](https://fenicsproject.org/olddocs/dolfin/2019.1.0/python/demos/poisson/demo_poisson.py.html). Once you have understood the basic working by following through the tutorial, I would recommend you to read the first chapter of [The FEniCS Book](https://launchpadlibrarian.net/83776282/fenics-book-2011-10-27-final.pdf) thoroughly. 
