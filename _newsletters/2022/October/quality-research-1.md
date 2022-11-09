@@ -2,7 +2,7 @@
 layout: post
 title: "Quality Research - 1: What to expect from this newsletter?"
 description: " "
-date: 2022-10-16
+date: 2022-11-8
 typora-root-url: ../../../../website
 ---
 
