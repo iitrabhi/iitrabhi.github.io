@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     display: -webkit-flexbox;
-    background-color: var(--background-color-2);
+    background-color: var(--color-1);
     justify-content: center;
     z-index: 10;
 }
@@ -103,19 +103,19 @@
     }
 
     .navbar a:hover {
-        background: var(--background-color-lighten-9);
+        background: var(--color-2);
         color: var(--text-color);
     }
 
     .navbar a.active {
-        background: var(--background-color-lighten-9);
+        background: var(--color-2);
         color: var(--text-color);
     }
 
     .navbar-container {
         position: static;
         width: 100%;
-        background-color: var(--background-color-2);
+        background-color: var(--color-1);
         display: flex;
         display: -webkit-flexbox;
         justify-content: flex-end;

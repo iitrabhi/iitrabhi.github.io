@@ -98,7 +98,7 @@ hr {
     height: 1px;
     /* Set the hr color */
     // color: lighten($grey-color-light, 3%);
-    background-color: var(--background-color-2);
+    background-color: var(--color-1);
 
     /* old IE */
     /* Modern Browsers */
@@ -198,7 +198,7 @@ h6 {
   */
 blockquote {
     color: var(--text-color);
-    background-color: var(--background-color-2);
+    background-color: var(--color-1);
 
     border-radius: 0.3em;
 
@@ -286,7 +286,7 @@ table {
 
     tr {
         &:nth-child(even) {
-            background-color: var(--background-color-lighten-9);
+            background-color: var(--color-2);
         }
     }
 
@@ -296,7 +296,7 @@ table {
     }
 
     th {
-        background-color: var(--background-color-lighten-9);
+        background-color: var(--color-2);
         border: 2px solid var(--text-color);
         border-bottom-color: var(--text-color);
     }
@@ -362,6 +362,6 @@ nav {
     background: var(--text-color);
 
     &:hover {
-        background: var(--background-color-lighten-9);
+        background: var(--color-2);
     }
 }

@@ -1,6 +1,6 @@
 :root {
     --input-color: var(--text-color);
-    --input-background: var(--background-color-lighten-9);
+    --input-background: var(--color-2);
     --input-placeholder: var(--background-color);
 
     --input-border-focus: var(--text-color);
@@ -9,7 +9,7 @@
     --input-border: #fff;
     --group-border: var(--input-border);
 
-    --group-background: var(--background-color-lighten-9);;
+    --group-background: var(--color-2);;
     --group-color-focus: #fff;
     --group-border-focus: var(--input-border-focus);
     --group-background-focus: var(--input-border-focus);

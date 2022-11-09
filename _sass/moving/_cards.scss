@@ -14,10 +14,10 @@
 
 article {
     display: block;
-    border: 0.15rem solid #ffffff;
+    border: 2px solid var(--color-2);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     border-radius: 0.3em;
-    background-color: var(--background-color-lighten-9);
+    background-color: var(--color-1);
     min-height: 300px;
     z-index: 0;
 
