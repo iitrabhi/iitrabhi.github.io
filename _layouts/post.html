@@ -45,9 +45,9 @@ layout: default
                     {%- endif -%}
                     <span class="post-meta">
                         {%- if forloop.last -%}
-                        <a style="font-size:14px;color: var(--text-color);" href="{{ site.url }}/categories/{{ tag }}">{{ category| upcase }}</a>
+                        <a style="font-size:14px;color: var(--text-color);" href="{{ site.url }}/categories/{{ category }}">{{ category| upcase }}</a>
                         {%- else -%}
-                        <a style="font-size:14px;color: var(--text-color);padding-right: 10px" href="{{ site.url }}/categories/{{ tag }}">{{category| upcase }}, </a>
+                        <a style="font-size:14px;color: var(--text-color);padding-right: 10px" href="{{ site.url }}/categories/{{ category }}">{{category| upcase }}, </a>
                         {%- endif -%}
                     </span>
                     {%- endfor -%}
