@@ -20,7 +20,6 @@ $invert:alpha(#fff);
 html[data-theme="dark"] {
     --text-color: #ffffff;
     --background-color: #202a38;
-    --code-background-color: #161b22;
 
     --background-color-2: #243040;
     --background-color-lighten-9: #161b22;
@@ -33,8 +32,6 @@ html,
 html[data-theme="light"] {
     --text-color: #303030;
     --background-color: #ffffff;
-    --code-background-color: #F1EEE5;
-
     --background-color-2: #F1EEE5;
     --background-color-lighten-9: #F1EEE5;
     --brand-color: #2a7ae2;
@@ -49,7 +46,6 @@ html[data-theme="light"] {
     html[data-theme="dark"] {
         --text-color: #ffffff;
         --background-color: #202a38;
-        --code-background-color: #161b22;
 
         --background-color-2: #243040;
         --background-color-lighten-9: #161b22;
@@ -61,7 +57,6 @@ html[data-theme="light"] {
     html[data-theme="light"] {
         --text-color: #303030;
         --background-color: #ffffff;
-        --code-background-color: #F1EEE5;
 
         --background-color-2: #F1EEE5;
 
@@ -72,8 +67,6 @@ html[data-theme="light"] {
     }
 }
 
-
-$code-background: #161b22;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

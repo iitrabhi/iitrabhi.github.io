@@ -1,21 +1,48 @@
-html, html[data-theme="light"] {
-   --yellow:  #0000A3
-}
-
-html[data-theme="dark"] {
-   --yellow: #fff0a6
-}
-
-
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
-       --yellow: #fff0a6
+        --yellow : #fff0a6;
+        --pink : #fc9b9b;
+        --purple : #c6b4f0;
+        --green : #00cdaf;
+        --blue :#00a9ff;
+        --blue3 : #62c8f3;
+
+        --grey : #888888;
+        --grey2 : #4e5d62;
+        --grey3: #dee5e7;
+        --warm: #fefeec;
+        --code-background-color: #161b22;
     }
 
     html[data-theme="light"] {
-       --yellow: #0000A3
+        --yellow : #c5a332;
+        --pink : #d52753;
+        --purple : #ce33c0;
+        --green : #00cdaf;
+        --blue : #275fe4;
+        --blue3 : #275fe4;
+
+        --grey : #888888;
+        --grey2 : #4e5d62;
+        --grey3: #dee5e7;
+        --warm: #fefeec;
+        --code-background-color: #F1EEE5;
   } 
 }
+
+
+
+.highlight .gt {
+    color: var(--grey3);
+    background-color: var(--grey2);
+}
+
+.highlight .gl {
+    color: var(--grey3);
+    background-color: var(--grey2);
+}
+
+
 
 
 
@@ -38,17 +65,14 @@ code {
 }
 
 .highlight {
-    color: #faf6e4;
+    color: var(--text-color);
     background-color: var(--code-background-color);
 }
 
-.highlight .gl {
-    color: #dee5e7;
-    background-color: #4e5d62;
-}
+
 
 .highlight .gp {
-    color: #00a9ff;
+    color: var(--blue);
     font-weight: bold;
 }
 
@@ -59,22 +83,19 @@ code {
 .highlight .cpf,
 .highlight .c1,
 .highlight .cs {
-    color: #6c8b9f;
+    color: var(--blue3);
     font-style: italic;
 }
 
 .highlight .cp {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
-.highlight .err {
-    color: #fefeec;
-    background-color: #fff;
-}
+
 
 .highlight .gr {
-    color: #fff;
+    color: var(--text-color);
     font-weight: bold;
     font-style: italic;
 }
@@ -82,27 +103,27 @@ code {
 .highlight .k,
 .highlight .kd,
 .highlight .kv {
-    color: #3a9ddb;
+    color: var(--purple);
     font-weight: bold;
 }
 
 .highlight .o,
 .highlight .ow {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .p,
 .highlight .pi {
-    color: #62c8f3;
+    color: var(--blue3);
 }
 
 .highlight .gd {
-    color: #fff;
+    color: var(--text-color);
 }
 
 .highlight .gi {
-    color: #62c8f3;
+    color: var(--blue3);
 }
 
 .highlight .ge {
@@ -113,83 +134,74 @@ code {
     font-weight: bold;
 }
 
-.highlight .gt {
-    color: #dee5e7;
-    background-color: #4e5d62;
-}
-
-.highlight .kc {
-    color: #b0d99d;
-    font-weight: bold;
-}
 
 .highlight .kn {
-    color: #fc9b9b;
+    color:var(--pink);
     font-weight: bold;
 }
 
 .highlight .kp {
-    color: #fc9b9b;
+    color: var(--pink);
     font-weight: bold;
 }
 
 .highlight .kr {
-    color: #fc9b9b;
+    color: var(--pink);
     font-weight: bold;
 }
 
 .highlight .gh {
-    color: #fc9b9b;
+    color: var(--pink);
     font-weight: bold;
 }
 
 .highlight .gu {
-    color: #fc9b9b;
+    color: var(--pink);
     font-weight: bold;
 }
 
 .highlight .kt {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .no {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .nc {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .nd {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .nn {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .bp {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .ne {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .nl {
-    color: #89deff;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .nt {
-    color: #fc9b9b;
+    color: var(--pink);
     font-weight: bold;
 }
 
@@ -201,17 +213,17 @@ code {
 .highlight .il,
 .highlight .mo,
 .highlight .mx {
-    color: #b0d99d;
+    color: var(--green);
     font-weight: bold;
 }
 
 .highlight .ld {
-    color: #b0d99d;
+    color: var(--green);
     font-weight: bold;
 }
 
 .highlight .ss {
-    color: #b0d99d;
+    color: var(--green);
     font-weight: bold;
 }
 
@@ -229,54 +241,43 @@ code {
 }
 
 .highlight .sa {
-    color: #3a9ddb;
+    color: var(--purple);
     font-weight: bold;
 }
 
 .highlight .se {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .sc {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .si {
-    color: #62c8f3;
+    color: var(--blue3);
     font-weight: bold;
 }
 
 .highlight .nb {
-    color: #00cdaf;
+    color: var(--green);
     font-weight: bold;
 }
 
-.highlight .ni {
-    color: #999999;
-    font-weight: bold;
-}
 
-.highlight .w {
-    color: #BBBBBB;
-}
-
-.highlight .go {
-    color: #BBBBBB;
-}
 
 .highlight .nf,
 .highlight .fm {
-    color: #00a9ff;
+    color: var(--blue);
 }
 
 .highlight .py {
-    color: #00a9ff;
+    color: var(--blue);
 }
 
 .highlight .na {
-    color: #00a9ff;
+    color: var(--blue);
 }
 
 .highlight .nv,
@@ -284,28 +285,34 @@ code {
 .highlight .vg,
 .highlight .vi,
 .highlight .vm {
-    color: #00a9ff;
+    color: var(--blue);
     font-weight: bold;
 }
 
-/*!
- * Agate by Taufik Nurrohman <https://github.com/tovic>
- * ----------------------------------------------------
- *
- * #ade5fc
- * #a2fca2
- * #c6b4f0
- * #d36363
- * #fcc28c
- * #ffa
- * #fc9b9b
- * #fff
- * #333
- * #62c8f3
- * #888
- * new ----------
- * #3a9ddb
- * #b0d99d
- * #00cdaf
- * #89deff
- */
+
+
+
+
+.highlight .ni {
+    color: var(--grey);
+    font-weight: bold;
+}
+
+.highlight .w {
+    color: var(--grey);
+}
+
+.highlight .go {
+    color: var(--grey);
+}
+
+.highlight .kc {
+    color: var(--green);
+    font-weight: bold;
+}
+
+
+.highlight .err {
+    color: var(--warm);
+    background-color: var(--text-color);
+}
