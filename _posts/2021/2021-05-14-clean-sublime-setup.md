@@ -63,7 +63,7 @@ typora-root-url: ../../../website
 
 - Next open `Preferences  → Settings`  and paste the following there.
 
-- ```json
+  ```json
   {
   	"auto_complete_triggers":
   	[
