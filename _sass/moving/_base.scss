@@ -95,10 +95,10 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    height: 2px;
+    height: 1px;
     /* Set the hr color */
     // color: lighten($grey-color-light, 3%);
-    background-color: var(--text-color);
+    background-color: var(--background-color-2);
 
     /* old IE */
     /* Modern Browsers */
@@ -198,7 +198,7 @@ h6 {
   */
 blockquote {
     color: var(--text-color);
-    background-color: var(--background-color-lighten-9);
+    background-color: var(--background-color-2);
 
     border-radius: 0.3em;
 
