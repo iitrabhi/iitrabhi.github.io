@@ -109,12 +109,25 @@
     // color: lighten(var(--text-color), 25%);
 }
 
+.post-date {
+    display: inline-block;
+    min-width: 80px;
+
+    @media (max-width: 500px) {
+        @include relative-font-size(0.8);
+    }
+
+    @include relative-font-size(1);
+    // color: lighten(var(--text-color), 25%);
+}
+
 .post-link-layout {
-    margin-left: 10%;
+    margin-left: 50px;
     display: inline;
 
     @media (max-width: 500px) {
         @include relative-font-size(1);
+        margin-left: 10px;
     }
 
     @include relative-font-size(1.2);
