@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to build petsc with complex support."
-categories: 
-  - [fenics,petsc,coding]
+categories: [fenics,petsc,coding]
 typora-root-url: ../../../website
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to set up your first JavaScript project."
-categories: 
-  - [coding]
+categories: [coding]
 typora-root-url: ../../../website
 ---
 

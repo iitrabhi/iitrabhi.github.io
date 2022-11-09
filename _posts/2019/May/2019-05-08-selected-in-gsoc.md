@@ -2,8 +2,7 @@
 layout: post
 title: "Got selected to GSoC 2019 to work on FEniCS"
 description: "I am so much happy to have been officially accepted to contribute to the FEniCS project."
-categories: 
-  - [gsoc,coding]
+categories: [gsoc,coding]
 typora-root-url: ../../../../website
 ---
 

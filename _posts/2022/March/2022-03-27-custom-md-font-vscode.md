@@ -2,8 +2,7 @@
 layout: post
 title: "How to have a custom markdown preview font-style and size for VSCode."
 description: "This blog post details the settings required to have a custom VSCode fonts in markdown preview."
-categories: 
-  - [coding]
+categories: [coding]
 typora-root-url: ../../../../website
 ---
 ## The problem

@@ -2,8 +2,7 @@
 layout: post
 title: "How to run julia code in jupyter notebook."
 description: "It is very easy to install Julia in Jupyter."
-categories: 
-  - [coding]
+categories: [coding]
 typora-root-url: ../../../../website
 ---
 

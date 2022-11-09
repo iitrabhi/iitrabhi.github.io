@@ -2,8 +2,7 @@
 layout: post
 title: "How to apply point load in FEniCS."
 description: "Applying point load in FEniCS is not straightforward but doable."
-categories: 
-  - [coding, fenics]
+categories: [coding, fenics]
 typora-root-url: ../../../../website
 ---
 

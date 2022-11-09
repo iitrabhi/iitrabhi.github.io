@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to properly add bib to your latex project using zotero."
-categories: 
-  - [latex, presentation]
+categories: [latex, presentation]
 typora-root-url: ../../../website
 ---
 

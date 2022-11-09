@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to get average of a function over each cell."
-categories: 
-  - [fenics, coding]
+categories: [fenics, coding]
 typora-root-url: ../../../website
 ---
 In FEniCS there are three different kinds of function space which we can use. 

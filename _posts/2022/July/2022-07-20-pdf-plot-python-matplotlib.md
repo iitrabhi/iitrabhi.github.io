@@ -2,8 +2,8 @@
 layout: post
 title: "How to get production-ready plots from python."
 description: "This post explains the process of setting up matplotlib to export production-ready pdf plots with proper dimensions and LaTeX."
-categories: 
-  - [coding,home]
+tags: [home]
+categories: [coding]
 typora-root-url: ../../../../website
 ---
 

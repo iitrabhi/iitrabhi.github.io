@@ -2,8 +2,7 @@
 layout: post
 title: "Completion of PhD. Initiating writing synopsis"
 description: "How to write a synopsis report at the end of your PhD work. 🎓"
-categories: 
-  - [presentation]
+categories: [presentation]
 typora-root-url: ../../../../website
 ---
 

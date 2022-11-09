@@ -2,8 +2,7 @@
 layout: post
 title: "[Lesson - 1] Understanding financial terms used in India"
 description: "This blog post details my understanding of financial system of India."
-categories: 
-  - [finance]
+categories: [finance]
 typora-root-url: ../../../../website
 ---
 

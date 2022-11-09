@@ -2,8 +2,7 @@
 layout: post
 title: "FEniCS: Completion of phase one"
 description: "Successful completion of phase one of GSoC2019"
-categories: 
-  - [gsoc,coding]
+categories: [gsoc,coding]
 typora-root-url: ../../../../website
 ---
 

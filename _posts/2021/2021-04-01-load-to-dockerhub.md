@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Load the working copy of your docker image to docker hub for reuse"
-categories: 
-  - [coding]
+categories: [coding]
 typora-root-url: ../../../website
 ---
 
