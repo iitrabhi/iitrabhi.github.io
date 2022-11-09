@@ -42,8 +42,11 @@ layout: default
                     <!-- Categories--------------------------------------- -->
 
                     {%- if page.categories -%}
-                    <span style="padding-left:10px;padding-right: 10px;">|</span>
+                   
                     {% for category in page.categories %}
+                    {%- if forloop.first -%}
+                     <span style="padding-left:10px;padding-right: 10px;">|</span>
+                    {%- endif -%}
                     <span class="post-meta">
                         {%- if forloop.last -%}
                         <a style="font-size:14px;color: var(--text-color);" href="{{ site.url }}/categories/{{ tag }}">{{ category| upcase }}</a>
