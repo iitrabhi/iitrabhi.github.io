@@ -2,7 +2,7 @@
 layout: post
 title: "How to set sublime as text editor in gmsh."
 tag: 
-  - fenics
+  - [productivity]
 typora-root-url: ../../../website
 ---
 

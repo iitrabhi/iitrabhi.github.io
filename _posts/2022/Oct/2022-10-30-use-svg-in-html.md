@@ -3,7 +3,7 @@ layout: post
 title: "How to use SVG images on your website with light and dark mode."
 description: "This post contains simple examples to showcase the way I use SVG in html."
 tag: 
-  - code
+  - [coding, presentation]
 typora-root-url: ../../../../website
 ---
 

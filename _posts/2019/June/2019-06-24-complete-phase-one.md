@@ -3,7 +3,7 @@ layout: post
 title: "FEniCS: Completion of phase one"
 description: "Successful completion of phase one of GSoC2019"
 tag: 
-  - gsoc
+  - [gsoc,coding]
 typora-root-url: ../../../../website
 ---
 

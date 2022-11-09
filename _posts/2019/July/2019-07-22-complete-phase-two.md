@@ -3,7 +3,7 @@ layout: post
 title: "FEniCS: Completion of phase two"
 description: "The second phase of google summer of code is complete."
 tag: 
-  - gsoc
+  - [gsoc,coding]
 typora-root-url: ../../../../website
 ---
 

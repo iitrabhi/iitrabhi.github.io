@@ -3,7 +3,7 @@ layout: post
 title: "FEniCS: The XDMF schema"
 description: "Understanding the XDMF schema as a part of GSoC 2019"
 tag: 
-  - gsoc
+  - [gsoc,coding]
 typora-root-url: ../../../../website
 ---
 

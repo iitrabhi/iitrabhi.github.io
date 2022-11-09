@@ -2,7 +2,7 @@
 layout: post
 title: "How to get hmin for each cell in FEniCS"
 tag: 
-  - fenics
+  - [fenics, coding]
 typora-root-url: ../../../website
 ---
 FEniCS is full of useful commands that gives the user full control over the underlying mesh. One of the things that I have to constantly do in my research is to check the minimum element size in the mesh. This is very easy to check with FEniCS with `hmin()` command that **"computes the  maximum cell size in mesh, measured greatest distance between any two vertices of a cell"**. Thus, for a right angled triangle it will give us the length of the hypotenuses as the minimum element size in the mesh.

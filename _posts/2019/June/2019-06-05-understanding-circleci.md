@@ -3,7 +3,7 @@ layout: post
 title: "Understanding CircleCI"
 description: "Continuous testing of the code can only guarantee its correctness."
 tag: 
-  - gsoc
+  - [gsoc,coding]
 typora-root-url: ../../../../website
 ---
 

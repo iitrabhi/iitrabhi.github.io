@@ -2,7 +2,7 @@
 layout: post
 title: "How to set dark mode on Sumatra PDF for latex."
 tag: 
-  - tools
+  - [software, productivity]
 typora-root-url: ../../../website
 ---
 

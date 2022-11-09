@@ -3,7 +3,7 @@ layout: post
 title: "Different math environments available in LaTeX"
 description: "A picture of all the math environments available in latex"
 tag: 
-  - latex
+  - [latex,presentation]
 typora-root-url: ../../../../website
 ---
 

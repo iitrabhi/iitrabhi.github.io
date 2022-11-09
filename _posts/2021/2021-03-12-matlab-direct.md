@@ -2,7 +2,7 @@
 layout: post
 title: "Some surprising findings on direct vs iterative in MATLAB."
 tag: 
-  - code
+  - [coding]
 typora-root-url: ../../../website
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "How to save a surface plot generated with matplotlib as STL to open in ParaView."
 description: "This blog post details the steps to convert a surface plot into STL."
 tag: 
-  - code
+  - [coding, presentation]
 typora-root-url: ../../../../website
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Thoughts on writing blog posts or tweets on the internet."
 description: "I have always felt resistance to writing on the internet, whether it is a blog post or a short tweet."
 tag: 
-  - misc
+  - [productivity]
 typora-root-url: ../../../../website
 ---
 I have always felt resistance to writing on the internet, whether it is a blog post or a short tweet. I do not understand for whom I am writing all of this. I am, in part, writing for the future students who might work with me, but it would feel quite natural if I had a person in my mind while documenting my thoughts and findings in the blogs or tweets. It will make it much easier and more realistic to write. Recently, a simple change in my mindset has helped me write with a purpose.

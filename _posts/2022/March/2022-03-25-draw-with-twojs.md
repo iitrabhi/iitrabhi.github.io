@@ -3,7 +3,7 @@ layout: post
 title: "How to draw curves with two js."
 description: "This blog post details my understaning of drawing with Two js."
 tag: 
-  - code
+  - [coding, presentation]
 typora-root-url: ../../../../website
 
 ---

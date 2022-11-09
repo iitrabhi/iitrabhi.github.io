@@ -3,7 +3,7 @@ layout: post
 title: "Creating a color gradient over line plot in python."
 description: "This post contains the code to create a color gradient across line plots in python using matplotlib."
 tag: 
-  - code
+  - [coding, presentation]
 typora-root-url: ../../../../website
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "What to do when linux can not find an installed python package"
 description: "This post explains a little bit about linux $PATH variable and its use for python packages."
 tag: 
-  - [code,home]
+  - [coding,home]
 typora-root-url: ../../../../website
 ---
 
