@@ -73,7 +73,7 @@ Here the multiplication order is
            4496.97, 4503.77, 4489.17, 4499.72, 4501.36, 4499.38, 4485.01,
            4490.23, 4502.94, 4505.94, 4503.82, 4499.95])
 
-From the simple example presented above we can see that there is almost a $7\times$ speed boost by just changing the multiplication order. In the actual problem I achieved a speed boost of around $100\times$. The run time for a single iteration reduces from 2 seconds to around 0.02 seconds. The simulation that was taking 2-3 hours to complete now gets completed in around 2mins. 🥳
+From the simple example presented above we can see that there is almost a $$7\times$$ speed boost by just changing the multiplication order. In the actual problem I achieved a speed boost of around $$100\times$$. The run time for a single iteration reduces from 2 seconds to around 0.02 seconds. The simulation that was taking 2-3 hours to complete now gets completed in around 2mins. 🥳
 
 
 
