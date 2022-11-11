@@ -2,5 +2,6 @@
   "accentColor": "",
   "textFontFamily": "Bitter",
   "baseFontSize": 20,
-  "cssTheme": "Atom"
+  "cssTheme": "Atom",
+  "theme": "obsidian"
 }

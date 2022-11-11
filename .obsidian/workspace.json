@@ -4,31 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "800c3b28fa4f2043",
+        "id": "469f14698a42ddd5",
         "type": "tabs",
         "children": [
           {
-            "id": "95b66c694be8fe12",
+            "id": "40c4b18fe7d57fe5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
+                "file": "Day Planners/Day Planner-20221111.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "26f2220aeed36178",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "code",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,6 +79,7 @@
       {
         "id": "7c8a104d0dc1373d",
         "type": "tabs",
+        "dimension": 68.85521885521885,
         "children": [
           {
             "id": "33d8f6e31c4d75f4",
@@ -94,13 +87,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Day Planners/Day Planner-20221111.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -110,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Day Planners/Day Planner-20221111.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,10 +122,34 @@
             }
           },
           {
-            "id": "7b025aa257dd4dd9",
+            "id": "2341b65aa97a4258",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c7ad1792f48e510",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "91df1807ecc83f87",
+        "type": "tabs",
+        "dimension": 31.14478114478115,
+        "children": [
+          {
+            "id": "9665daa99bf33c47",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -138,23 +157,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 407.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "26f2220aeed36178",
+  "active": "2c7ad1792f48e510",
   "lastOpenFiles": [
-    "_posts/2022/Nov/Untitled.md",
-    "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
-    "template/post-template.md",
+    "Day Planners/Untitled.md",
+    "Day Planners/Day Planner-20221111.md",
     "_posts/2022/Oct/2022-10-30-use-svg-in-html.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "2022-11-11.md",
-    "assets/images/Pasted image 20221111093642.png",
-    "assets/images/Pasted image 20221111093517.png",
-    "_posts/2019/August/2019-08-24-gsoc-complete.md"
+    "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
+    "Day Planners/Untitled Kanban.md",
+    "_posts/2021/2021-04-01-load-to-dockerhub.md",
+    "_site/Day Planners/Day Planner-20221111.md",
+    "Day Planners/20201103.md",
+    "README.md",
+    "_newsletters/2022/October/quality-research-1.md"
   ]
 }
