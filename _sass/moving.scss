@@ -9,7 +9,8 @@ $small-font-size: $base-font-size * 0.85 !default;
 $base-line-height: 1.625 !default;
 $small-line-height: 1.6 !default;
 
-$content-width-home: 1200px !default $spacing-unit: 30px !default;
+$content-width-home: 1200px !default; 
+$spacing-unit: 30px !default;
 // Width of the content area
 $content-width: 880px !default;
 $invert:alpha(#fff);
