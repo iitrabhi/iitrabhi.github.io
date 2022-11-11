@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How to setup sublime as a beautiful latex editor | Dark Mode | Windows"
-tag: 
-  - tools
+tags: [home, software]
+categories: [coding]
 typora-root-url: ../../../website
 ---
 
@@ -63,7 +63,7 @@ typora-root-url: ../../../website
 
 - Next open `Preferences  → Settings`  and paste the following there.
 
-- ```json
+  ```json
   {
   	"auto_complete_triggers":
   	[

@@ -1,0 +1,85 @@
+---
+layout: default
+---
+<div>
+
+    <head>
+        <title>{{ site.title }}</title>
+    </head>
+    <!-- ------------------------------------------------------------------- -->
+    <div class="hero">
+        <div class="flexbox_container_two_col flexbox_container_flip primary_container " style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="flexbox_item">
+                <div>
+                    <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">Articles.</p>
+                    <p style="font-size:18px; padding-top: 20px; padding-bottom: 30px;">In my doctoral studies, I am working on developing algorithms capable of harnessing the power of high performance computing. The centeral question that drives my work is, "<strong>How can we get high-fidelity simulations under a realistic time-to-solution?</strong>" To find an answer to that question, I am researching the topics of parallelization, higher order finite element simulations and better programming practices. </p>
+                    <!--         <a class="button button-hello" href="https://www.calendly.com/abhiguptaio" target="_blank" title="Say Hello!">Say Hello!</a> -->
+                </div>
+            </div>
+            <div class="flexbox_item">
+                <div class="abhi-icon" style="vertical-align: middle;     float: right;"><object data="{{ site.url }}/assets/svg/articles.svg" width="90%" style="pointer-events: none;"> </object></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search----------------------------------------------------- -->
+<div class="primary_container" style="margin-top:100px; display: flex; flex-direction: column;">
+    <div class="form-group" id="search-container">
+        <input class="form-field" type="text" id="search-input" placeholder="Search">
+        <!-- <span>Search</span> -->
+    </div>
+    <div>
+        <ul id="results-container"></ul>
+    </div>
+    <!-- Script pointing to search-script.js -->
+    <script src="{{ base.url | prepend: site.url }}/assets/js/search_script.js" type="text/javascript"></script>
+    <!-- Configuration -->
+    <script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+    })
+    </script>
+</div>
+<!-- ------------------------------------------------------------ -->
+<div class="primary_container" style="margin-bottom:50px;">
+    {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <!-- Use this when you wish to show tag under post title -->
+        <!-- {% if post.tags.size > 0 %}
+          Tag{% if post.tags.size > 1 %}s{% endif %}:
+          {{ post.tags | sort | join: ", " }}
+        {% endif %} -->
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+        {% if forloop.first %}
+        <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
+        <ul>
+            {% endif %}
+            {% if post.tags contains 'finance' %}
+            {% continue %}
+            {% endif %}
+            <li>
+                {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-date">
+                    {{ post.date | date: date_format }}
+                </span>
+                <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </li>
+            {% if forloop.last %}
+        </ul>
+        {% else %}
+        {% if this_year != next_year %}
+    </ul>
+    <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+    <ul>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {%- endif -%}
+</div>

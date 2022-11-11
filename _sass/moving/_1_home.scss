@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    // border: 1px solid #fff
+}
+
+@media (max-width: 600px) {
+.hide_mobile{
+    display: none;
+}
+
+}
+.full_width_container.primary_container {
+    display: flex;
+    flex-grow: 1;}
+
+// First I would like to have my primary container = 1200px
+// It should be flexbox container and should grow to fill the
+// whole space.
+.primary_container {
+    display: flex;
+    flex-grow: 1;
+    max-width: -webkit-calc(#{$content-width-home} + (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width-home} + (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @media screen and (max-width: 600px) {
+        max-width: -webkit-calc(#{$content-width} + (#{$spacing-unit} * 2));
+        max-width: calc(#{$content-width} + (#{$spacing-unit} * 2));
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+    }
+}
+
+// Next I would like to define a flex box container for two col layout
+// The columns would fill the width and have variable height
+// They will be centered vertically
+
+.flexbox_container_two_col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox_item {
+    flex: 50%;
+    padding: 30px;
+    // flex-grow: 1;
+}
+
+.flexbox_container_flip{
+        flex-direction: row;
+    }
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .flexbox_container_two_col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .flexbox_item {
+        flex: 100%;
+        padding: 30px;
+        // flex-grow: 1;
+    }
+
+    .flexbox_container_flip{
+        flex-direction: column-reverse;
+    }
+}
+
+.abhi-icon{
+    // fill:var(--text-color);
+    // stroke:var(--text-color);
+    //   stroke-width: 2;
+    filter: var(--invert-intensity);
+
+    }
+
+.hero{
+    background-color: var(--color-1)
+    // https://cssgradient.io/gradient-backgrounds/
+    // background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,168,145,0.98) 0.1%, rgba(15,24,43,1) 99.8% );
+}

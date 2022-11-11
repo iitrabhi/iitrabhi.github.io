@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     display: -webkit-flexbox;
-    background-color: var(--background-color);
+    background-color: var(--color-1);
     justify-content: center;
     z-index: 10;
 }
@@ -29,7 +29,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .navbar a:hover {
@@ -65,17 +65,19 @@
         display: -webkit-flexbox;
     }
 
-    .primary_container .home-icon{
-    fill:var(--brand-color);
+    .primary_container .home-icon {
+        fill: var(--text-color);
     }
 
     .primary_container .home-icon:hover,
     .primary_container .home-icon:focus {
-            fill:var(--text-color);
+        fill: var(--brand-color);
 
     }
 
     .align_menu {
+        flex-grow: 1;
+
         display: flex;
         // justify-content: right;
         justify-content: flex-end;
@@ -86,7 +88,9 @@
 
     }
 
-    .navbar {}
+    .navbar {
+        flex-grow: 1;
+    }
 
     .navbar a {
         float: left;
@@ -95,26 +99,28 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .navbar a:hover {
-        background: var(--background-color-lighten-9);
+        background: var(--color-2);
         color: var(--text-color);
     }
 
     .navbar a.active {
-       background: var(--background-color-lighten-9);
+        background: var(--color-2);
         color: var(--text-color);
     }
 
     .navbar-container {
         position: static;
         width: 100%;
-        background-color: var(--background-color);
+        background-color: var(--color-1);
         display: flex;
         display: -webkit-flexbox;
         justify-content: flex-end;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .navbar a.nav_desktop {

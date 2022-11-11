@@ -1,60 +1,120 @@
 ---
 layout: default
 ---
+<div class="post_container">
+    <div class="post_item_left" style=" padding-bottom:50px; ">
+        <div class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<article
-  class="post h-entry"
-  itemscope
-  itemtype="http://schema.org/BlogPosting"
->
-  <head>
-    <title>{{ page.title }}</title>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <!-- <link rel="stylesheet" href="{{ base.url | prepend: site.url }}/assets/css/form.css"> -->
-  </head>
-
-
-  <header class="post-header">
-    <div class="post-back">
-      <a class="black-link" href="{{ site.url | relative_url }}">
-        ← {{ site.moving.back_to }}
-      </a>
+            <head>
+                <title>{{ page.title }}</title>
+                <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+                <!-- <link rel="stylesheet" href="{{ base.url | prepend: site.url }}/assets/css/form.css"> -->
+            </head>
+            <header class="post-header" style="margin-bottom: 60px;">
+                <h1 style="font-weight:600; font-size: 46px; margin-top: 120px; " class="post-title p-name" itemprop="name headline">
+                    {{ page.title | escape }}
+                </h1>
+                <p class="post-meta" style="font-size: 16px;">
+                    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                        {%- assign date_format = "%b %-d, %Y" -%}
+                        {{ page.date | date: date_format }}
+                    </time>
+                    {%- if page.author -%} •
+                    <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{
+                            page.author | escape
+                            }}</span></span>
+                    {%- endif -%}
+                    <!-- TAGS --------------------------------------- -->
+                    <!--  {%- if page.tags -%}
+                    <span style="padding-left:10px;padding-right: 10px;">|</span>
+                    {% for tag in page.tags %}
+                    <span class="post-meta">
+                        {%- if forloop.last -%}
+                        <a style="font-size:14px;color: var(--text-color);" href="{{ site.url }}/categories/{{ tag }}">{{ tag| upcase }}</a>
+                        {%- else -%}
+                        <a style="font-size:14px;color: var(--text-color);padding-right: 10px" href="{{ site.url }}/categories/{{ tag }}">{{tag| upcase }}, </a> 
+                        {%- endif -%}
+                    </span>
+                    {%- endfor -%}
+                    {%- endif -%} -->
+                    <!-- Categories--------------------------------------- -->
+                    {%- if page.categories -%}
+                    {% for category in page.categories %}
+                    {%- if forloop.first -%}
+                    <span style="padding-left:10px;padding-right: 10px;">|</span>
+                    {%- endif -%}
+                    <span class="post-meta">
+                        {%- if forloop.last -%}
+                        <a style="font-size:14px;color: var(--text-color);" href="{{ site.url }}/categories/{{ category }}">{{ category| upcase }}</a>
+                        {%- else -%}
+                        <a style="font-size:14px;color: var(--text-color);padding-right: 10px" href="{{ site.url }}/categories/{{ category }}">{{category| upcase }}, </a>
+                        {%- endif -%}
+                    </span>
+                    {%- endfor -%}
+                    {%- endif -%}
+                    <!-- --------------------------------------- -->
+                </p>
+            </header>
+            <hr style="/*position: relative; width: 300%;right:calc(200% - 30px);*/ background: var(--color-1);border: none;height: 1px; margin-bottom: 80px; opacity: 1;">
+            <div class="post-content e-content" itemprop="articleBody">
+                {{ content }}
+            </div>
+            <div class="PageNavigation">
+                {% if page.previous.url %}
+                <a class="button button-prev" href="{{page.previous.url}}" title="{{page.previous.title}}">&laquo; Previous</a>
+                {% endif %}
+                {% if page.next.url %}
+                <a class="button button-next" href="{{page.next.url}}" title="{{page.next.title}}">Next &raquo;</a>
+                {% endif %}
+            </div>
+            <!-- ----------------------------------------------------------- -->
+            <hr style="/*position: relative; width: 300%;right:calc(200% - 30px);*/ background: var(--color-1);border: none;height: 1px; margin-bottom: 80px; opacity: 1;">
+            
+            <div class="flexbox_container_two_col flexbox_container_flip " style="padding-top: 50px;padding-bottom: 50px;">
+                <div class="flexbox_item">
+                    <div>
+                        <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">Newsletter</p>
+                        <p style="font-size:16px; padding-top: 20px; padding-bottom: 30px;">"<em><strong>Quality Research:</strong> A weekly newsletter covering ideas and tools for better academic research.</em>" </p>
+                        <a class="button button-hello" href="https://www.getrevue.co/profile/abhigupta" target="_blank" title="Try the free newsletter">Try the free newsletter</a>
+                    </div>
+                </div>
+                <div class="flexbox_item">
+                    <div class="abhi-icon" style="vertical-align: middle;     float: right;"><object data="{{ site.url }}/assets/svg/newsletter.svg" width="80%" style="pointer-events: none;"> </object></div>
+                </div>
+            </div>
+            <!-- ----------------------------------------------------------- -->
+        </div>
     </div>
-
-    <h1 class="post-title p-name" itemprop="name headline">
-      {{ page.title | escape }}
-    </h1>
-    <p class="post-meta">
-      <time
-        class="dt-published"
-        datetime="{{ page.date | date_to_xmlschema }}"
-        itemprop="datePublished"
-      >
-        {%- assign date_format = "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%} •
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
-        ><span class="p-author h-card" itemprop="name">{{
-          page.author | escape
-        }}</span></span
-      >
-      {%- endif -%}
-    </p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-  
-
-  <div class="PageNavigation">
-    {% if page.previous.url %}
-      <a class="button button-prev" href="{{page.previous.url}}" title="{{page.previous.title}}">&laquo; Previous</a>
-    {% endif %}
-    {% if page.next.url %}
-      <a class="button button-next" href="{{page.next.url}}" title="{{page.next.title}}">Next &raquo;</a>
-    {% endif %}
-  </div>
-
-</article>
+    <div class="post_item_right hide_mobile">
+        <p style="padding-top:200px; font-size: 14px; font-family: Montserrat;">ABOUT THE AUTHOR</p>
+        <hr style="/*position: relative; width: 300%;right:calc(200% - 30px);*/ background: var(--color-1);border: none;height: 1px; margin-bottom: 40px;">
+        <p style="margin-bottom:20px;font-size: 14px;">Hi, I am <strong>Abhinav Gupta</strong>. I am a researcher at the Indian Institute of Technology Roorkee, India. I create content to help you become effective in producing quality research. If you are interested in research, academia, or computational mechanics, make sure to follow me. </p>
+        <div style="margin-top:50px;">
+            <ul class="social-media-list" style="font-size: 14px;">
+                <li>
+                    <a class="black-link" href="https://www.linkedin.com/in/abhiguptaio/" target="_blank" rel="noopener noreferrer">[LinkedIn]</a>
+                </li>
+                <li>
+                    <a class="black-link" href="https://twitter.com/abhiguptaio" target="_blank" rel="noopener noreferrer"> [Twitter]</a>
+                </li>
+                <li>
+                    <a class="black-link" href="https://www.youtube.com/channel/UCpj8oznjjLwVe5KHOGNrvnQ">[YouTube]</a>
+                </li>
+                <li>
+                    <a class="black-link" href="https://github.com/iitrabhi" target="_blank" rel="noopener noreferrer"> [Github]</a>
+                </li>
+                <li>
+                    <a class="black-link" href="https://scholar.google.com/citations?user=UfWvIkEAAAAJ" target="_blank" rel="noopener noreferrer">[Scholar]</a>
+                </li>
+                <li>
+                    <a class="black-link" href="https://www.researchgate.net/profile/Abhinav_Gupta52" target="_blank" rel="noopener noreferrer">[RG]</a>
+                </li>
+                <li>
+                    <p>👋</p>
+                </li>
+            </ul>
+        </div>
+        <a class="hover_highlight" style="font-size: 14px;" href="{{ site.url }}/pages/about">Click here to learn more →</a>
+        <p style="margin-bottom:50px"></p>
+    </div>
+</div>

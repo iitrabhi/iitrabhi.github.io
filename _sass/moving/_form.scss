@@ -1,17 +1,18 @@
 :root {
     --input-color: var(--text-color);
-    --input-background: var(--background-color-lighten-9);
-    --input-placeholder: #828282;
-    --input-border-focus: #f9ae58;
+    --input-background: var(--color-2);
+    --input-placeholder: var(--text-color);
+
+    --input-border-focus: var(--text-color);
     --group-color: var(--input-color);
 
     --input-border: #fff;
     --group-border: var(--input-border);
 
-    --group-background: #EEF4FF;
+    --group-background: var(--color-2);;
     --group-color-focus: #fff;
     --group-border-focus: var(--input-border-focus);
-    --group-background-focus: #f9ae58;
+    --group-background-focus: var(--input-border-focus);
 }
 
 .form-field {

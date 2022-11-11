@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Quality Research: "
+title: " "
 description: " "
-date: 2022-02-01
+categories:  [coding, presentation]
+tags: []
 typora-root-url: ../../../../website
 ---
-
-Coming soon
+{{date}}

@@ -1,56 +1,56 @@
 ---
 layout: default
 ---
-<div class="about-page">
+<div>
 
     <head>
-        <title>{{ site.author }}</title>
+        <title>{{ site.title }}</title>
     </head>
-    <div class="post-back">
-        <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
-    </div>
-    <div class="about-header">
-        {%- if site.moving.avatar_url -%}
-        <img class="about-avatar" src="{{ site.moving.avatar_url }}" />
-        {%- endif -%} {%- if site.author -%}
-        <div class="about-info">
-            <div class="about-your-name">
-                {{ site.author | escape }}
+    <!-- ------------------------------------------------------------------- -->
+    <div class="hero">
+        <div class="flexbox_container_two_col flexbox_container_flip primary_container " style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="flexbox_item">
+                <div>
+                   
+                    <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">Newsletter</p>
+                    <p style="font-size:16px; padding-top: 20px; padding-bottom: 30px;">"<em><strong>Quality Research:</strong> A weekly newsletter covering ideas and tools for better academic research.</em>" </p>
+                    <a class="button button-hello" href="https://www.getrevue.co/profile/abhigupta" target="_blank" title="Try the free newsletter">Try the free newsletter</a>
+                </div>
             </div>
-            {%- endif -%} {%- if site.moving.about_you -%}
-            <p class="about-description">
-                {{ site.moving.about_you | escape }}
-            </p>
-            {%- endif -%} {%- include social.html -%}
+            <div class="flexbox_item">
+                <div class="abhi-icon" style="vertical-align: middle;     float: right;"><object data="{{ site.url }}/assets/svg/newsletter.svg" width="100%" style="pointer-events: none;"> </object></div>
+            </div>
         </div>
     </div>
+</div>
+
+<!-- ------------------------------------------------------------ -->
+
+<div class="primary_container" style="margin-bottom:50px">
     <div class="about-content e-content" itemprop="articleBody">
         {{ content }}
-    </div>
-
-{%- if site.newsletters.size > 0 -%}
+    </div >
+    {%- if site.newsletters.size > 0 -%}
+    <div style="width: 100%;">
     <ul class="post-list">
-        {% for newsletter in site.newsletters %}
-
+        {% for newsletter in site.newsletters reversed %}
         <!-- Use this when you wish to show tag under post title -->
         <!-- {% if post.tags.size > 0 %}
           Tag{% if post.tags.size > 1 %}s{% endif %}:
           {{ post.tags | sort | join: ", " }}
         {% endif %} -->
-
         {% capture this_year %}{{ newsletter.date | date: "%Y" }}{% endcapture %}
         {% capture next_year %}{{ newsletter.previous.date | date: "%Y" }}{% endcapture %}
         {% if forloop.first %}
         <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
         <ul>
             {% endif %}
-
             <li>
                 {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
                 <span class="post-meta">
                     {{ newsletter.date | date: date_format }}
                 </span>
-                <a class="black-link post-link-layout" href="{{ newsletter.url | relative_url }}">
+                <a class="black-link post-link-layout " href="{{ newsletter.url | relative_url }}">
                     {{ newsletter.title | escape }}
                 </a>
             </li>
@@ -58,12 +58,13 @@ layout: default
         </ul>
         {% else %}
         {% if this_year != next_year %}
-    </ul>
-    <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
-    <ul>
+    <!-- </ul> -->
+    <!-- <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2> -->
+    <!-- <ul> -->
         {% endif %}
         {% endif %}
         {% endfor %}
     </ul>
+    </div>
     {%- endif -%}
 </div>

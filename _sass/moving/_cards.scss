@@ -1,23 +1,23 @@
 /*https://codepen.io/techiediaries/pen/MWgVKZW*/
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     grid-gap: 20px;
     align-items: stretch;
 }
 
 @media screen and (max-width: 600px) {
-  .grid{
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  }
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
 }
 
-.grid>article {
+article {
     display: block;
-    border: 0.15rem solid #ffffff;
+    border: 2px solid var(--color-2);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     border-radius: 0.3em;
-    background-color: var(--background-color-lighten-9);
+    background-color: var(--color-1);
     min-height: 300px;
     z-index: 0;
 
@@ -30,7 +30,7 @@
         background-color: var(--background-color);
     }
 
-   
+
 }
 
 .grid .text {
@@ -77,4 +77,47 @@
     bottom: 0;
     left: 0;
     padding: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    // background-color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    .card-container {
+        // width: 80%;
+        // background-color: #fff;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    plain_article {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+plain_article {
+    display: block;
+    border: 1.5px solid var(--text-color);
+    border-radius: 0.3em;
+    background-color: var(--background-color);
+    min-height: 300px;
+    z-index: 0;
+    width: 32%;
+    position: relative;
+
+    &:hover {
+        transition: all 0.5s ease-out;
+        box-shadow: 0px 16px 16px var(--shadow-color);
+        top: -8px;
+        background-color: var(--background-color);
+    }
+
+
 }

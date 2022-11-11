@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "d7056f7b92ce7d78",
+    "type": "split",
+    "children": [
+      {
+        "id": "469f14698a42ddd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40c4b18fe7d57fe5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day Planners/Day Planner-20221111.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e242ae0d95ceef67",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b93870f0a10c54c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ca69e5f8aef4893",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "207f3861432d3c83",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5dbfd89c90b9a66a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4ff5ea5b0c17c316",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c8a104d0dc1373d",
+        "type": "tabs",
+        "dimension": 68.85521885521885,
+        "children": [
+          {
+            "id": "33d8f6e31c4d75f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Day Planners/Day Planner-20221111.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "02ae006a1dabcb67",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Day Planners/Day Planner-20221111.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "664308e2baf8e863",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2341b65aa97a4258",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c7ad1792f48e510",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "91df1807ecc83f87",
+        "type": "tabs",
+        "dimension": 31.14478114478115,
+        "children": [
+          {
+            "id": "9665daa99bf33c47",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 407.5
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "2c7ad1792f48e510",
+  "lastOpenFiles": [
+    "Day Planners/Untitled.md",
+    "Day Planners/Day Planner-20221111.md",
+    "_posts/2022/Oct/2022-10-30-use-svg-in-html.md",
+    "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
+    "Day Planners/Untitled Kanban.md",
+    "_posts/2021/2021-04-01-load-to-dockerhub.md",
+    "_site/Day Planners/Day Planner-20221111.md",
+    "Day Planners/20201103.md",
+    "README.md",
+    "_newsletters/2022/October/quality-research-1.md"
+  ]
+}

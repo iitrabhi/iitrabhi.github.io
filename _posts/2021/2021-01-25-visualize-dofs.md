@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to visualize degrees of freedom in FEniCS."
-tag: 
-  - fenics
+categories: [fenics, coding]
 typora-root-url: ../../../website
 ---
 

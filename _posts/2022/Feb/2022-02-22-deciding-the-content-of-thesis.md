@@ -2,8 +2,7 @@
 layout: post
 title: "How to plan and discuss the content of thesis with supervisor."
 description: "You should finalize the thesis content before giving your synopsis. This post will containt the steps that I took to plan the content of thesis while writing the synopsis report."
-tag: 
-  - phd
+categories: [presentation]
 typora-root-url: ../../../../website
 
 ---

@@ -2,8 +2,7 @@
 layout: post
 title: "Achieving significant computational gains with sparse matrices and proper multiplication order."
 description: "Changing the order of multiplication can have a great impact on run time. How I achieved a speed boost of around 100 times."
-tag: 
-  - code
+categories: [coding]
 typora-root-url: ../../../../website
 
 ---

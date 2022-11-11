@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to add images, latex and code to blog."
-tag: 
-  -  code
+categories:  [presentation]
 typora-root-url: ../../../website
 ---
 On a daily basis there are only three things that I have to put in my notes. My understanding of the research in well formatted text which I can easily write in markdown. The next important thing is to add latex based formulas. This is by default supported in markdown as well as Jekyll. Thus we can directly write what ever formula we wish to write inside double dollars and that will get parsed as latex formula:

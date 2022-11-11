@@ -2,8 +2,7 @@
 layout: post
 title: "How to manage a project with Notion."
 description: "It is imperative to have a central database and organizational system for productive teamwork."
-tag: 
-  - management
+categories: [productivity]
 typora-root-url: ../../../website
 ---
 

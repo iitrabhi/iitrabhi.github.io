@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to make tutorials for your class."
-tag: 
-  - tools
+categories: [productivity, presentation]
 typora-root-url: ../../../website
 ---
 

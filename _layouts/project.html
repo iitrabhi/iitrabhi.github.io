@@ -1,58 +1,58 @@
 ---
 layout: default
 ---
-<div class="about-page">
+<div>
 
     <head>
-        <title>{{ site.author }}</title>
+        <title>{{ site.title }}</title>
     </head>
-    <div class="post-back">
-        <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
-    </div>
-    <div class="about-header">
-        {%- if site.moving.avatar_url -%}
-        <img class="about-avatar" src="{{ site.moving.avatar_url }}" />
-        {%- endif -%} {%- if site.author -%}
-        <div class="about-info">
-            <div class="about-your-name">
-                {{ site.author | escape }}
+    <!-- ------------------------------------------------------------------- -->
+    <div class="hero">
+        <div class="flexbox_container_two_col flexbox_container_flip primary_container " style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="flexbox_item">
+                <div>
+                    <p style="font-size:36px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">Projects</p>
+                    <p style="font-size:18px; padding-top: 20px; padding-bottom: 30px;">My core areas of interest are mathematics, computer programming, and art. I have always tried to find creative and aesthetically pleasing solutions to my problems. I code for fun and have developed for desktop, web, and mobile. Here are some of my projects (or that I have contributed to) that I'm proud of. </p>
+                    <!--  <a class="button button-hello" href="https://www.calendly.com/abhiguptaio" target="_blank" title="Say Hello!">Say Hello!</a> -->
+                </div>
             </div>
-            {%- endif -%} {%- if site.moving.about_you -%}
-            <p class="about-description">
-                {{ site.moving.about_you | escape }}
-            </p>
-            {%- endif -%} {%- include social.html -%}
+            <div class="flexbox_item">
+                <!-- <img class="remove-all-styles" src="{{ site.url }}/assets/images/abhi-sketch.png" style="max-width: 250px; vertical-align: middle;     float: right;" /> -->
+                <div class="abhi-icon" style="vertical-align: middle;     float: right;">
+                    <svg width="90%" height="100%" viewBox="0 0 152 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <path id="path207" d="M28.428,142.301c-1.754,-3.277 -1.778,-6.755 -0.047,-6.755c0.733,0 1.333,1.003 1.333,2.229c0,1.225 0.993,3.325 2.207,4.666c2.016,2.229 2.02,2.439 0.047,2.439c-1.188,-0 -2.781,-1.161 -3.54,-2.579Zm15.613,-1.088c-5.046,-5.643 -3.558,-10.424 8.979,-28.844l11.305,-16.612l-9.234,-9.888l-9.234,-9.887l-7.389,0.613c-13.461,1.116 -26.982,-8.268 -31.459,-21.832c-2.325,-7.044 -0.947,-7.961 2.728,-1.814c8.384,14.025 16.58,19.931 27.663,19.931c8.196,-0 17.514,-5.55 20.744,-12.355c2.903,-6.119 2.801,-14.945 -0.251,-21.645c-2.603,-5.716 -11.419,-14.49 -16.031,-15.954c-2.448,-0.776 -4.069,-3.38 -2.105,-3.38c6.31,0 19.137,12.445 21.723,21.076c1.751,5.845 1.922,15.536 0.346,19.572c-0.828,2.12 0.292,3.848 5.618,8.667c3.658,3.31 7.102,6.197 7.652,6.416c0.55,0.218 3.105,-2.97 5.679,-7.084c2.573,-4.114 4.993,-6.972 5.376,-6.351c0.384,0.62 -0.827,4.924 -2.692,9.564l-3.389,8.435l6.691,6.692l4.583,-7.16c4.52,-7.061 13.243,-15.827 15.75,-15.827c0.708,0 1.287,-0.471 1.287,-1.047c-0,-1.321 -16.7,-9.619 -19.359,-9.619c-3.77,-0 -1.945,3.985 3.359,7.333c6.704,4.232 6.857,5.313 0.333,2.362c-7.663,-3.465 -8.33,-4.277 -8.375,-10.192c-0.023,-3.027 -0.924,-6.668 -2,-8.091c-1.077,-1.424 -1.958,-4.239 -1.958,-6.255c-0,-4.429 -2.05,-5.996 -4.827,-3.691c-1.667,1.383 -2.264,1.343 -3.244,-0.219c-1.822,-2.902 1.525,-12.866 4.735,-14.097c3.026,-1.162 6.2,2.067 5.279,5.371c-0.608,2.18 -0.481,2.371 0.564,0.851c2.057,-2.993 3.075,-0.867 1.53,3.196c-2.405,6.326 -1.647,11.364 2.296,15.262c2.036,2.012 13.6,7.982 25.993,13.418c12.279,5.387 23.003,10.61 23.83,11.606c2.383,2.872 -0.316,2.181 -11.288,-2.888l-10.174,-4.701l-5.014,2.584c-5.738,2.957 -11.651,8.875 -17.371,17.386l-3.967,5.901l15.15,16.57c17.036,18.633 19.952,24.207 15.9,30.392c-2.078,3.171 -2.956,3.481 -8.188,2.891c-7.679,-0.865 -16.692,-7.694 -31.899,-24.165l-11.716,-12.691l-8.471,12.267c-12.263,17.759 -15.381,27.6 -8.743,27.6c3.697,-0 9.384,-6.693 14.865,-17.495c5.893,-11.612 9.661,-14.126 4.843,-3.231c-3.64,8.231 -7.361,14.08 -12.547,19.726c-3.957,4.307 -10.642,4.949 -13.876,1.333l0,0Zm74.202,-9.122c0.448,-1.167 -0.215,-4.29 -1.473,-6.941c-2.397,-5.051 -32.008,-36.263 -47.081,-49.626l-8.789,-7.792l-3.701,4.637l-3.7,4.638l6.441,7.582c31.056,36.56 55.012,56.078 58.303,47.502Zm-40.529,-108.399c0,-2.819 -2.159,-0.259 -3.252,3.854c-0.851,3.204 -0.805,3.233 1.183,0.746c1.138,-1.424 2.069,-3.494 2.069,-4.6Zm58.667,39.072c-1.834,-2.842 -5.25,-6.379 -7.591,-7.859c-2.342,-1.481 -4.975,-4.366 -5.851,-6.412c-2.346,-5.479 -10.744,-12.079 -24.432,-19.198c-16.665,-8.667 -11.267,-9.029 6.388,-0.428c14.036,6.838 22.152,13.594 22.152,18.438c0,1.283 1.772,3.379 3.936,4.658c5.169,3.053 9.691,9.528 9.157,13.111c-0.372,2.494 -0.849,2.201 -3.759,-2.31Zm-114.454,-9.988c-10.994,-5.494 -10.497,-7.425 0.683,-2.655l8.897,3.795l4.468,-4.737l4.468,-4.738l-2.031,-6.986c-2.359,-8.114 -2.539,-10.38 -0.734,-9.264c0.713,0.441 2.507,4.72 3.987,9.509l2.689,8.708l-4.217,3.569c-6.075,5.142 -8.318,6.812 -9.21,6.86c-0.433,0.023 -4.483,-1.804 -9,-4.061Zm121.12,-11.752c0,-1.612 6.417,-3.123 8.307,-1.955c0.995,0.615 0.63,1.285 -1.062,1.947c-3.613,1.415 -7.245,1.419 -7.245,0.008l0,0Zm-12.587,-15.635c-0.481,-1.92 -0.514,-3.852 -0.072,-4.295c1.082,-1.081 3.28,2.546 3.306,5.452c0.03,3.584 -2.249,2.768 -3.234,-1.157l0,0Zm-127.598,-3.132c-2.57,-2.14 -2.731,-2.63 -0.877,-2.666c2.978,-0.058 9.062,2.741 9.062,4.169c0,2.065 -5.006,1.146 -8.185,-1.503Zm26.019,-14.877c0.458,-2.292 0.833,-4.692 0.833,-5.334c0,-0.641 0.6,-1.166 1.333,-1.166c1.472,-0 1.794,5.25 0.524,8.557c-1.481,3.862 -3.557,2.275 -2.69,-2.057Z" style="fill-rule:nonzero;" />
+                    </svg>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+<div class="primary_container" style="padding-top:100px; padding-bottom:100px">
     <div class="about-content e-content" itemprop="articleBody">
         {{ content }}
     </div>
-
-
-<div class="container">
-  <main class="grid">
-    {% for project in site.projects reversed%}
-    <article>
-      <a  href="{{ project.url | relative_url }}">
-      <div class="text">
-        <h2>{{ project.title | escape }}
-        </h2>
-        <p style="text-align: right; opacity: 0.7"><small> - {{ project.year | escape }}
-          </small></p>
-        <div class="card-description">
-          {% for lang in project.langs %}
-          <code>{{ lang | escape }}</code>
-          {% endfor %}
-          <hr>
-          <p>{{ project.description | escape }}
-          </p>
-        </div>
-        
-      </div>
-      </a>
-    </article>
-    {% endfor %}
-  </main>
-</div>
-
+    <div class="container" style="width:100%">
+        <main class="grid">
+            {% for project in site.projects reversed%}
+            <article>
+                <a href="{{ project.url | relative_url }}">
+                    <div class="text">
+                        <h2>{{ project.title | escape }}
+                        </h2>
+                        <p style="text-align: right; opacity: 0.7"><small> - {{ project.year | escape }}
+                            </small></p>
+                        <div class="card-description">
+                            {% for lang in project.langs %}
+                            <code>{{ lang | escape }}</code>
+                            {% endfor %}
+                            <hr>
+                            <p>{{ project.description | escape }}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </main>
+    </div>
 </div>

@@ -2,8 +2,7 @@
 layout: post
 title: "Making my projects page."
 description: "Over the past 10 years I have worked on multiple projects."
-tag: 
-  - misc
+categories: [presentation]
 typora-root-url: ../../../../website
 ---
 

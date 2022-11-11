@@ -4,6 +4,7 @@ email: iitrabhi@gmail.com # your email shown in the footer
 
 url: "https://abhigupta.io" # this is your site's root address.
 
+permalink: /:year/:month/:day/:title:output_ext
 
 
 description: > # this means to ignore newlines until "show_excerpts:" 

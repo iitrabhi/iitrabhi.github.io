@@ -1,0 +1,139 @@
+---
+layout: default
+---
+<div>
+
+    <head>
+        <title>{{ site.title }}</title>
+    </head>
+    <!-- Home hero --------------------------------------------------------- -->
+    <div class="hero">
+        <div class="flexbox_container_two_col flexbox_container_flip primary_container " style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="flexbox_item">
+                <div>
+                    <p style="font-size:20px; font-family: Montserrat;">Hi, I am Abhinav Gupta</p>
+                    <p style="font-size:27px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">I am a professional CAE engineer with doctorate in computational mechanics.</p>
+                    <p style="font-size:16px; padding-top: 20px; padding-bottom: 30px;">Since 2017, I have worked on developing HPC algorithms for simulation as a part of my doctoral studies. On this website, you will find a culmination of ideas and notes on productivity, presentation, coding, research, simulation, and animation. Signup below to receive, via email, weekly advice on producing quality research. </p>
+                    <a class="button button-hello" href="https://www.getrevue.co/profile/abhigupta" target="_blank" title="Try the free newsletter">Try the free newsletter</a>
+                    <!-- <a class="button button-hello" href="https://www.calendly.com/abhiguptaio" target="_blank" title="Say Hello!">Say Hello!</a> -->
+                </div>
+            </div>
+            <div class="flexbox_item">
+                <!-- <img class="remove-all-styles" src="{{ site.url }}/assets/images/abhi-sketch.png" style="max-width: 250px; vertical-align: middle;     float: right;" /> -->
+                <div style="vertical-align: middle;     float: right;">
+                    <object class="abhi-icon" data="{{ site.url }}/assets/svg/abhi.svg" width="230" style="pointer-events: none;"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Three cards ------------------------------------------------------- -->
+    <div class="primary_container" style="margin-bottom: 50px; margin-top: 100px;">
+        <main class="card-container">
+            <plain_article>
+                <a href="{{ site.url }}/categories/coding">
+                    <div style="width:100%; height: 100%; ">
+                        <div style="text-align: center; padding-top:30px"><object class="abhi-icon" data="{{ site.url }}/assets/svg/coding.svg" width="230" style="pointer-events: none;"> </object></div>
+                        <div class="card-description plain-text" style="font-weight: 500;">
+                            Coding
+                        </div>
+                    </div>
+                </a>
+            </plain_article>
+            <plain_article>
+                <a href="{{ site.url }}/categories/presentation">
+                    <div style="width:100%; height: 100%; ">
+                        <div style="text-align: center; padding-top:30px;"><object class="abhi-icon" data="{{ site.url }}/assets/svg/presentation.svg" width="230"style="pointer-events: none;"> </object></div>
+                        <div class="card-description plain-text" style="font-weight: 500;">
+                            Presentation
+                        </div>
+                    </div>
+                </a>
+            </plain_article>
+            <plain_article>
+                <a href="{{ site.url }}/categories/productivity">
+                    <div style="width:100%; height: 100%; ">
+                        <div style="text-align: center; padding-top:30px">
+                            <object class="abhi-icon" class="abhi-icon" data="{{ site.url }}/assets/svg/productivity.svg" width="230"style="pointer-events: none;"> </object>
+                        </div>
+                        <div class="card-description plain-text" style="font-weight: 500;">
+                            Productivity
+                        </div>
+                    </div>
+                </a>
+            </plain_article>
+        </main>
+    </div>
+    <!-- ------------------------------------------------------------------- -->
+    <!-- Quote-------------------------------------------------------------- -->
+    <div class="primary_container">
+        <div style="margin:10%">
+            <h1>
+                "It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong."
+            </h1>
+            <cite><a class="hover_highlight" href="https://www.youtube.com/watch?v=LIxvQMhttq4">Richard P. Feynman</a></cite>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------- -->
+    <div style="border-top: 1px solid var(--color-1); border-bottom: 1px solid var(--color-1);
+     ">
+        <div class="primary_container">
+            <div class="flexbox_container_two_col ">
+                <div class="flexbox_item" style="padding-top: 100px; padding-bottom:100px; padding-right: 100px;     align-items: stretch;">
+                    <h1 style=" font-weight:700;">My writings</h1>
+                    <p>
+                        I have five years of industrial experience analyzing and designing power plants at the "Nuclear Power Corporation of India Limited". Right now, I’m a research scholar at the "Indian Institute of Technology Roorkee", where I work on exploring the applications of finite element methods to solve real-world engineering problems by utilizing the power of HPC.
+                        <br><br>
+                        I ♥️ to code. I took coding as an elective subject during high school and loved it. My first project was a fees management system that I had developed in FoxPro - a relational database management system. Since then, I have developed a few <a class="hover_highlight" href="https://www.eigenplus.com">Android applications</a> and have made a few <a class="hover_highlight" href="https://www.abhigupta.io/pages/projects">websites</a>. Through this website I plan to share my knowlege in the field of computational mechanics.
+                    </p>
+                </div>
+                <div style="display: flex; flex-direction:column;border-left: 1px solid var(--color-1);">
+                    <div class="flexbox_item" style="padding-left: 100px; ">
+                        <div style="margin-bottom:70px">
+                            <h3 style="font-family: Montserrat;font-weight:700;">Read a popular article:</h3>
+                            {%- if site.posts.size > 0 -%}
+                            {% for post in site.posts reversed%}
+                            {% if post.tags contains 'home' %}
+                            <p style="margin-bottom:30px"><a class="hover_highlight" href="{{ post.url | relative_url }}">
+                                    {{ post.title | escape }}
+                                </a></p>
+                            {% endif %}
+                            {% endfor %}
+                            {%- endif -%}
+                        </div>
+                    </div>
+                    <hr class="hide_mobile" style="background: var(--color-1);border: none;height: 1px; margin-bottom: 80px;">
+                    <div class="flexbox_item" style="padding-left: 100px;">
+                        <h3 style="font-family: Montserrat;font-weight:700;">Browse the latest newsletter:</h3>
+                        {%- if site.newsletters.size > 0 -%}
+                        {% assign sorted_newsletters = site.newsletters | reverse %}
+                        {% for newsletter in sorted_newsletters limit:3 %}
+                        <p style="margin-bottom:30px"><a class="hover_highlight" href="{{ newsletter.url | relative_url }}">
+                                {{ newsletter.title | escape }}
+                            </a></p>
+                        {% endfor %}
+                        {%- endif -%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------- -->
+    <div class="primary_container">
+        <div class="flexbox_container_two_col flexbox_container_flip" style="margin-top: 150px; margin-bottom: 100px;">
+            <div class="flexbox_item">
+                <div>
+                    <p style="font-size:27px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">Get a free Notion template with 100+ resources on PhD essentials.</p>
+                    <p style="font-size:16px; padding-top: 20px; padding-bottom: 30px;">In today's day and age, producing quality academic research is not just about the researcher and the library. You must augment your knowledge and skills with all the resources available to you in the digital landscape to make the most of your time. In this Ph.D. essential guide, I have curated all the software, hardware, websites, chrome extensions, and coursework I recommend and use for my academic research. </p>
+                    <a class="button button-hello" href="https://abhigupta.gumroad.com/l/phd-essentials" target="_blank" title="Say Hello!">Get it for free here.</a>
+                </div>
+            </div>
+            <div class="flexbox_item">
+                <!-- <img src="{{ site.url }}/assets/images/image-20220217094357745.png" style="max-width: 100%; vertical-align: middle;     float: right;" /> -->
+                <div  style="vertical-align: middle;     float: right; width: 100%;">
+                    <object class="abhi-icon" class="abhi-icon" data="{{ site.url }}/assets/svg/abhi-notion.svg" width="100%"style="pointer-events: none;"> </object>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------- -->
+</div>

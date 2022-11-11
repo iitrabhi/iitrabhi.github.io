@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "How to have a clean latex folder"
-tag: 
-  - latex
+categories: [latex, presentation]
 typora-root-url: ../../../website
 ---
 

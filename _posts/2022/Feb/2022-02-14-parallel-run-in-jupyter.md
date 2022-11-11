@@ -2,8 +2,7 @@
 layout: post
 title: "How to parallelize FEniCS in jupyter notebook."
 description: "I have been trying to debug a portion of my FEniCS code that required parallelization for faster runtime for debugging. Just found out that we can parallelize in jupyter itself 🤯."
-tag: 
-  - fenics
+categories: [fenics,coding]
 typora-root-url: ../../../../website
 
 ---

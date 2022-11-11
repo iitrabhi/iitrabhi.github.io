@@ -1,0 +1,27 @@
+ a.hover_highlight {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, rgba(250,215,160,0.3) 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: var(--text-color);
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.3s ease-out;
+  border-bottom: 1.5px solid var(--text-color);
+}
+ a.hover_highlight:hover {
+  background-position: -99.99% 0;
+  border-bottom: 2px solid #F6B857;
+}
+
+/**
+  * Links
+  */
+a {
+    color: var(--brand-color);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+

@@ -2,8 +2,7 @@
 layout: post
 title: "Every researcher must learn about sparse matrices."
 description: "You can not even imagine solving medium to large-scale systems without sparse matrices."
-tag: 
-  - code
+categories: [coding]
 typora-root-url: ../../../../website
 ---
 
