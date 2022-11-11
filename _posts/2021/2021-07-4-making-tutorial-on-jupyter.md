@@ -2,6 +2,7 @@
 layout: post
 title: "How to make tutorials for your class."
 categories: [productivity, presentation]
+tags: [python, teaching, jupyter, notebooks]
 typora-root-url: ../../../website
 ---
 

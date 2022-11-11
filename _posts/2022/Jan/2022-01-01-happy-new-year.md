@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Happy new year 🥳."
-categories: misc
+categories: [misc]
 typora-root-url: ../../../../website
 ---
 

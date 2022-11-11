@@ -3,6 +3,7 @@ layout: post
 title: "Creating interactive plots with python and plotly."
 description: "This post contains some example interactive plots created with python and plotly."
 categories:  [coding, presentation]
+tags: [plotly, python, plot] 
 typora-root-url: ../../../../website
 ---
 

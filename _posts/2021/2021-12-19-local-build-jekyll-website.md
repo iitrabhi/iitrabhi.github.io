@@ -2,6 +2,7 @@
 layout: post
 title: "How to develop jekyll website locally."
 categories: [presentation, coding]
+tags: [jekyll, blog]
 typora-root-url: ../../../website
 ---
 

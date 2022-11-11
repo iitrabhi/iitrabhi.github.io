@@ -2,7 +2,8 @@
 layout: post
 title: "Previewing math equations in Sublime with custom commands."
 description: "The following latex package will allow you to do so."
-categories: [latex,presentation]
+categories: [presentation]
+tags: [latex, sublime]
 typora-root-url: ../../../../website
 
 ---

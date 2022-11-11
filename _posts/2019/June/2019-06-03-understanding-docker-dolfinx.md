@@ -2,7 +2,8 @@
 layout: post
 title: "Understanding the dockerfile of DOLFIN-X"
 description: "Handling a complex project like FEniCS required Docker."
-categories: [gsoc,coding]
+categories: [coding]
+tags: [gsoc]
 typora-root-url: ../../../../website
 ---
 

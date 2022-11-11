@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "FEniCS is incredible"
-categories: [fenics, coding]
+categories: [coding]
+tags: [fenics]
 typora-root-url: ../../../website
 ---
-> FEniCS is incredible, but only if you have some basic understanding of the finite element method and linear algebra.
 
 I have been using FEniCS in my research for the past two years, and I have to say that it is just pure gold in scientific computing with differential equations. It helps you think way beyond the constructions of domain-specific implementations of finite element method. You will not understand its powers until you have faced difficulties with commercial packages like Abaqus or Ansys or have tried to make your custom implementation in some programming language.
 

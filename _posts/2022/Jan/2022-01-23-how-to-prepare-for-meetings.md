@@ -3,6 +3,7 @@ layout: post
 title: "How to prepare for meetings."
 description: "It is imperative to have a proper format and have some ground rules to conduct meetings."
 categories: [productivity]
+tags: [meetings, notion]
 typora-root-url: ../../../../website
 ---
 

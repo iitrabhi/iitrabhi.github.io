@@ -2,7 +2,8 @@
 layout: post
 title: "May 27th – May 31st, First week of coding"
 description: "My first week as a GSoC2019 participant."
-categories: [gsoc,coding]
+categories: [coding]
+tags: [gsoc]
 typora-root-url: ../../../../website
 ---
 

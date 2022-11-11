@@ -2,8 +2,8 @@
 layout: post
 title: "How to apply equality volume constraint with MMA for topology optimisation"
 description: "This post has the trick get a constant volume with MMA"
-tag: 
-  - fem
+categories: [simulation]
+tags: [fem, mma, volume constraint, equality constraint, topology optimization]
 typora-root-url: ../../../../website
 ---
 

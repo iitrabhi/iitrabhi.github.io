@@ -3,6 +3,7 @@ layout: post
 title: "FEniCS code development in VSCode with jupyter notebook and Docker."
 description: "This post describes my setup for development with FEniCS and Docker in VSCode."
 categories: [coding,productivity]
+tags: [vscode, jupyter, notebook]
 typora-root-url: ../../../../website
 ---
 

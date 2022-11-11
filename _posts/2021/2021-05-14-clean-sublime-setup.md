@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to setup sublime as a beautiful latex editor | Dark Mode | Windows"
-tags: [home, software]
+tags: [home, software, sublime, latex, dark mode]
 categories: [coding]
 typora-root-url: ../../../website
 ---

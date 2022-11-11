@@ -2,7 +2,8 @@
 layout: post
 title: "May 6th – May 27th, Community Bonding Period"
 description: "Meeting the commutiny of GSoC2019"
-categories:   [gsoc,coding]
+categories: [coding]
+tags: [gsoc]
 typora-root-url: ../../../../website
 ---
 

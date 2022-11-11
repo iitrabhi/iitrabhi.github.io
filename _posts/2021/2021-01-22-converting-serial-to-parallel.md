@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to convert serial FEniCS code to parallel."
-categories: [fenics, coding]
+categories: [coding]
+tags: [fenics, parallel, MPI]
 typora-root-url: ../../../website
 ---
 

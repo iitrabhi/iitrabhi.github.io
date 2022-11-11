@@ -2,6 +2,7 @@
 layout: post
 title: "How to start a new python project that you wish to support for long."
 categories: [coding, productivity]
+tags: [python]
 typora-root-url: ../../../website
 ---
 

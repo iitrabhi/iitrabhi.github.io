@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Difference between python and C++ definition of boundaries in FEniCS."
-categories: [fenics, coding]
+categories: [coding]
+tags: [fenics]
 typora-root-url: ../../../website
 ---
 

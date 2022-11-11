@@ -2,6 +2,7 @@
 layout: post
 title: "Some surprising findings on direct vs iterative in MATLAB."
 categories: [coding]
+tags: [solvers, matlab, direct, iterative]
 typora-root-url: ../../../website
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Parallelizing for loop in python with MPI."
 description: "Solving real world applications demands parallel computation."
 categories: [coding]
+tags: [parallel, MPI, python]
 typora-root-url: ../../../../website
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Setting custom header for list of items | Step 1:"
-categories: [latex, presentation]
+categories: [presentation]
+tags: [latex]
 typora-root-url: ../../../website
 ---
 

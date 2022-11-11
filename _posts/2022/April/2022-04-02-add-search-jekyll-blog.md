@@ -3,6 +3,7 @@ layout: post
 title: "How to add search functionallity to jekyll blog."
 description: "Use this simple method to add search functionallity to your jekyll blog."
 categories: [coding]
+tags: [jekyll, search, liquid]
 typora-root-url: ../../../../website
 ---
 
