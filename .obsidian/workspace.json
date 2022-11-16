@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "469f14698a42ddd5",
+        "id": "d756b6cb29264751",
         "type": "tabs",
         "children": [
           {
-            "id": "c7dd4583006eddfe",
+            "id": "5b5f06ee4b27a541",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
+                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "svg",
+                "query": "point load",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 415.49999618530273
   },
   "right": {
     "id": "4ff5ea5b0c17c316",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
+                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
+                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,25 +130,16 @@
             }
           },
           {
-            "id": "2c7ad1792f48e510",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          },
-          {
             "id": "546e865b0c38f6f4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md"
+                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "91df1807ecc83f87",
@@ -167,19 +158,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 407.5,
+    "collapsed": true
   },
-  "active": "c7dd4583006eddfe",
+  "active": "5b5f06ee4b27a541",
   "lastOpenFiles": [
-    "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
     "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
-    "_posts/2022/March/2022-03-27-thoughts-on-writing-on-the-web.md",
-    "_posts/2022/March/2022-03-04-matplotlib-to-stl.md",
-    "_posts/2022/July/2022-07-28-plotly-plot.md",
-    "_posts/2022/July/2022-07-23-gradient-in-matplotlib.md",
-    "_posts/2022/July/2022-07-20-pdf-plot-python-matplotlib.md",
     "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
-    "_posts/2022/Jan/2022-01-24-writing-synopsis.md",
-    "_posts/2022/Jan/2022-01-23-how-to-prepare-for-meetings.md"
+    "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
+    "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
+    "_posts/2022/Nov/Ref.md",
+    "_posts/2022/April/2022-04-12-point-load-fenics.md",
+    "_posts/2021/2021-01-22-converting-serial-to-parallel.md",
+    "_posts/2019/July/2019-07-22-complete-phase-two.md",
+    "_posts/2019/June/2019-06-10-understanding-make-cmake.md",
+    "_posts/2019/June/2019-06-03-understanding-docker-dolfinx.md"
   ]
 }
