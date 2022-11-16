@@ -10,11 +10,11 @@ typora-root-url: ../../../../website
 
 ## The reason
 
- In one of the pervious posts I had described about [sparse matrices and why every researcher should understand and use them](https://abhigupta.io/2022/01/31/please-use-sparse-matrices.html). That handled one of the big problems of RAM requirement. The next step is to now speed up the computation by developing the code based on good programming practices. I had compiled most of my findings in this presentation: [Run-time from 300 years to 300 min: Lessons learned in large-scale modeling in FEniCS](https://www.researchgate.net/publication/352643174_Run-time_from_300_years_to_300_min_Lessons_learned_in_large-scale_modeling_in_FEniCS). By properly profiling the code for bottlenecks we can figure out ways to increase its speed. In this post I would like to share one such finding.
+ In one of the previous posts, I described [sparse matrices and why every researcher should understand and use them](_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md) . That handled one of the big problems of RAM requirement. The next step is to speed up the computation by developing the code based on good programming practices. I compiled most of my findings in this presentation: [Run-time from 300 years to 300 min: Lessons learned in large-scale modeling in FEniCS](https://www.researchgate.net/publication/352643174_Run-time_from_300_years_to_300_min_Lessons_learned_in_large-scale_modeling_in_FEniCS). By properly profiling the code for bottlenecks, we can figure out ways to increase its speed. In this post, I would like to share one such finding.
 
 ## The finding
 
-Lets create a test problem to understand
+Let's create a test problem to understand
 
 ```python
 from scipy.sparse import csr_matrix
@@ -73,7 +73,7 @@ Here the multiplication order is
            4496.97, 4503.77, 4489.17, 4499.72, 4501.36, 4499.38, 4485.01,
            4490.23, 4502.94, 4505.94, 4503.82, 4499.95])
 
-From the simple example presented above we can see that there is almost a $$7\times$$ speed boost by just changing the multiplication order. In the actual problem I achieved a speed boost of around $$100\times$$. The run time for a single iteration reduces from 2 seconds to around 0.02 seconds. The simulation that was taking 2-3 hours to complete now gets completed in around 2mins. 🥳
+From the simple example presented above, we can see that there is almost a $$7\times$$ speed boost by just changing the multiplication order. In the actual problem, I achieved a speed boost of around $$100\times$$. The run time for a single iteration reduces from 2 seconds to around 0.02 seconds. The simulation that was taking 2-3 hours to complete now gets completed in around 2mins. 🥳
 
 
 
