@@ -7,8 +7,21 @@ layout: default
 
             <head>
                 <title>{{ page.title }}</title>
+                <!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> -->
+                <!-- https://stackoverflow.com/questions/40610558/redefining-displaymath-delimiters-to-for-mathjax-does-not-work-using -->
+                <script type="text/x-mathjax-config">
+                    MathJax.Hub.Config({
+                    extensions: ["tex2jax.js"],
+                    jax: ["input/TeX", "output/HTML-CSS"],
+                    tex2jax: {
+                      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                      processEscapes: true
+                    },
+                    "HTML-CSS": { availableFonts: ["TeX"] }
+                  });
+                </script>
                 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-                <!-- <link rel="stylesheet" href="{{ base.url | prepend: site.url }}/assets/css/form.css"> -->
             </head>
             <header class="post-header" style="margin-bottom: 60px;">
                 <h1 style="font-weight:600; font-size: 46px; margin-top: 120px; " class="post-title p-name" itemprop="name headline">
@@ -69,7 +82,6 @@ layout: default
             </div>
             <!-- ----------------------------------------------------------- -->
             <hr style="/*position: relative; width: 300%;right:calc(200% - 30px);*/ background: var(--color-1);border: none;height: 1px; margin-bottom: 80px; opacity: 1;">
-            
             <div class="flexbox_container_two_col flexbox_container_flip " style="padding-top: 50px;padding-bottom: 50px;">
                 <div class="flexbox_item">
                     <div>
