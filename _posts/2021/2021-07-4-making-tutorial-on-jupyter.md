@@ -12,7 +12,7 @@ I have always found the standard way of teaching just via textbooks soo limiting
 
 I am writing this post as I am creating [this repository](https://github.com/iitrabhi/fem) to help a student with FEM. 
 
-## Benifits of Jupyter notebook
+## Benefits of Jupyter notebook
 
 - Allows to write the theory of the problem with actual code execution. [See here.](https://nbviewer.jupyter.org/github/waltherg/notebooks/blob/master/2013-12-03-Crank_Nicolson.ipynb)
 - Is easy to work with in Windows, Linux or MAC.

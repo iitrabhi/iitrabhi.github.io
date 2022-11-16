@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
+                "file": "_posts/2021/2021-07-4-making-tutorial-on-jupyter.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "point load",
+                "query": "sparse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
+                "file": "_posts/2021/2021-07-4-making-tutorial-on-jupyter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
+                "file": "_posts/2021/2021-07-4-making-tutorial-on-jupyter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md"
+                "file": "_posts/2021/2021-07-4-making-tutorial-on-jupyter.md"
               }
             }
           }
@@ -161,17 +162,17 @@
     "width": 407.5,
     "collapsed": true
   },
-  "active": "5b5f06ee4b27a541",
+  "active": "207f3861432d3c83",
   "lastOpenFiles": [
+    "_posts/2022/Feb/2022-02-14-parallel-run-in-jupyter.md",
+    "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
+    "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
     "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
     "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
-    "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
-    "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
     "_posts/2022/Nov/Ref.md",
     "_posts/2022/April/2022-04-12-point-load-fenics.md",
     "_posts/2021/2021-01-22-converting-serial-to-parallel.md",
     "_posts/2019/July/2019-07-22-complete-phase-two.md",
-    "_posts/2019/June/2019-06-10-understanding-make-cmake.md",
-    "_posts/2019/June/2019-06-03-understanding-docker-dolfinx.md"
+    "_posts/2019/June/2019-06-10-understanding-make-cmake.md"
   ]
 }
