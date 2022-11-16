@@ -1,3 +1,33 @@
+    html, html[data-theme="dark"] {
+        --yellow : #fff0a6;
+        --pink : #fc9b9b;
+        --purple : #c6b4f0;
+        --green : #00cdaf;
+        --blue :#00a9ff;
+        --blue3 : #62c8f3;
+
+        --grey : #888888;
+        --grey2 : #4e5d62;
+        --grey3: #dee5e7;
+        --warm: #fefeec;
+        --code-background-color: #161b22;
+    }
+
+    html[data-theme="light"] {
+        --yellow : #c5a332;
+        --pink : #d52753;
+        --purple : #ce33c0;
+        --green : #00cdaf;
+        --blue : #275fe4;
+        --blue3 : #275fe4;
+
+        --grey : #888888;
+        --grey2 : #4e5d62;
+        --grey3: #dee5e7;
+        --warm: #fefeec;
+        --code-background-color: #fafafa;
+  }
+  
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
         --yellow : #fff0a6;

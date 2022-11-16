@@ -2,42 +2,46 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Bitter","Bitter",sans-serif;
+$base-font-family: "Bitter",
+"Bitter",
+sans-serif;
 $base-font-size: 18px !default;
 $base-font-weight: 500 !default;
 $small-font-size: $base-font-size * 0.85 !default;
 $base-line-height: 1.625 !default;
 $small-line-height: 1.6 !default;
 
-$content-width-home: 1200px !default; 
+$content-width-home: 1200px !default;
 $spacing-unit: 30px !default;
 // Width of the content area
 $content-width: 880px !default;
 $invert:alpha(#fff);
 
 
-// html[data-theme="dark"] {
-//     --text-color: #ffffff;
-//     --background-color: #202a38;
+html,
+html[data-theme="dark"] {
+    --text-color: #ffffff;
+    --background-color: #202a38;
 
-//     --color-1: #243040;
-//     --color-2: #161b22;
-//     --brand-color: #f9ae58;
-//     --shadow-color: rgba(255, 255, 255, 0.2);
-//     --invert-intensity: invert(1);
-// }
+    --color-1: #314055;
+    --color-2: #161b22;
 
-// html,
-// html[data-theme="light"] {
-//     --text-color: #303030;
-//     --background-color: #ffffff;
-//     --color-1: #F1EEE5;
-//     --color-2: #F1EEE5;
-//     --brand-color: #2a7ae2;
-//     --shadow-color: rgba(249, 174, 88, 0.2);
-//     --invert-intensity:invert(0);
+    --brand-color: #f9ae58;
+    --shadow-color: rgba(255, 255, 255, 0.2);
+    --invert-intensity: invert(1);
+}
 
-// } 
+html[data-theme="light"] {
+    --text-color: #303030;
+    --background-color: #ffffff;
+
+    --color-1: #e5f1ee;
+    --color-2: #A4CEC3;
+
+    --brand-color: #81acbb;
+    --shadow-color: rgba(249, 174, 88, 0.2);
+    --invert-intensity: invert(0);
+}
 
 @media (prefers-color-scheme: dark) {
 
@@ -60,7 +64,7 @@ $invert:alpha(#fff);
 
         --color-1: #e5f1ee;
         --color-2: #A4CEC3;
-        
+
         --brand-color: #81acbb;
         --shadow-color: rgba(249, 174, 88, 0.2);
         --invert-intensity: invert(0);
