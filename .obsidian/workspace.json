@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b5f06ee4b27a541",
+            "id": "ba247bfbe0dfc7e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
+                "file": "_newsletters/2022/October/quality-research-2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
+                "file": "_newsletters/2022/October/quality-research-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
+                "file": "_newsletters/2022/October/quality-research-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md"
+                "file": "_newsletters/2022/October/quality-research-2.md"
               }
             }
           }
@@ -161,17 +161,17 @@
     "width": 407.5,
     "collapsed": true
   },
-  "active": "5b5f06ee4b27a541",
+  "active": "ba247bfbe0dfc7e2",
   "lastOpenFiles": [
+    "_newsletters/2022/October/quality-research-1.md",
+    "_newsletters/2022/October/quality-research-2.md",
+    "_posts/2022/Nov/2022-11-17-galactica-research-papers-with-ai.md",
+    "_posts/2022/Nov/2022-11-18-matrix-multiplication-time.md",
+    "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
     "_posts/2021/2021-07-4-making-tutorial-on-jupyter.md",
     "_posts/2022/Feb/2022-02-14-parallel-run-in-jupyter.md",
     "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
-    "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
-    "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
     "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
-    "_posts/2022/Nov/Ref.md",
-    "_posts/2022/April/2022-04-12-point-load-fenics.md",
-    "_posts/2021/2021-01-22-converting-serial-to-parallel.md",
-    "_posts/2019/July/2019-07-22-complete-phase-two.md"
+    "_posts/2022/Nov/Ref.md"
   ]
 }
