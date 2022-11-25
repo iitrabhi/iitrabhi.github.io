@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_newsletters/2022/October/quality-research-2.md",
+                "file": "_newsletters/2022/November/quality-research-3.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_newsletters/2022/October/quality-research-2.md",
+                "file": "_newsletters/2022/November/quality-research-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_newsletters/2022/October/quality-research-2.md",
+                "file": "_newsletters/2022/November/quality-research-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_newsletters/2022/October/quality-research-2.md"
+                "file": "_newsletters/2022/November/quality-research-3.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "ba247bfbe0dfc7e2",
   "lastOpenFiles": [
-    "_newsletters/2022/October/quality-research-1.md",
-    "_newsletters/2022/October/quality-research-2.md",
+    "_newsletters/2022/November/quality-research-2.md",
+    "_newsletters/2022/November/quality-research-1.md",
     "_posts/2022/Nov/2022-11-17-galactica-research-papers-with-ai.md",
     "_posts/2022/Nov/2022-11-18-matrix-multiplication-time.md",
     "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",

@@ -2,7 +2,7 @@
 layout: post
 title: "Quality Research - 2: The age of AI in academic research."
 description: " "
-date: 2022-11-20
+date: 2022-11-22
 typora-root-url: ../../../../website
 ---
 
