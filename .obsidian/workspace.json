@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "d756b6cb29264751",
+        "id": "f5bd32a42937936f",
         "type": "tabs",
         "children": [
           {
-            "id": "ba247bfbe0dfc7e2",
+            "id": "43fc6817dcc7454b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_newsletters/2022/November/quality-research-3.md",
+                "file": "_drafts/2022-11-18-matrix-multiplication-time.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7fb3c9726d7a74c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2022-11-25-production-ready-plots.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sparse",
+                "query": "PLOT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_newsletters/2022/November/quality-research-3.md",
+                "file": "_drafts/2022-11-25-production-ready-plots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_newsletters/2022/November/quality-research-3.md",
+                "file": "_drafts/2022-11-25-production-ready-plots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,11 +149,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_newsletters/2022/November/quality-research-3.md"
+                "file": "_drafts/2022-11-25-production-ready-plots.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "91df1807ecc83f87",
@@ -161,17 +176,17 @@
     "width": 407.5,
     "collapsed": true
   },
-  "active": "ba247bfbe0dfc7e2",
+  "active": "0ca69e5f8aef4893",
   "lastOpenFiles": [
+    "_drafts/2022-11-18-matrix-multiplication-time.md",
+    "_drafts/2022-11-17-galactica-research-papers-with-ai.md",
+    "_drafts/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
+    "_posts/2022/July/2022-07-20-pdf-plot-python-matplotlib.md",
+    "_newsletters/2022/November/quality-research-3.md",
     "_newsletters/2022/November/quality-research-2.md",
     "_newsletters/2022/November/quality-research-1.md",
-    "_posts/2022/Nov/2022-11-17-galactica-research-papers-with-ai.md",
-    "_posts/2022/Nov/2022-11-18-matrix-multiplication-time.md",
-    "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
     "_posts/2021/2021-07-4-making-tutorial-on-jupyter.md",
     "_posts/2022/Feb/2022-02-14-parallel-run-in-jupyter.md",
-    "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
-    "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
-    "_posts/2022/Nov/Ref.md"
+    "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md"
   ]
 }
