@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2022-11-25-production-ready-plots.md",
-                "mode": "source",
+                "file": "_newsletters/2022/November/quality-research-2.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2022-11-25-production-ready-plots.md",
+                "file": "_newsletters/2022/November/quality-research-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2022-11-25-production-ready-plots.md",
+                "file": "_newsletters/2022/November/quality-research-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2022-11-25-production-ready-plots.md"
+                "file": "_newsletters/2022/November/quality-research-2.md"
               }
             }
           }
@@ -164,12 +164,12 @@
   },
   "active": "c7fb3c9726d7a74c",
   "lastOpenFiles": [
+    "_drafts/2022-11-17-galactica-research-papers-with-ai.md",
+    "_drafts/2022-11-25-production-ready-plots.md",
     "_drafts/fenics_timing_profiling.md",
     "_drafts/fem-concept-fidelity.md",
     "readme.md",
-    "_drafts/2022-11-25-production-ready-plots.md",
     "_drafts/2022-11-18-matrix-multiplication-time.md",
-    "_drafts/2022-11-17-galactica-research-papers-with-ai.md",
     "_drafts/2022-11-11-setting-up-obsidian-for-jekyll-blog.md",
     "_posts/2022/July/2022-07-20-pdf-plot-python-matplotlib.md",
     "_newsletters/2022/November/quality-research-3.md",
