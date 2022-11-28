@@ -60,7 +60,8 @@ c e+d g & c f+d h
 Thus, the total number of operations in the matrix-matrix dot product is [(Ref)](https://math.stackexchange.com/questions/484661/calculating-the-number-of-operations-in-matrix-multiplication#:~:text=Thus%20the%20total%20number%20of,%3DO(n3).)
 
 $$n^2 \times (2n-1) = 2n^3-n^2 = O(n^3).$$
-Similarly the total number of operations in a matrix-vector dot product is
+
+Similarly, the total number of operations in a matrix-vector dot product is
 $$n \times (2n-1) = 2n^2-n = O(n^2).$$
 
 | size     | operations | time (seconds) |
@@ -71,7 +72,7 @@ $$n \times (2n-1) = 2n^2-n = O(n^2).$$
 | 1E+6 | 2.00E+18   | 4.00E+08 $\approx$ 13 years      |
 | 1E+9 | 2.00E+24   | 4.00E+14 $\approx$ 13 million years |
 
-As you can see from the above table, the cubic order increase in operations leads to a huge increase in time-to-solution.  
+As you can see from the above table, the cubic order increase ([Ref.](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)) in operations leads to a huge increase in time-to-solution.  
 
 
 ## What is the associative property of multiplication?
@@ -113,7 +114,3 @@ The simple example presented above shows that there is almost a $7\times$ speed 
 In the actual problem, I achieved a speed boost of around $100\times$. The run time for a single iteration reduces from 2 seconds to around 0.02 seconds. The simulation that took 2-3 hours to complete is completed in around 2mins. 🥳
 
 Think of the kind of analysis we can perform if our code can handle a billion degrees of freedom.
-
-## References
-- [First extension of AlphaZero to mathematics unlocks new possibilities for research](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
-- [Big O notation](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
