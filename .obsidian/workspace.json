@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "0b4dfffbf10a8cd0",
+            "id": "3e56e37c51122883",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,35 +45,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1c5630e893452263",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/privacy-policy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e56e37c51122883",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/privacy-policy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/privacy-policy.md",
+                "file": "pages/terms-of-service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/privacy-policy.md",
+                "file": "pages/terms-of-service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/privacy-policy.md"
+                "file": "pages/terms-of-service.md"
               }
             }
           }
