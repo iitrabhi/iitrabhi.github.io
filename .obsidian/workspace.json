@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "06ed789d0f61b149",
+        "id": "4cd1170c18be857d",
         "type": "tabs",
         "children": [
           {
-            "id": "f72d17da17ad3069",
+            "id": "f23fba0f3455066d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
+                "file": "pages/blog.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,15 +21,59 @@
             }
           },
           {
-            "id": "e023597023171f67",
+            "id": "4ddefcb67be8cde0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pages/support.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b4dfffbf10a8cd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/terms-of-service.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c5630e893452263",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/privacy-policy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e56e37c51122883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/cancellation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -58,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#fem",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +119,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,6 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/cancellation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pages/cancellation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,11 +187,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pages/cancellation.md"
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "91df1807ecc83f87",
@@ -181,17 +228,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e023597023171f67",
+  "active": "3e56e37c51122883",
   "lastOpenFiles": [
+    "pages/privacy-policy.md",
+    "pages/terms-of-service.md",
+    "pages/support.md",
+    "pages/blog.md",
+    "pages/about.md",
+    "assets/images/Recording 20230213192156.webm",
     "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
     "_posts/2021/2021-03-12-matlab-direct.md",
     "_posts/2021/2021-01-06-fenics-is-awesome.md",
-    "_drafts/2022-11-22-large-scale-matrix-multiplication.md",
-    "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
-    "_newsletters/2022/November/quality-research-2.md",
-    "_drafts/2022-11-17-galactica-research-papers-with-ai.md",
-    "_drafts/2022-11-25-production-ready-plots.md",
-    "_drafts/fenics_timing_profiling.md",
-    "_drafts/fem-concept-fidelity.md"
+    "_drafts/2022-11-22-large-scale-matrix-multiplication.md"
   ]
 }
