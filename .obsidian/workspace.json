@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/cancellation.md",
+                "file": "pages/privacy-policy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/cancellation.md",
+                "file": "pages/privacy-policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/cancellation.md",
+                "file": "pages/privacy-policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/cancellation.md"
+                "file": "pages/privacy-policy.md"
               }
             }
           }
@@ -230,15 +230,15 @@
   },
   "active": "3e56e37c51122883",
   "lastOpenFiles": [
+    "pages/support.md",
     "pages/privacy-policy.md",
     "pages/terms-of-service.md",
-    "pages/support.md",
+    "pages/cancellation.md",
     "pages/blog.md",
     "pages/about.md",
     "assets/images/Recording 20230213192156.webm",
     "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
     "_posts/2021/2021-03-12-matlab-direct.md",
-    "_posts/2021/2021-01-06-fenics-is-awesome.md",
-    "_drafts/2022-11-22-large-scale-matrix-multiplication.md"
+    "_posts/2021/2021-01-06-fenics-is-awesome.md"
   ]
 }
