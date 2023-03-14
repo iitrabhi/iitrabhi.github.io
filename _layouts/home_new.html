@@ -99,7 +99,7 @@ layout: default
                         <div style="margin-bottom:70px">
                             <h3 style="font-family: Montserrat;font-weight:700;">Read a popular article:</h3>
                             {%- if site.posts.size > 0 -%}
-                            {% for post in site.posts reversed%}
+                            {% for post in site.posts %}
                             {% if post.tags contains 'home' %}
                             <p style="margin-bottom:30px"><a class="hover_highlight" href="{{ post.url | relative_url }}">
                                     {{ post.title | escape }}
