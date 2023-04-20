@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "4cd1170c18be857d",
+        "id": "75fa3d8777122c1f",
         "type": "tabs",
         "children": [
           {
-            "id": "f23fba0f3455066d",
+            "id": "ed32d938bcd5ced6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/blog.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ddefcb67be8cde0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/support.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e56e37c51122883",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/terms-of-service.md",
+                "file": "_posts/2023/april/2023-04-20-hpc-for-fea.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.49999618530273
+    "width": 415.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "4ff5ea5b0c17c316",
@@ -114,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/terms-of-service.md",
+                "file": "_posts/2023/april/2023-04-20-hpc-for-fea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/terms-of-service.md",
+                "file": "_posts/2023/april/2023-04-20-hpc-for-fea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/terms-of-service.md"
+                "file": "_posts/2023/april/2023-04-20-hpc-for-fea.md"
               }
             }
           }
@@ -191,7 +165,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,18 +172,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e56e37c51122883",
+  "active": "ed32d938bcd5ced6",
   "lastOpenFiles": [
-    "pages/support.md",
-    "pages/privacy-policy.md",
-    "pages/terms-of-service.md",
-    "pages/cancellation.md",
+    "_site/assets/images/Pasted image 20230420123306.png",
+    "assets/images/Pasted image 20230420123306.png",
+    "_site/assets/images/Pasted image 20230420123247.png",
+    "assets/images/Pasted image 20230420123247.png",
+    "_site/assets/images/Pasted image 20230420123236.png",
+    "assets/images/Pasted image 20230420123236.png",
+    "_site/newsletters/2022/November/quality-research-4.html",
+    "_site/newsletters/2022/November/quality-research-2.html",
+    "_site/newsletters/2022/November/quality-research-3.html",
+    "_site/newsletters/2022/November/quality-research-1.html",
+    "_site/newsletters/2022/November",
+    "_site/newsletters/2022",
+    "_site/newsletters",
+    "_site/projects/2022/04April/isogeometric-analysis.html",
+    "_site/projects/2022/03March/pen-printer-arduino.html",
+    "_site/projects/2021/08August/creative-coding-blender.html",
+    "_site/readme.md",
+    "_site/assets/svg/productivity.svg",
+    "_site/assets/svg/presentation.svg",
+    "_site/assets/svg/newsletter.svg",
+    "_site/assets/svg/coding.svg",
+    "_site/assets/svg/articles.svg",
+    "_posts/2022/April/2022-04-02-add-search-jekyll-blog.md",
+    "_posts/2023/april/2023-04-20-hpc-for-fea.md",
+    "readme.md",
     "pages/blog.md",
+    "pages/support.md",
+    "pages/terms-of-service.md",
+    "pages/privacy-policy.md",
+    "pages/cancellation.md",
     "pages/about.md",
-    "assets/images/Recording 20230213192156.webm",
     "_posts/2022/Jan/2022-01-31-please-use-sparse-matrices.md",
     "_posts/2021/2021-03-12-matlab-direct.md",
     "_posts/2021/2021-01-06-fenics-is-awesome.md"
