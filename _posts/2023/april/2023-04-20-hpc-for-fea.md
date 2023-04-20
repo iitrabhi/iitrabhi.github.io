@@ -113,6 +113,8 @@ docker run -v host_system_path:/root/ -w /root/ -it iitrabhi/fenics
 docker run -v D:\Codes:/root/ -w /root/ -it iitrabhi/fenics
 ```
 
+You can download the example code at https://github.com/iitrabhi/parallel-fenics.
+
 You can run any python script with MPI by typing the following command in terminal:
 
 ```
