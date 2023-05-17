@@ -2,9 +2,9 @@
 layout: about
 ---
 
-<!-- I am working in the field of finite element methods and isogeometric analysis with emphasis on method development for problems involving shape and topological optimization.
+<!-- I am working in finite element methods and isogeometric analysis with an emphasis on method development for problems involving shape and topological optimization.
 
-I am also interested in GPU and parallel computing and have been working on the development of a framework for efficient parallel implementation of isogeometric and finite element analysis. Besides development for numerical simulations, I also love making animations using Python+Plotly for developing intuition in the workings of FEM and IGA.
+I am also interested in GPU and parallel computing and have been developing a framework for efficient parallel implementation of isogeometric and finite element analysis. Besides development for numerical simulations, I also love making animations using Python+Plotly for developing intuition in the workings of FEM and IGA.
 
 I also love the open-source community and use FEniCS as my primary package for performing finite element simulations. -->
 
@@ -12,7 +12,8 @@ I also love the open-source community and use FEniCS as my primary package for p
 
 | Date           | Event                                                        |
 | -------------- | ------------------------------------------------------------ |
-| 18/04/2023 | Article on "[A continuous field adaptive mesh refinement algorithm for isogeometric topology optimization using PHT-Splines](https://doi.org/10.1016/j.cma.2023.116075)" has been accepted for publication in CMAME 🤯🥳. |
+| 18/04/2023 | Article on "[A continuous field adaptive mesh refinement algorithm for isogeometric topology optimization using PHT-Splines](https://doi.org/10.1016/j.cma.2023.116075)" has been accepted for publication in CMAME. |
+| 26/08/2022 | Article on "[Adaptive phase-field modeling of brittle fracture using a robust combination of error-estimator and markers](https://doi.org/10.1016/j.engfracmech.2022.108758)" has been accepted for publication in Engineering Fracture Mechanics. |
 | 20/07/2022 | Article on "[An adaptive mesh refinement algorithm for phase-field fracture models: Application to brittle, cohesive, and dynamic fracture](https://www.sciencedirect.com/science/article/pii/S0045782522004339)" has been accepted for publication in CMAME. It was submitted on 02/07/2022, and got accepted in 18 days 🤯🥳. |
 |  09/04/2022  |  Article on "[Adaptive isogeometric topology optimization using PHT splines](https://www.sciencedirect.com/science/article/pii/S0045782522002365)" has been accepted for publication in Computer Methods in Applied Mechanics and Engineering.  |
 |   11/10/2021  |   Article on [metamaterials](https://www.sciencedirect.com/science/article/pii/S0168874X21001311) accepted in Finite Elements in Analysis and Design  |
