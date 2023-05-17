@@ -3,7 +3,7 @@ layout: post
 title: "How I sped up my finite element code 100x by moving parentheses."
 description: "The order of operation of multiplying three or more matrices could significantly affect the run-time of the algorithm."
 categories:  [coding]
-tags: [hpc, matrix, python, numpy, multiplication]
+tags: [hpc, matrix, python, numpy, multiplication,home]
 typora-root-url: ../../../../website
 ---
 Matrix multiplication is one of the most fundamental operations in the finite element method. Recently there has been a lot of talk about  [AI that came up with a faster way to multiply matrices](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor). And this is a big deal for the finite element world too. Faster matrix multiplication could lead to shorter run times for existing algorithms on existing hardware. In this post, I want to talk to you about one of my recent discoveries during a debugging session.
