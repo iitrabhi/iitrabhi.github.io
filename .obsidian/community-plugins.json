@@ -1,7 +1,5 @@
 [
   "tag-wrangler",
-  "table-editor-obsidian",
-  "dataview",
-  "obsidian-kanban",
-  "calendar"
+  "calendar",
+  "ob-table-enhancer"
 ]
