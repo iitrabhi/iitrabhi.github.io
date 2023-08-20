@@ -1,4 +1,4 @@
-# abhigupta.io
+
 ```
 bundle exec jekyll serve --livereload --drafts
 ```
@@ -8,3 +8,4 @@ bundle exec jekyll serve --livereload --drafts
 - simulation
 - presentation
 - productivity
+- finance

@@ -50,7 +50,7 @@ I also love the open-source community and use FEniCS as my primary package for p
 | -------------- | ------------------------------------------------------------ |
 | 2019 | Google Summer of Code Scholarship, Google |
 |   11/03/2018| Got third place in "Google - Techstars Startup Weekend" on the idea of centralized system for agriculture management. |
-| 2017 | HP Higher education award, Himachal Government, India |
+| 2017 |HP Higher education award, Himachal Government, India|
 | 2017 | MHRD Fellowship, Ministry of Human Resource Development, India |
 | 2010 | DAE Graduate Fellowship, Board of research in nuclear science, India |
 | 2010 | MHRD Fellowship, Ministry of Human Resource Development, India |

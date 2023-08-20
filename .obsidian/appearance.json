@@ -3,5 +3,9 @@
   "textFontFamily": "Bitter",
   "baseFontSize": 20,
   "cssTheme": "Atom",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "quote"
+  ]
 }
