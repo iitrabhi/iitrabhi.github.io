@@ -7,5 +7,6 @@
 	"settings": {"markdown.styles": [
 		"markdown.css"
 	],
+	"editor.wordWrap": "on",
 "markdown.preview.fontSize":16}
 }
