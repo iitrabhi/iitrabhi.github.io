@@ -25,3 +25,15 @@ a {
     }
 }
 
+.enlarged-char::first-letter {
+  -webkit-initial-letter: 1;
+          initial-letter: 1;
+  //         margin-right: 10px;
+
+}
+
+strong, h2 {
+  color: var(--text-color-2); /* You can replace 'red' with any color value you prefer */
+}
+
+

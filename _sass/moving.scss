@@ -18,7 +18,8 @@ $invert:alpha(#fff);
 
 html,
 html[data-theme="dark"] {
-    --text-color: #ffffff;
+    --text-color: #dadada;
+    --text-color-2: #ffffff;
     --background-color: #202a38;
 
     --color-1: #314055;
@@ -30,7 +31,8 @@ html[data-theme="dark"] {
 }
 
 html[data-theme="light"] {
-    --text-color: #303030;
+    --text-color: #3b3b3b;
+    --text-color-2: #303030;
     --background-color: #ffffff;
 
     --color-1: #e5f1ee;
@@ -45,7 +47,8 @@ html[data-theme="light"] {
 
     html,
     html[data-theme="dark"] {
-        --text-color: #ffffff;
+        --text-color: #dadada;
+        --text-color-2: #ffffff;
         --background-color: #202a38;
 
         --color-1: #314055;
@@ -57,7 +60,8 @@ html[data-theme="light"] {
     }
 
     html[data-theme="light"] {
-        --text-color: #303030;
+        --text-color: #3b3b3b;
+        --text-color-2: #303030;
         --background-color: #ffffff;
 
         --color-1: #e5f1ee;

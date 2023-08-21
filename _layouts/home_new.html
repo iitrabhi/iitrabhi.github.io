@@ -12,7 +12,7 @@ layout: default
             <div class="flexbox_item">
                 <div>
                     <p style="font-size:20px; font-family: Montserrat;">Hi, I am Abhinav Gupta</p>
-                    <p style="font-size:27px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">I am a professional CAE engineer with doctorate in computational mechanics.</p>
+                    <p style="font-size:27px; font-family: Montserrat; line-height: 1.2; "><strong>I am a professional CAE engineer with doctorate in computational mechanics.</strong></p>
                     <p style="font-size:16px; padding-top: 20px; padding-bottom: 30px;">Since 2017, I have worked on developing HPC algorithms for simulation as a part of my doctoral studies. On this website, you will find a culmination of ideas and notes on productivity, presentation, coding, research, simulation, and animation. 
 
                     If you want to discuss high performace computing with finite element method, I would happily chat with you. To schedule an appointment, please book a time on my calendar.
@@ -87,7 +87,7 @@ layout: default
         <div class="primary_container">
             <div class="flexbox_container_two_col ">
                 <div class="flexbox_item" style="padding-top: 100px; padding-bottom:100px; padding-right: 100px;     align-items: stretch;">
-                    <h1 style=" font-weight:700;">My writings</h1>
+                    <h1><strong>My writings</strong></h1>
                     <p>
                         I have five years of industrial experience analyzing and designing power plants at the "Nuclear Power Corporation of India Limited". Right now, I’m working at Vanderbilt university, USA, where I work on exploring the applications of finite element methods to solve real-world engineering problems by utilizing the power of HPC.
                         <br><br>
@@ -97,7 +97,7 @@ layout: default
                 <div style="display: flex; flex-direction:column;border-left: 1px solid var(--color-1);">
                     <div class="flexbox_item" style="padding-left: 100px; ">
                         <div style="margin-bottom:70px">
-                            <h3 style="font-family: Montserrat;font-weight:700;">Read a popular article:</h3>
+                            <h3 style="font-family: Montserrat;"><strong>Read a popular article:</strong> </h3>
                             {%- if site.posts.size > 0 -%}
                             {% for post in site.posts %}
                             {% if post.tags contains 'home' %}
@@ -111,7 +111,7 @@ layout: default
                     </div>
                     <hr class="hide_mobile" style="background: var(--color-1);border: none;height: 1px; margin-bottom: 80px;">
                     <div class="flexbox_item" style="padding-left: 100px;">
-                        <h3 style="font-family: Montserrat;font-weight:700;">Browse the latest newsletter:</h3>
+                        <h3 style="font-family: Montserrat;"><strong>Browse the latest newsletter:</strong></h3>
                         {%- if site.newsletters.size > 0 -%}
                         {% assign sorted_newsletters = site.newsletters | reverse %}
                         {% for newsletter in sorted_newsletters limit:3 %}
@@ -130,7 +130,7 @@ layout: default
         <div class="flexbox_container_two_col flexbox_container_flip" style="margin-top: 150px; margin-bottom: 100px;">
             <div class="flexbox_item">
                 <div>
-                    <p style="font-size:27px; font-family: Montserrat; font-weight: bold; line-height: 1.2; ">Get a free Notion template with 100+ resources on PhD essentials.</p>
+                    <p style="font-size:27px; font-family: Montserrat; line-height: 1.2; "><strong>Get a free Notion template with 100+ resources on PhD essentials.</strong></p>
                     <p style="font-size:16px; padding-top: 20px; padding-bottom: 30px;">In today's day and age, producing quality academic research is not just about the researcher and the library. You must augment your knowledge and skills with all the resources available to you in the digital landscape to make the most of your time. In this Ph.D. essential guide, I have curated all the software, hardware, websites, chrome extensions, and coursework I recommend and use for my academic research. </p>
                     <a class="button button-hello" href="https://abhigupta.gumroad.com/l/phd-essentials" target="_blank" title="Say Hello!">Get it for free here.</a>
                 </div>
