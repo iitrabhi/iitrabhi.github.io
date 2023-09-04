@@ -2,9 +2,8 @@
 layout: post
 title: "Concepts in computational modelling: Fidelity"
 description: ""
-tag: 
+tags:
   - fem
-typora-root-url: ../../../../website
 ---
 
 The intention of computer simulation is to simulate the reallity as closely as possible. The primary motivation to have a good simulation is to predict the behaviour of the system and then design it as per our requirements.
