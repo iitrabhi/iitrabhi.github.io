@@ -81,6 +81,16 @@ print("Values of u after function call:", u.vector()[:])  # u is modified outsid
 
 In this FEniCS example, `u` is a `Function` object that is mutable. When passed to the `modify_function`, the function modifies the `Function` object `fn` (the same as `u`). The modification is an in-place change, incrementing all function values by 1. After the function call, you can observe that `u` has been modified outside the function because `fn` and `u` refer to the same `Function` object.
 
+### Further discussion on the assignment in FEniCS
+
+1. `u.assign(v)`: This method is specifically used in FEniCS. When you have two function objects, say `u` and `v`, `u.assign(v)` assigns the values of `v` to `u` without changing the underlying function space of `u`. This means that after the assignment, `u` and `v` will have the same values in their respective function spaces, but their function spaces or any other associated data remain unchanged. This method is particularly used when you want to update a solution or a variable iteratively without altering its properties.
+
+2. `u = v`: This is a standard assignment operation in Python. In the context of FEniCS, when you say `u = v`, you are not just copying the values from `v` to `u`. Still, you are also making `u` reference the same object as `v`. After this operation, any change to `v` will reflect in `u` as well because they are essentially the same object. This doesn't just assign the current values but makes both variables refer to the same underlying data and function space.
+
+In summary, `u.assign(v)` is the way to copy values from one function to another in FEniCS, preserving the original structure and properties of the function, while `u = v` is a way to make two variables reference the same object, leading to a complete overlap of their identities. 
+
+In practice, `u.assign(v)` is used when you want to update or iterate solutions in FEniCS, keeping the function spaces distinct, whereas `u = v` is a broader Python assignment operation, which in FEniCS context would typically be used for setting up initial conditions or simplifying references.
+
 ## Assignment Summary:
 - **Immutable objects**: Assignment creates a new reference to an object. If you modify the original reference (like changing `u` to point to a different integer), the new reference (`v`) is unaffected because it still points to the original object.
 - **Mutable objects**: Assignment creates a new reference to the same object. If you modify the object through one reference, all references see the change because they all point to the same object.
