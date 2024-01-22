@@ -7,4 +7,4 @@ categories:
   - presentation
 tags: []
 ---
-{{date}}
+<% tp.file.rename(tp.date.now()) %>

@@ -3,8 +3,8 @@
   "textFontFamily": "Bitter",
   "baseFontSize": 20,
   "cssTheme": "Obsidian Nord",
-  "theme": "obsidian",
-  "translucency": true,
+  "theme": "system",
+  "translucency": false,
   "enabledCssSnippets": [
     "quote"
   ],
