@@ -33,10 +33,10 @@ The choice of years as a time unit aligns better with the temporal scale of ice 
 Numerical stability in computational models is crucial to ensure accurate and reliable results. The choice of unit system can influence this stability. Extreme values (either too large or too small), common in MKS units for glaciological constants, can lead to numerical issues like underflow, overflow, or loss of precision.
 
 ### How Megapascals - Meters - Years Help
-By normalizing the range of constant values, the megapascals - meters - years system mitigates some of these numerical issues. It helps maintain a balance in the magnitude of numbers processed during simulations, contributing to improved numerical stability.
+By normalizing the range of constant values, the megapascals - meters - years system mitigates some of these numerical issues. It helps balance the magnitude of numbers processed during simulations, contributing to improved numerical stability.
 
 ## Examples
-Consider the Glen flow law, which describes the relationship between stress and strain rate in ice. In MKS units, the rate factor (A) can be extremely small (e.g., \( 10^{-24} \) s\(^{-1}\)Pa\(^{-3}\)), posing challenges in computational precision. In contrast, when using the MPa-m-years system, this value is more manageable (e.g., \( 10^{-3} \) year\(^{-1}\)MPa\(^{-3}\)), reducing the risk of numerical errors.
+Consider the Glen flow law, which describes the relationship between stress and strain rate in ice. In MKS units, the rate factor (A) can be extremely small (e.g., $10^{-24}  s^{-1}Pa^{-3}$), posing challenges in computational precision. In contrast, when using the $MPa-m-years$ system, this value is more manageable (e.g., $10^{-3} year^{-1}MPa^{-3}$), reducing the risk of numerical errors.
 
 ## Conclusion
 Adopting megapascals - meters - years as a unit system in glaciological modeling is a pragmatic response to the unique challenges posed by the scale and nature of ice dynamics. It ensures that physical constants remain within a sensible numerical range and enhances the numerical stability of the simulations. This approach exemplifies how adapting conventional practices to the specific needs of a field can lead to more effective and accurate scientific modeling.
