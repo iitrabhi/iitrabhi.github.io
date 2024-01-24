@@ -39,3 +39,5 @@ Instead of dealing with the full complexity of the Stokes equations, this princi
 $$J = \int_\Omega\left(\frac{n}{n + 1}A^{-1/n}|\dot\varepsilon|^{1/n + 1} - p\nabla\cdot u - f\cdot u\right)dx + \frac{m}{m + 1}\int_{\Gamma_b}C|u|^{1/m + 1}ds.$$
 This method is advantageous because it allows the use of more effective numerical methods for solving optimization problems. The action itself is a mathematical expression that incorporates various aspects of ice movement and behavior, including viscosity, pressure, and sliding at the base of the ice. This approach is not only more efficient computationally but also more concise in its mathematical formulation.
 
+## Reference
+- https://icepack.github.io/physics/
