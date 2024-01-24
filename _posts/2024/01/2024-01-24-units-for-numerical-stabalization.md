@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding the Use of Unconventional Units in Computational Ice Dynamics: Megapascals - Meters - Years"
+title: Understanding the Use of Unconventional Units in Computational Ice Dynamics
 description: How does using an unconventional unit system comprising megapascals, meters, and years in computational ice dynamics facilitate alignment with the enormous spatial and temporal scales of glaciological phenomena and enhance the numerical stability and precision of simulations?
 categories:
   - simulation
