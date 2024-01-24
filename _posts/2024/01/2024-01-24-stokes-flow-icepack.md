@@ -7,7 +7,7 @@ categories:
 tags:
   - fenics
 ---
-I know nothing about ice simulations, but I know a lot about variational mechanics and FEniCS. This post will record my learnings as I try to understand the subject with the Firedrake/FEniCS-based ice simulation package IcePack.
+I know nothing about ice simulations, but I know a lot about variational mechanics and FEniCS. This post will record what I learned as I try to understand the subject with the Firedrake/FEniCS-based ice simulation package IcePack.
 
 ---
 
